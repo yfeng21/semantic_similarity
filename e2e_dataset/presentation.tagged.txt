@@ -1,0 +1,20 @@
+name:Alimentum,family-friendly:family - friendly
+area:city centre,family-friendly:family - friendly
+area:city centre,family-friendly:family - friendly
+name:Alimentum,area:city centre,family-friendly:family - friendly
+name:Alimentum,family-friendly:family - friendly
+family-friendly:family - friendly
+
+area:city centre,name:Alimentum,negate:not,family-friendly:family - friendly
+area:city centre,name:Alimentum,negate:not,family-friendly:family - friendly
+name:Alimentum,negate:not,family-friendly:family - friendly
+name:Alimentum,negate:not,family-friendly:family - friendly
+name:Alimentum,negate:not,family-friendly:family - friendly
+name:Alimentum,area:city centre,negate:not,family-friendly:family - friendly
+
+area:city centre,name:Aromi,eatType:coffee shop,food:Chinese,customerrating:average
+name:Aromi,eatType:coffee shop,food:Chinese,area:city centre,customerrating:average
+name:Aromi,eatType:coffee shop,food:Chinese,customerrating:average,area:city centre
+name:Aromi,eatType:coffee shop,food:Chinese,customerrating:average,area:city centre
+name:Aromi,eatType:coffee shop,food:Chinese,area:city centre,customerrating:average
+name:Aromi,eatType:coffee shop,customerrating:average,area:city centre
