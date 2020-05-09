@@ -4,6 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import re
 from ast import literal_eval
+import csv
+from collections import defaultdict
+import editdistance
 
 def extract_slots_pair(sent):
     if ":" in sent:
@@ -29,26 +32,36 @@ def evaluate_slot_sim(sent1,sent2):
 
 def evaluate_bleu_sim(hype, ref):
     score = sentence_bleu(ref, hype,weights=(0.5,0.5))
-    # return score
-    print(score)
+    return score
+
+
+def evaluate_edit_sim(sent1,sent2):
+    distance = editdistance.eval(sent1.split(), sent2.split())
+    sum_len = len(sent1.split())+len(sent2.split())
+    score = (sum_len-distance)/sum_len
+    return score
 
 def evaluate_in_group(sents,mode):
-    score = 0
-    total = 0
-    if mode == "slot":
+    scores = []
+    if mode == "slot" or mode == "edit":
         x = [i for i in range(len(sents))]
         pairs = list(combinations(x, 2))
         for p in pairs:
-            score+=evaluate_slot_sim(sents[p[0]],sents[p[1]])
-            total+=1
+            if mode == "slot":
+                scores.append(evaluate_slot_sim(sents[p[0]],sents[p[1]]))
+            else:
+                scores.append(evaluate_edit_sim(sents[p[0]], sents[p[1]]))
     elif mode == "bleu":
         for i in sents:
             ref = sents[:]
             ref.remove(i)
-            score += evaluate_bleu_sim(i, ref)
-            total += 1
-    score/=total
-    print("in group similarirty:{:.2f}%".format(score*100))
+            score = evaluate_bleu_sim(i, ref)
+            scores.append(score)
+    scores = np.array(scores)
+    mean = np.mean(scores)
+    var = np.var(scores)
+    # print("in group similarirty:{:.2f}%, var:{:.2f}".format(mean*100,var))
+    return mean,var
 
 
 def evaluate_between_group(group1,group2,mode):
@@ -85,10 +98,19 @@ def evaluate_slot(all_groups):
     evaluate_between_group(all_groups[0], all_groups[1],"slot")
     evaluate_between_group(all_groups[0], all_groups[2],"slot")
 
-def evaluate_bleu(all_groups):
-    evaluate_in_group(all_groups[0],"bleu")
-    evaluate_between_group(all_groups[0], all_groups[1],"bleu")
-    evaluate_between_group(all_groups[0], all_groups[2],"bleu")
+def evaluate_bleu(all_groups_dict):
+    in_group_bleu = []
+    count_1 = 0
+    for group in all_groups_dict:
+        if len(all_groups_dict[group]) < 2:
+            count_1 += 1
+            continue
+        score,var = evaluate_in_group(all_groups_dict[group],"bleu")
+        in_group_bleu.append({"mr":group, "bleu score":score,"bleu variance":var})
+    print("{} groups not included because they have less than 2 sentences".format(count_1))
+    return in_group_bleu
+    # evaluate_between_group(all_groups[0], all_groups[1],"bleu")
+    # evaluate_between_group(all_groups[0], all_groups[2],"bleu")
 
 
 def test_func():
@@ -127,37 +149,7 @@ def corr_sim(corr):
     score /= len(corr)
     print("intra group similarirty:{:.2f}%  ".format(score*100))
 
-def plot_heat_map():
-    corr_txt = """[[1.         0.77076674 0.8851582  0.82740533 0.6088928  0.6512091 ]
-     [0.77076674 0.99999976 0.74573034 0.73024035 0.59289664 0.64044225]
-     [0.8851582  0.74573034 0.9999998  0.8800323  0.7052758  0.76022315]
-     [0.82740533 0.73024035 0.8800323  1.0000002  0.6495909  0.7044904 ]
-     [0.6088928  0.59289664 0.7052758  0.6495909  0.99999994 0.9122772 ]
-     [0.6512091  0.64044225 0.76022315 0.7044904  0.9122772  1.0000002 ]]"""
-    """[[1.         0.9100553  0.8302746  0.9322071  0.9696125  0.8144195
-  0.7220932  0.7669071  0.7716822  0.76309144 0.7891823  0.75822264]
- [0.9100553  0.99999964 0.83549595 0.85186857 0.8728513  0.80914104
-  0.68129945 0.72872657 0.7444346  0.72839046 0.7510123  0.7073161 ]
- [0.8302746  0.83549595 0.99999994 0.788553   0.80538857 0.9639911
-  0.75047594 0.8003451  0.77649575 0.7517127  0.80455494 0.72671187]
- [0.9322071  0.85186857 0.788553   1.0000001  0.94790137 0.76269567
-  0.68369615 0.68600374 0.7062142  0.69739825 0.7070118  0.69376403]
- [0.9696125  0.8728513  0.80538857 0.94790137 0.99999994 0.79174095
-  0.6992121  0.7274179  0.71888906 0.72485113 0.73333025 0.71898305]
- [0.8144195  0.80914104 0.9639911  0.76269567 0.79174095 0.9999999
-  0.73631823 0.77739406 0.75142336 0.72660714 0.7784214  0.69413704]
- [0.7220932  0.68129945 0.75047594 0.68369615 0.6992121  0.73631823
-  0.99999976 0.912277   0.87506235 0.8933116  0.8876017  0.8837184 ]
- [0.7669071  0.72872657 0.8003451  0.68600374 0.7274179  0.77739406
-  0.912277   0.9999999  0.95433575 0.9425238  0.956671   0.9037704 ]
- [0.7716822  0.7444346  0.77649575 0.7062142  0.71888906 0.75142336
-  0.87506235 0.95433575 0.9999999  0.94145346 0.9692459  0.87572694]
- [0.76309144 0.72839046 0.7517127  0.69739825 0.72485113 0.72660714
-  0.8933116  0.9425238  0.94145346 0.9999999  0.93585306 0.87065315]
- [0.7891823  0.7510123  0.80455494 0.7070118  0.73333025 0.7784214
-  0.8876017  0.956671   0.9692459  0.93585306 1.0000002  0.89542156]
- [0.75822264 0.7073161  0.72671187 0.69376403 0.71898305 0.69413704
-  0.8837184  0.9037704  0.87572694 0.87065315 0.89542156 0.9999998 ]]"""
+def plot_heat_map(corr_txt):
     corr = re.sub('\s+', ',', corr_txt)
     corr = np.array(literal_eval(corr))
     # x = [i for i in range(6)]
@@ -171,11 +163,72 @@ def evaluate_gold():
     sent2 = "name[Aromi], eatType[coffee shop], food[Chinese], customer rating[average], area[city centre], familyFriendly[yes]"
     evaluate_slot_sim(sent1, sent2)
 
-file_in = "/Users/yfeng/Public/Study/20Spring/11727/project/neural-template-gen/e2e_example/presentation.tagged.txt"
-all_groups = read_into_groups(file_in)
-plot_heat_map()
-# evaluate_slot(all_groups)
-# evaluate_bleu(all_groups)
-# evaluate_gold()
+
+def read_e2e_csv(test_csv):
+    groups_set = defaultdict(set)
+    groups = defaultdict(list)
+    count = 0
+    with open(test_csv+".csv","r") as f:
+        csv_reader = csv.DictReader(f)
+        for row in csv_reader:
+            groups_set[row["mr"]].add(row["ref"])
+            count += 1
+    print("{} mr groups of {} nl sentences".format(len(groups_set),count))
+    for g in groups_set:
+        groups[g] = list(groups_set[g])
+    return groups
+
+
+def write_csv(result_dict,test_csv,metric):
+    fields = ["mr",metric+" score",metric+" variance"]
+    with open(test_csv+metric+".csv","w") as out_csv:
+        writer = csv.DictWriter(out_csv, fieldnames=fields)
+        writer.writeheader()
+        for r in result_dict:
+            # {"score": score, "variance": var}
+            writer.writerow(r)
+
+
+def write_bleu(test_data, test_out):
+    in_group_bleu = evaluate_bleu(test_data)
+    write_csv(in_group_bleu, test_out, "bleu")
+
+
+def evaluate_edit_distance(all_groups_dict):
+    in_group_edit = []
+    count_1 = 0
+    for group in all_groups_dict:
+        if len(all_groups_dict[group]) < 2:
+            count_1 += 1
+            continue
+        score, var = evaluate_in_group(all_groups_dict[group], "edit")
+        in_group_edit.append({"mr": group, "edit score": score, "edit variance": var})
+    print("{} groups not included because they have less than 2 sentences".format(count_1))
+    return in_group_edit
+
+
+def write_edit_distance(test_data, test_out):
+    in_group_edit = evaluate_edit_distance(test_data)
+    write_csv(in_group_edit, test_out, "edit")
+
+
+if __name__ == '__main__':
+    data_dir = "/Users/yfeng/Public/Study/20Spring/11727/project/e2e-cleaning/cleaned-data/"
+    out_dir = "/Users/yfeng/Public/Study/20Spring/11727/project/measure_similarity/test_out/"
+    test_csv = data_dir+"test-fixed"
+    dev_csv = data_dir+"devel-fixed.no-ol"
+    test_out = out_dir + "test-"
+    dev_out = out_dir + "dev-"
+    test_data = read_e2e_csv(test_csv)
+    dev_data = read_e2e_csv(dev_csv)
+    write_bleu(test_data,test_out)
+    write_bleu(dev_data, dev_out)
+    # write_edit_distance(test_data,test_out)
+    # tagged_file = "/Users/yfeng/Public/Study/20Spring/11727/project/neural-template-gen/e2e_example/presentation.tagged.txt"
+    # all_groups = read_into_groups(file_in)
+    # plot_heat_map()
+    # evaluate_slot(all_groups)
+
+    # evaluate_gold()
 
 
