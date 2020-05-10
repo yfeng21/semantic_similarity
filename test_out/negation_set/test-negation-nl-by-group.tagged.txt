@@ -1,0 +1,41 @@
+MR:name[The Punter], customer rating[average], area[riverside], familyFriendly[no]
+name:The Punter,area:riverside,customerrating:average,negate:not
+area:riverside,name:The Punter,customerrating:average
+name:The Punter,area:riverside,customerrating:average,negate:not,family-friendly:family-friendly
+name:The Punter,area:riverside,customerrating:average
+name:The Punter,area:riverside,customerrating:average,negate:not
+name:The Punter,area:riverside,customerrating:average,negate:not
+MR:name[The Punter], customer rating[average], area[riverside], familyFriendly[yes]
+name:The Punter,customerrating:average,area:riverside
+area:riverside,name:The Punter,customerrating:average
+name:The Punter,area:riverside,customerrating:average
+name:The Punter,area:riverside,customerrating:average
+name:The Punter,customerrating:average
+name:The Punter,area:Riverside,customerrating:average
+name:The Punter,area:riverside,customerrating:average
+customerrating:average,name:The Punter,area:riverside
+area:riverside,name:The Punter
+name:The Punter,area:riverside,customerrating:average
+MR:name[Alimentum], area[city centre], familyFriendly[no]
+area:city centre,name:Alimentum,negate:not,family-friendly:family-friendly
+name:Alimentum,negate:not,family-friendly:family-friendly
+name:Alimentum,area:city centre,negate:not,family-friendly:family-friendly
+area:city centre,name:Alimentum,negate:not,family-friendly:family-friendly
+name:Alimentum,negate:not,family-friendly:family-friendly
+name:Alimentum,negate:not,family-friendly:family-friendly
+MR:name[Alimentum], area[city centre], familyFriendly[yes]
+name:Alimentum,family-friendly:family-friendly
+area:city centre,family-friendly:family-friendly
+name:Alimentum,area:city centre,family-friendly:family-friendly
+name:Alimentum,family-friendly:family-friendly
+MR:name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[All Bar One]
+eatType:restaurant,name:The Cricketers,area:city centre,near:All Bar One,food:Chinese,negate:not
+eatType:restaurant,name:The Cricketers,food:Chinese,area:city centre,near:All Bar One,customerrating:5 out of 5,priceRange:cheap,negate:not
+name:The Cricketers,eatType:restaurant,area:city centre,near:All Bar One,food:Chinese,customerrating:5 out of 5,priceRange:cheap,negate:not
+name:The Cricketers,eatType:restaurant,food:Chinese,priceRange:cheap,area:city centre,near:All Bar One
+MR:name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[All Bar One]
+name:The Cricketers,eatType:restaurant,food:Chinese,priceRange:cheap,customerrating:5 out of 5,area:city centre,name:the Cricketers,near:All Bar One
+name:The Cricketers,eatType:restaurant,food:Chinese,priceRange:cheap,customerrating:5 out of 5,area:city centre,near:All Bar One
+eatType:restaurant,name:The Cricketers,area:city centre,near:All Bar One,food:Chinese
+name:The Cricketers,eatType:restaurant,food:Chinese,priceRange:cheap,near:All Bar One,area:city centre
+name:The Cricketers,food:Chinese,eatType:restaurant,near:All Bar One,area:city centre,customerrating:5 out of 5,priceRange:cheap
