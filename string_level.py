@@ -5,8 +5,9 @@ import matplotlib.pyplot as plt
 import re
 from ast import literal_eval
 import csv
-from collections import defaultdict
 import editdistance
+from entity_slot_matching.train_e2e_ner import *
+import os.path
 
 def extract_slots_pair(sent):
     if ":" in sent:
@@ -81,22 +82,34 @@ def evaluate_between_group(group1,group2,mode):
 
 
 def read_into_groups(file_in):
-    all_sents = []
+    all_sents_by_mr = defaultdict(list)
     sents = []
+    mr = ""
     with open(file_in,"r") as f:
         for line in f:
-            if line != "\n":
-                sents.append(line)
+            if not line.startswith("MR"):
+                sents.append(line.rstrip())
             else:
-                all_sents.append(sents)
-                sents = []
-    all_sents.append(sents)
-    return all_sents
+                if mr != "":
+                    all_sents_by_mr[mr]= sents
+                    sents = []
+                mr = line.rstrip().split(":")[1]
+    all_sents_by_mr[mr]= sents
+    return all_sents_by_mr
 
-def evaluate_slot(all_groups):
-    evaluate_in_group(all_groups[0],"slot")
-    evaluate_between_group(all_groups[0], all_groups[1],"slot")
-    evaluate_between_group(all_groups[0], all_groups[2],"slot")
+def evaluate_slot(all_groups_dict):
+    in_group_slot = []
+    count_1 = 0
+    for group in all_groups_dict:
+        if len(all_groups_dict[group]) < 2:
+            count_1 += 1
+            continue
+        score, var = evaluate_in_group(all_groups_dict[group], "slot")
+        in_group_slot.append({"mr": group, "slot score": score, "slot variance": var})
+    print("{} groups not included because they have less than 2 sentences".format(count_1))
+    return in_group_slot
+    # evaluate_between_group(all_groups[0], all_groups[1],"slot")
+    # evaluate_between_group(all_groups[0], all_groups[2],"slot")
 
 def evaluate_bleu(all_groups_dict):
     in_group_bleu = []
@@ -212,6 +225,37 @@ def write_edit_distance(test_data, test_out):
     write_csv(in_group_edit, test_out, "edit")
 
 
+def write_into_groups(test_data, test_out):
+    with open(test_out,"w") as f:
+        for mr in test_data:
+            f.write("MR:{}\n".format(mr))
+            for nl in test_data[mr]:
+                f.write(nl+"\n")
+
+
+def extract_slots(test_data,test_out):
+    trained_model = Path("./entity_slot_matching/e2e_ner")
+    tagged_data = inference(trained_model, test_data)
+    write_into_groups(tagged_data, test_out+".tagged.txt")
+    return tagged_data
+
+
+def write_slot(test_data, test_out):
+    if os.path.exists(test_out+"nl-by-group.tagged.txt"):
+        tagged_data = read_into_groups(test_out+"nl-by-group.tagged.txt")
+    else:
+        tagged_data = extract_slots(test_data, test_out + "nl-by-group")
+    in_group_slot = evaluate_slot(tagged_data)
+    write_csv(in_group_slot, test_out, "slot")
+
+def run_subset(test_csv, test_out):
+    test_data = read_e2e_csv(test_csv) #{MR:[NL]}
+    # write_bleu(test_data,test_out)
+    # write_edit_distance(test_data,test_out)
+    write_slot(test_data,test_out)
+
+
+
 if __name__ == '__main__':
     data_dir = "/Users/yfeng/Public/Study/20Spring/11727/project/e2e-cleaning/cleaned-data/"
     out_dir = "/Users/yfeng/Public/Study/20Spring/11727/project/measure_similarity/test_out/"
@@ -219,16 +263,10 @@ if __name__ == '__main__':
     dev_csv = data_dir+"devel-fixed.no-ol"
     test_out = out_dir + "test-"
     dev_out = out_dir + "dev-"
-    test_data = read_e2e_csv(test_csv)
-    dev_data = read_e2e_csv(dev_csv)
-    write_bleu(test_data,test_out)
-    write_bleu(dev_data, dev_out)
-    # write_edit_distance(test_data,test_out)
+    # run_subset(test_csv,test_out)
+    run_subset(dev_csv,dev_out)
     # tagged_file = "/Users/yfeng/Public/Study/20Spring/11727/project/neural-template-gen/e2e_example/presentation.tagged.txt"
-    # all_groups = read_into_groups(file_in)
     # plot_heat_map()
-    # evaluate_slot(all_groups)
-
     # evaluate_gold()
 
 
