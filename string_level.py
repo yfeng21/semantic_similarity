@@ -52,21 +52,28 @@ def plot_heat_map(corr_txt):
     heatmap(x, x, corr)
 
 
-def evaluate_gold():
-    sent1 = "name[Alimentum], area[city centre], familyFriendly[yes]"
-    sent2 = "name[Aromi], eatType[coffee shop], food[Chinese], customer rating[average], area[city centre], familyFriendly[yes]"
-    evaluate_slot_sim(sent1, sent2)
+def evaluate_gold(pairs):
+    count = 1
+    for p in pairs:
+        sent1 = p[1]
+        sent2 = p[2]
+        print(count,end=":")
+        evaluate_slot_sim(sent1, sent2)
+        count += 1
 
 
 def extract_slots_pair(sent):
-    if ":" in sent:
-        pairs = [(s.split(":")[0],s.split(":")[1]) for s in sent.rstrip().split(",")]
-    else:
-        pairs = []
-        slots = sent.rstrip().split(",")
-        for s in slots:
-            m = re.search(r"\[(.*?)\]", s)
-            pairs.append((s.split("[")[0].strip(),m.group(1)))
+    try:
+        if ":" in sent:
+            pairs = [(s.split(":")[0],s.split(":")[1]) for s in sent.rstrip().split(",")]
+        else:
+            pairs = []
+            slots = sent.rstrip().split(",")
+            for s in slots:
+                m = re.search(r"\[(.*?)\]", s)
+                pairs.append((s.split("[")[0].strip(),m.group(1)))
+    except:
+        pairs = [("","")]
     return pairs
 
 
@@ -78,6 +85,7 @@ def evaluate_slot_sim(sent1,sent2):
     common_slots = set(slots1) & set(slots2)
     common_values = set(pairs1) & set(pairs2)
     sim = (len(common_slots)+len(common_values))/(len(pairs1)+len(pairs2))
+    print(sim*12)
     return sim
 
 
@@ -141,6 +149,8 @@ def evaluate_between_group(test_data,pair,mode):
         for j in test_data[mr2]:
             if mode == "slot":
                 score = evaluate_slot_sim(i, j)
+            elif mode == "edit":
+                score = evaluate_edit_sim(i, j)
             elif mode == "bleu":
                 score = evaluate_bleu_sim(i,test_data[mr2])
                 score += evaluate_bleu_sim(j, test_data[mr1])
@@ -233,45 +243,6 @@ def run_subset_ingroup(test_csv, test_out):
     write_slot(test_data,test_out)
 
 
-def extract_differ_by_one_pairs(test_out):
-    LABEL = ["name", "near","area","food"]
-    test_data = read_e2e_csv(test_csv)
-    differ_by_bool = []
-    differ_by_enumerable = []
-    differ_by_other = []
-    all_mr_slots = defaultdict(list)
-    for k in test_data:
-        mr_pair = extract_slots_pair(k)
-        sorted_mr_pair = sorted(mr_pair,key=lambda x: x[0])
-        mr_slots = [m[0] for m in sorted_mr_pair]
-        # we only care about family-friendly and customer-rating different
-        if "familyFriendly" in mr_slots and "customer rating" in mr_slots:
-            all_mr_slots["_".join(mr_slots)].append((k,[m[1] for m in sorted_mr_pair])) #{slots:(mr,valuee)}
-    cleaned_mr_pairs = {k: v for k, v in all_mr_slots.items() if len(v) > 1}
-    key_with_most_items = "area_customer rating_eatType_familyFriendly_food_name_near_priceRange" #261
-    for mr1 in cleaned_mr_pairs[key_with_most_items]:
-        for mr2 in cleaned_mr_pairs[key_with_most_items]:
-            diff = set(mr1[1]).difference(mr2[1])
-            if len(diff) == 1:
-                diff_value= diff.pop()
-                diff_slot = key_with_most_items.split("_")[mr1[1].index(diff_value)]
-                if diff_slot == "familyFriendly":
-                    differ_by_bool.append((mr1[0],mr2[0]))
-                elif diff_slot == "customer rating":
-                    differ_by_enumerable.append((mr1[0],mr2[0]))
-                elif diff_slot in LABEL:
-                    differ_by_other.append((mr1[0],mr2[0]))
-    with open(test_out+"differ_by_bool.txt","w") as f:
-        for p in differ_by_bool:
-            f.write("{}|{}\n".format(p[0],p[1]))
-    with open(test_out+"differ_by_enumerable.txt","w") as f:
-        for p in differ_by_enumerable:
-            f.write("{}|{}\n".format(p[0],p[1]))
-    with open(test_out+"differ_by_string.txt","w") as f:
-        for p in differ_by_other:
-            f.write("{}|{}\n".format(p[0],p[1]))
-
-
 def read_mr_pair_file(mr_pair_file):
     # return a list of lists
     mr_pairs = []
@@ -286,20 +257,133 @@ def write_betweengroup_bleu(test_data,mr_pairs,test_out):
         between_group_results.extend(evaluate_between_group(test_data, p, "bleu"))
     write_csv(between_group_results, test_out, "bleu",ingroup=False)
 
+def write_betweengroup_edit(test_data,mr_pairs,test_out):
+    between_group_results = []
+    for p in mr_pairs:
+        between_group_results.extend(evaluate_between_group(test_data, p, "edit"))
+    write_csv(between_group_results, test_out, "edit",ingroup=False)
+
+
+def write_betweengroup_slot(test_data,mr_pairs,test_out):
+    if os.path.exists(test_out+"nl-by-group.tagged.txt"):
+        tagged_data = read_into_groups(test_out+"nl-by-group.tagged.txt")
+    else:
+        tagged_data = extract_slots(test_data, test_out + "nl-by-group")
+    between_group_results = []
+    for p in mr_pairs:
+        between_group_results.extend(evaluate_between_group(tagged_data, p, "slot"))
+    write_csv(between_group_results, test_out, "slot", ingroup=False)
+
 def run_subset_between_group(test_csv, test_out, mr_pair_file):
     test_data = read_e2e_csv(test_csv)
     mr_pairs = read_mr_pair_file(mr_pair_file) # [notes,mr1,mr2]
+    # write_betweengroup_bleu(test_data,mr_pairs,test_out)
+    # write_betweengroup_edit(test_data, mr_pairs, test_out)
+    write_betweengroup_slot(test_data, mr_pairs, test_out)
+
+
+def read_and_eval_negation(negation_csv, test_out):
+    test_data = defaultdict(list)
+    mr_pairs = []
+    with open(negation_csv,"r") as f:
+        csv_reader = csv.reader(f,dialect="excel-tab")
+        neg_pair = set()
+        for row in csv_reader:
+            if row[0] != "":
+                neg_pair.add(row[0])
+                test_data[row[0]].append(row[1])
+            elif len(neg_pair) == 2:
+                mr_pairs.append(["negation pair"]+list(neg_pair))
+                neg_pair = set()
+    mr_pairs.append(["negation pair"]+list(neg_pair))
     write_betweengroup_bleu(test_data,mr_pairs,test_out)
+    write_betweengroup_edit(test_data, mr_pairs, test_out)
+    write_betweengroup_slot(test_data, mr_pairs, test_out)
+
+
+def read_and_eval_corr(corr_csv, test_out):
+    test_data = defaultdict(list)
+    pair_by_num = defaultdict(set)
+    mr_pairs = []
+    with open(corr_csv, "r") as f:
+        csv_reader = csv.reader(f,quotechar='"', delimiter=',',
+                     quoting=csv.QUOTE_ALL, skipinitialspace=True)
+        for row in csv_reader:
+            if row[0] != "":
+                nums = row[2].split(',')
+                for num in nums:
+                    pair_by_num[num.split("_")[0]].add(row[0])
+                test_data[row[0]].append(row[1])
+    for num in pair_by_num:
+        mr_pairs.append([num] + list(pair_by_num[num]))
+    write_betweengroup_bleu(test_data,mr_pairs,test_out)
+    write_betweengroup_edit(test_data, mr_pairs, test_out)
+    write_betweengroup_slot(test_data, mr_pairs, test_out)
+
+
+def evaluate_ner_model(tagged_file):
+    scores = []
+    mr_tag_dict = read_into_groups(tagged_file)
+    for mr in mr_tag_dict:
+        gt_slot = []
+        for slot in mr.split(","):
+            if not slot.strip().startswith("family"):
+                gt_slot.append(slot)
+        gt = ",".join(gt_slot)
+        for tag in mr_tag_dict[mr]:
+            pred_slot = []
+            for slot in tag.split(","):
+                if not (slot.strip().startswith("family") or slot.strip().startswith("negate")):
+                    pred_slot.append(slot)
+            pred = ",".join(pred_slot)
+            score = evaluate_slot_sim(gt,pred)
+            scores.append(score)
+    acc = np.mean(np.array(scores))
+    print(acc)
+
+def calculate_ground_truth(f_in):
+    mr_pairs = read_mr_pair_file(f_in)
+    evaluate_gold(mr_pairs)
+
+
+def process_table():
+    str = """bleu                    & 0.298979286   & 0.161825372   & 0.87904367    & 0.73570803   \\ \hline
+dan                     & 0.265240195   & 0.231764987   & 0.80979497    & 0.7616405    \\ \hline
+edit                    & 0.053573342   & 0.17074284    & 0.55327899    & 0.39489102   \\ \hline
+slot                    & 0.219619997   & 0.237006949   & 0.77610745    & 0.63530431   \\ \hline
+one-hot                 & -0.12276416   & -0.10449101   & 0.6478378     & 0.58166724   \\ \hline
+sentBERT                & 0.707444459   & 0.673425218   & 0.30381901    & 0.46933566   \\ \hline
+word2vec                & 0.290532627   & 0.265885046   & 0.67135597    & 0.47939191   \\ \hline
+w2vsif                  & -0.20296333   & -0.27850558   & 0.57984284    & 0.74620092   \\ \hline"""
+    nt = []
+    for c in str.split():
+        if "0" in c:
+            num = "{:.4f}".format(float(c))
+            nt.append(num.strip('0'))
+        elif c == "\\":
+            nt.append("\\\\")
+        elif c == "\\hline":
+            nt.append("\hline\n")
+        else:
+            nt.append(c)
+    print(" ".join(nt))
 
 if __name__ == '__main__':
     data_dir = "/Users/yfeng/Public/Study/20Spring/11727/project/e2e-cleaning/cleaned-data/"
     out_dir = "./test_out/"
-    mr_pair_file = "between_group_mr.txt"
+    mr_pair_file = "./test_out/between-group/between_group_mr.txt"
     test_csv = data_dir+"test-fixed"
     dev_csv = data_dir+"devel-fixed.no-ol"
     test_out = out_dir + "test-"
     dev_out = out_dir + "dev-"
+    negation_csv = "negation_set.csv"
+    corr_csv = "corr.csv"
+    # calculate_ground_truth(mr_pair_file)
+    process_table()
     # run_subset_ingroup(test_csv,test_out)
     # run_subset_ingroup(dev_csv,dev_out)
-    run_subset_between_group(test_csv, test_out,mr_pair_file)
+    # run_subset_between_group(test_csv, test_out,mr_pair_file)
     # extract_differ_by_one_pairs(test_out)
+    # read_and_eval_negation(negation_csv,test_out+"negation-")
+    # read_and_eval_corr(corr_csv, test_out+"corr-")
+    # evaluate_ner_model("/Users/yfeng/Public/Study/20Spring/11727/project/measure_similarity/test_out/test-nl-by-group.tagged.txt")
