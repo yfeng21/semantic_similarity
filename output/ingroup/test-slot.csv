@@ -1,0 +1,941 @@
+mr,slot score,slot variance
+"name[Blue Spice], eatType[coffee shop], area[city centre]",1.0,0.0
+"name[Blue Spice], eatType[coffee shop], area[riverside]",1.0,0.0
+"name[Blue Spice], eatType[coffee shop], customer rating[5 out of 5], near[Crowne Plaza Hotel]",0.9047619047619048,0.004535147392290252
+"name[Blue Spice], eatType[coffee shop], customer rating[average], near[Burger King]",0.9064625850340136,0.004400654819751032
+"name[Blue Spice], eatType[pub], area[city centre]",1.0,0.0
+"name[Blue Spice], eatType[pub], area[riverside]",1.0,0.0
+"name[Blue Spice], eatType[pub], customer rating[5 out of 5], near[Crowne Plaza Hotel]",0.9047619047619048,0.004535147392290252
+"name[Blue Spice], eatType[pub], customer rating[average], near[Burger King]",0.9081632653061226,0.004260377620435932
+"name[Blue Spice], eatType[pub], food[Chinese], area[city centre], near[Rainbow Vegetarian Café]",0.8575757575757575,0.008200183654729106
+"name[Blue Spice], eatType[pub], food[Chinese], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.8121212121212121,0.005583103764921943
+"name[Blue Spice], eatType[pub], food[Chinese], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.865,0.004418518518518518
+"name[Blue Spice], eatType[pub], food[Chinese], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.9254545454545454,0.0034016528925619833
+"name[Blue Spice], eatType[pub], food[Chinese], area[riverside], near[Rainbow Vegetarian Café]",0.8181818181818182,0.0
+"name[Blue Spice], eatType[pub], food[Chinese], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.916082392552981,0.0045885877913186745
+"name[Blue Spice], eatType[pub], food[English], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.7035353535353536,0.016346546270788697
+"name[Blue Spice], eatType[pub], food[English], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.5345736274307703,0.05632558597283593
+"name[Blue Spice], eatType[pub], food[English], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.7744755244755245,0.002654979053580451
+"name[Blue Spice], eatType[pub], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.725,0.03145833333333334
+"name[Blue Spice], eatType[pub], food[English], familyFriendly[no], near[Rainbow Vegetarian Café]",0.7851851851851851,0.008340192043895748
+"name[Blue Spice], eatType[pub], food[English], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8415578209126596,0.04878636655113287
+"name[Blue Spice], eatType[pub], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8293650793650794,0.009526958931720834
+"name[Blue Spice], eatType[restaurant], food[Chinese], area[city centre], near[Rainbow Vegetarian Café]",0.8240740740740741,0.012517146776406035
+"name[Blue Spice], eatType[restaurant], food[Chinese], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.832010582010582,0.0035308362027938723
+"name[Blue Spice], eatType[restaurant], food[Chinese], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8625,0.01231186224489796
+"name[Blue Spice], eatType[restaurant], food[Chinese], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.9083333333333334,0.005254629629629632
+"name[Blue Spice], eatType[restaurant], food[Chinese], area[riverside], near[Rainbow Vegetarian Café]",0.875,0.0
+"name[Blue Spice], eatType[restaurant], food[Chinese], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9255265068990559,0.005361267614176041
+"name[Blue Spice], eatType[restaurant], food[English], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.7833333333333333,0.021388888888888888
+"name[Blue Spice], eatType[restaurant], food[English], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.5655706727135299,0.05427158551335206
+"name[Blue Spice], eatType[restaurant], food[English], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.7282828282828283,0.004226099377614535
+"name[Blue Spice], eatType[restaurant], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.75,0.02295918367346939
+"name[Blue Spice], eatType[restaurant], food[English], familyFriendly[no], near[Rainbow Vegetarian Café]",0.8333333333333334,0.01388888888888889
+"name[Blue Spice], eatType[restaurant], food[English], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8673835125448028,0.04443497000295476
+"name[Blue Spice], eatType[restaurant], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9166666666666666,0.006944444444444441
+"name[Clowns], eatType[coffee shop], customer rating[3 out of 5], near[All Bar One]",0.9142857142857144,0.004897959183673473
+"name[Clowns], eatType[coffee shop], customer rating[5 out of 5], near[Crowne Plaza Hotel]",0.9285714285714286,0.0051020408163265345
+"name[Clowns], eatType[pub], customer rating[3 out of 5], near[All Bar One]",0.9142857142857144,0.004897959183673473
+"name[Clowns], eatType[pub], customer rating[5 out of 5], near[Crowne Plaza Hotel]",0.9285714285714286,0.0051020408163265345
+"name[Cocum], eatType[coffee shop], customer rating[high], near[Burger King]",0.75,0.0
+"name[Cocum], eatType[coffee shop], customer rating[high], near[Café Sicilia]",1.0,0.0
+"name[Cocum], eatType[coffee shop], customer rating[low], near[Express by Holiday Inn]",0.9142857142857144,0.004897959183673473
+"name[Cocum], eatType[coffee shop], near[The Rice Boat]",0.6666666666666666,0.0
+"name[Cocum], eatType[pub], customer rating[high], near[Burger King]",0.75,0.0
+"name[Cocum], eatType[pub], customer rating[high], near[Café Sicilia]",1.0,0.0
+"name[Cocum], eatType[pub], customer rating[low], near[Express by Holiday Inn]",0.9142857142857143,0.004897959183673473
+"name[Cocum], eatType[pub], near[The Rice Boat]",0.6666666666666666,0.0
+"name[Cotto], eatType[coffee shop], near[The Bakers]",1.0,0.0
+"name[Cotto], eatType[pub], near[The Bakers]",1.0,0.0
+"name[Giraffe], eatType[coffee shop], near[The Bakers]",1.0,0.0
+"name[Giraffe], eatType[coffee shop], near[The Rice Boat]",1.0,0.0
+"name[Giraffe], eatType[pub], food[English], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",1.0,0.0
+"name[Giraffe], eatType[pub], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9166666666666666,0.0034722222222222225
+"name[Giraffe], food[English], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",1.0,0.0
+"name[Giraffe], eatType[pub], food[Fast food], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.599076479076479,0.039749619260008875
+"name[Giraffe], eatType[pub], food[Fast food], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.7066089466089466,0.015489870046580007
+"name[Giraffe], eatType[pub], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.6793650793650793,0.008788107835726889
+"name[Giraffe], eatType[pub], food[Fast food], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.4537037037037037,0.028978052126200273
+"name[Giraffe], eatType[pub], familyFriendly[no], near[Rainbow Vegetarian Café]",0.9047619047619048,0.004535147392290252
+"name[Giraffe], eatType[pub], food[Fast food], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.850268696820421,0.05770979630342324
+"name[Giraffe], eatType[pub], food[Fast food], area[riverside], near[Rainbow Vegetarian Café]",1.0,0.0
+"name[Giraffe], eatType[pub], food[Fast food], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9268686868686867,0.003735373941434547
+"name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.7903996003996004,0.008346126079492715
+"name[Giraffe], eatType[pub], food[French], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.6188311688311688,0.030625819106338593
+"name[Giraffe], eatType[pub], near[Raja Indian Cuisine]",0.9047619047619048,0.004535147392290252
+"name[Giraffe], eatType[pub], food[French], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.45,0.021666666666666667
+"name[Giraffe], eatType[pub], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.0,0.0
+"name[Giraffe], eatType[pub], food[French], area[riverside], near[Raja Indian Cuisine]",1.0,0.0
+"name[Giraffe], eatType[pub], food[French], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.7583333333333333,0.1657638888888889
+"name[Giraffe], eatType[pub], near[The Bakers]",1.0,0.0
+"name[Giraffe], eatType[pub], near[The Rice Boat]",1.0,0.0
+"name[Giraffe], eatType[restaurant], food[English], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9259259259259259,0.002743484224965709
+"name[Giraffe], eatType[restaurant], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8154761904761906,0.005172902494331063
+"name[Giraffe], eatType[restaurant], food[Fast food], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.599076479076479,0.039749619260008875
+"name[Giraffe], eatType[restaurant], food[Fast food], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.6804761904761905,0.020892399428907367
+"name[Giraffe], eatType[restaurant], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.6793650793650793,0.008788107835726889
+"name[Giraffe], eatType[restaurant], food[Fast food], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.4537037037037037,0.028978052126200266
+"name[Giraffe], eatType[restaurant], familyFriendly[no], near[Rainbow Vegetarian Café]",0.7936507936507936,0.008062484252960442
+"name[Giraffe], eatType[restaurant], food[Fast food], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.7944170771756978,0.05427533678068048
+"name[Giraffe], eatType[restaurant], food[Fast food], area[riverside], near[Rainbow Vegetarian Café]",1.0,0.0
+"name[Giraffe], eatType[restaurant], food[Fast food], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8756790123456789,0.00781829751562262
+"name[Giraffe], eatType[restaurant], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.7903996003996004,0.008346126079492715
+"name[Giraffe], eatType[restaurant], food[French], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.5987301587301588,0.025564525069286977
+"name[Giraffe], eatType[restaurant], near[Raja Indian Cuisine]",0.8666666666666667,0.008888888888888885
+"name[Giraffe], eatType[restaurant], food[French], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.45,0.021666666666666667
+"name[Giraffe], eatType[restaurant], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.0,0.0
+"name[Giraffe], eatType[restaurant], food[French], area[riverside], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[Giraffe], eatType[restaurant], food[French], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.720679012345679,0.1517637364730986
+"name[Green Man], eatType[coffee shop], customer rating[1 out of 5], near[All Bar One]",0.923809523809524,0.005079365079365084
+"name[Green Man], eatType[coffee shop], customer rating[3 out of 5], near[All Bar One]",0.923809523809524,0.005079365079365083
+"name[Green Man], eatType[pub], customer rating[1 out of 5], near[All Bar One]",0.923809523809524,0.005079365079365083
+"name[Green Man], eatType[pub], customer rating[3 out of 5], near[All Bar One]",0.923809523809524,0.005079365079365083
+"name[Green Man], eatType[pub], food[Italian], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.8165435534483155,0.0885136991821951
+"name[Green Man], eatType[pub], food[Italian], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9500000000000001,0.0024999999999999988
+"name[Green Man], eatType[pub], food[Japanese], area[city centre], familyFriendly[no], near[Express by Holiday Inn]",0.6016402116402116,0.03997534783460711
+"name[Green Man], eatType[pub], food[Japanese], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]",0.5692063492063492,0.04340700428319476
+"name[Green Man], eatType[pub], food[Japanese], area[riverside], familyFriendly[no], near[Express by Holiday Inn]",0.8594072594072595,0.00928622936614945
+"name[Green Man], eatType[pub], familyFriendly[no], near[Express by Holiday Inn]",0.75,0.0
+"name[Green Man], eatType[pub], food[Japanese], area[riverside], near[Express by Holiday Inn]",1.0,0.0
+"name[Green Man], eatType[pub], food[Japanese], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.9774603174603174,0.0019471966564403537
+"name[Green Man], eatType[pub], food[Japanese], familyFriendly[yes], near[Express by Holiday Inn]",0.9444444444444443,0.0030864197530864226
+"name[Green Man], eatType[pub], food[Japanese], near[Express by Holiday Inn]",1.0,0.0
+"name[Green Man], eatType[restaurant], food[Italian], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.8154320987654321,0.08196175007987389
+"name[Green Man], eatType[restaurant], food[Italian], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9375,0.00390625
+"name[Green Man], eatType[restaurant], food[Japanese], area[city centre], familyFriendly[no], near[Express by Holiday Inn]",0.5939538239538239,0.04671921732268052
+"name[Green Man], eatType[restaurant], food[Japanese], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]",0.6057142857142856,0.04059244142101285
+"name[Green Man], eatType[restaurant], food[Japanese], area[riverside], familyFriendly[no], near[Express by Holiday Inn]",0.8295815295815296,0.014288837665461039
+"name[Green Man], eatType[restaurant], familyFriendly[no], near[Express by Holiday Inn]",0.8,0.0
+"name[Green Man], eatType[restaurant], food[Japanese], area[riverside], near[Express by Holiday Inn]",1.0,0.0
+"name[Green Man], eatType[restaurant], food[Japanese], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.9735527544351075,0.0026349788281325604
+"name[Green Man], eatType[restaurant], food[Japanese], familyFriendly[yes], near[Express by Holiday Inn]",1.0,0.0
+"name[Green Man], eatType[restaurant], food[Japanese], near[Express by Holiday Inn]",0.9047619047619048,0.004535147392290252
+"name[Loch Fyne], eatType[coffee shop], area[riverside]",1.0,0.0
+"name[Loch Fyne], eatType[pub], area[riverside]",1.0,0.0
+"name[Strada], eatType[coffee shop], area[city centre]",0.9,0.009999999999999995
+"name[Strada], eatType[coffee shop], customer rating[1 out of 5], near[All Bar One]",0.9047619047619048,0.004535147392290252
+"name[Strada], eatType[coffee shop], customer rating[1 out of 5], near[Rainbow Vegetarian Café]",0.8571428571428571,0.0
+"name[Strada], eatType[coffee shop], customer rating[low], near[Express by Holiday Inn]",0.9428571428571428,0.0048979591836734735
+"name[Strada], eatType[pub], area[city centre]",0.9,0.009999999999999995
+"name[Strada], eatType[pub], customer rating[1 out of 5], near[All Bar One]",0.9047619047619048,0.004535147392290252
+"name[Strada], eatType[pub], customer rating[1 out of 5], near[Rainbow Vegetarian Café]",0.8571428571428571,0.0
+"name[Strada], eatType[pub], customer rating[low], near[Express by Holiday Inn]",0.9428571428571428,0.0048979591836734735
+"name[The Cricketers], eatType[coffee shop], customer rating[1 out of 5], familyFriendly[yes], near[Avalon]",0.9183333333333333,0.005890079365079367
+"name[The Cricketers], eatType[coffee shop], familyFriendly[yes], near[Avalon]",1.0,0.0
+"name[The Cricketers], eatType[coffee shop], customer rating[3 out of 5], familyFriendly[yes], near[Avalon]",0.8729717813051147,0.009376730230272265
+"name[The Cricketers], eatType[coffee shop], customer rating[3 out of 5], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9020202020202018,0.005550472255017709
+"name[The Cricketers], eatType[coffee shop], customer rating[5 out of 5], familyFriendly[no], near[Crowne Plaza Hotel]",0.8333333333333334,0.01388888888888889
+"name[The Cricketers], eatType[coffee shop], customer rating[5 out of 5], familyFriendly[yes], near[Crowne Plaza Hotel]",0.8244736842105262,0.0784630688563514
+"name[The Cricketers], eatType[coffee shop], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Cricketers], eatType[coffee shop], customer rating[average], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Cricketers], eatType[coffee shop], customer rating[average], familyFriendly[yes], near[Café Sicilia]",0.850743906299462,0.04368694386675262
+"name[The Cricketers], eatType[coffee shop], familyFriendly[yes], near[Café Sicilia]",0.9285714285714285,0.0051020408163265345
+"name[The Cricketers], eatType[coffee shop], customer rating[high], familyFriendly[yes], near[Café Sicilia]",0.9238095238095239,0.005079365079365084
+"name[The Cricketers], eatType[coffee shop], customer rating[high], familyFriendly[yes], near[Express by Holiday Inn]",0.9498866213151927,0.004754783243607347
+"name[The Cricketers], eatType[coffee shop], familyFriendly[yes], near[Express by Holiday Inn]",1.0,0.0
+"name[The Cricketers], eatType[coffee shop], near[Express by Holiday Inn]",0.9428571428571428,0.0048979591836734735
+"name[The Cricketers], eatType[coffee shop], customer rating[low], familyFriendly[no], near[Express by Holiday Inn]",0.8558201058201057,0.0075620783292740966
+"name[The Cricketers], eatType[coffee shop], customer rating[low], familyFriendly[no], near[Ranch]",0.6277777777777778,0.06459876543209878
+"name[The Cricketers], eatType[coffee shop], customer rating[low], familyFriendly[yes], near[Ranch]",0.7277130325814537,0.1090934644333264
+"name[The Cricketers], customer rating[low], familyFriendly[yes], near[Ranch]",1.0,0.0
+"name[The Cricketers], eatType[restaurant], customer rating[1 out of 5], familyFriendly[yes], near[Avalon]",0.8637777777777778,0.01503413353489544
+"name[The Cricketers], eatType[restaurant], familyFriendly[yes], near[Avalon]",0.8999999999999999,0.009999999999999995
+"name[The Cricketers], eatType[restaurant], customer rating[3 out of 5], familyFriendly[yes], near[Avalon]",0.8060846560846562,0.018705733322135445
+"name[The Cricketers], eatType[restaurant], customer rating[3 out of 5], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9217532467532464,0.004771462303929838
+"name[The Cricketers], eatType[restaurant], customer rating[5 out of 5], familyFriendly[no], near[Crowne Plaza Hotel]",0.8333333333333334,0.01388888888888889
+"name[The Cricketers], eatType[restaurant], customer rating[5 out of 5], familyFriendly[yes], near[Crowne Plaza Hotel]",0.7581954887218044,0.07377189590517648
+"name[The Cricketers], eatType[restaurant], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Cricketers], eatType[restaurant], customer rating[average], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Cricketers], eatType[restaurant], customer rating[average], familyFriendly[yes], near[Café Sicilia]",0.7789309455976121,0.04708707758339197
+"name[The Cricketers], eatType[restaurant], familyFriendly[yes], near[Café Sicilia]",0.9285714285714285,0.0051020408163265345
+"name[The Cricketers], eatType[restaurant], customer rating[high], familyFriendly[yes], near[Café Sicilia]",0.923809523809524,0.005079365079365083
+"name[The Cricketers], eatType[restaurant], customer rating[high], familyFriendly[yes], near[Express by Holiday Inn]",0.856689342403628,0.014326540896025837
+"name[The Cricketers], eatType[restaurant], familyFriendly[yes], near[Express by Holiday Inn]",1.0,0.0
+"name[The Cricketers], eatType[restaurant], near[Express by Holiday Inn]",0.8638095238095239,0.010685714285714284
+"name[The Cricketers], eatType[restaurant], customer rating[low], familyFriendly[no], near[Express by Holiday Inn]",0.8558201058201057,0.007562078329274095
+"name[The Cricketers], eatType[restaurant], customer rating[low], familyFriendly[no], near[Ranch]",0.6055555555555555,0.04311728395061728
+"name[The Cricketers], eatType[restaurant], customer rating[low], familyFriendly[yes], near[Ranch]",0.7002130325814536,0.09667791439752262
+"name[The Cricketers], eatType[restaurant], food[Chinese], customer rating[high], area[city centre], familyFriendly[no], near[All Bar One]",0.8931623931623932,0.0017897582000146108
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[more than £30], customer rating[high], area[city centre], familyFriendly[yes], near[All Bar One]",0.8248640248640249,0.0029721939978350222
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[£20-25], customer rating[high], area[riverside], near[All Bar One]",0.7619047619047619,0.0011337868480725613
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[no], near[All Bar One]",1.0,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], customer rating[high], area[riverside], familyFriendly[yes], near[All Bar One]",0.8666666666666667,0.008888888888888885
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[All Bar One]",0.876984126984127,0.0031021667926429838
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], area[city centre], familyFriendly[yes], near[All Bar One]",0.9393939393939394,0.001836547291092747
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[All Bar One]",0.8914951714951715,0.004047284982749517
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[All Bar One]",0.7909923409923411,0.00436127817496449
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[All Bar One]",0.6172632922632924,0.0799612845144397
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[yes], near[All Bar One]",0.8695054945054945,0.004100123777321582
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[no], near[All Bar One]",0.8991071428571429,0.0012804409958427818
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[All Bar One]",0.877045177045177,0.007516432827788137
+"name[The Cricketers], eatType[restaurant], food[Chinese], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[All Bar One]",0.8,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[All Bar One]",0.9230769230769231,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[All Bar One]",0.9045177045177045,0.001139720407119677
+"name[The Cricketers], eatType[restaurant], food[Chinese], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[All Bar One]",0.9230769230769231,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[All Bar One]",0.8772875816993464,0.0020121000469904755
+"name[The Cricketers], eatType[restaurant], food[Chinese], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[All Bar One]",0.6923076923076923,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[high], customer rating[average], area[city centre], familyFriendly[no], near[All Bar One]",0.7692307692307693,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[high], customer rating[5 out of 5], customer rating[average], area[city centre], familyFriendly[no], near[All Bar One]",1.0,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[high], priceRange[moderate], customer rating[average], area[city centre], familyFriendly[yes], near[All Bar One]",0.8461538461538461,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[high], customer rating[average], area[riverside], near[All Bar One]",0.9285714285714286,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[high], customer rating[average], area[riverside], familyFriendly[no], near[All Bar One]",0.9555555555555556,0.000987654320987654
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[high], customer rating[average], area[riverside], familyFriendly[yes], near[All Bar One]",0.7651515151515151,0.012511478420569327
+"name[The Cricketers], eatType[restaurant], food[Chinese], customer rating[low], area[city centre], familyFriendly[yes], near[All Bar One]",0.9230769230769231,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes], near[All Bar One]",0.8181818181818182,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[no], near[All Bar One]",0.9555555555555556,0.000987654320987654
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[yes], near[All Bar One]",0.8571428571428571,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[All Bar One]",0.9317460317460319,0.001705719324766945
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[All Bar One]",0.7266666666666667,0.017538321995464855
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[All Bar One]",0.9314285714285714,0.0020462585034013623
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[riverside], near[All Bar One]",0.9230769230769231,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[All Bar One]",0.8333333333333334,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[All Bar One]",0.96,0.001066666666666666
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[All Bar One]",0.7927272727272727,0.016850688705234162
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[All Bar One]",0.8907534808795313,0.0032781282402547358
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[All Bar One]",0.7945665445665445,0.0013310441423994516
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[more than £30], customer rating[high], area[city centre], familyFriendly[no], near[All Bar One]",0.7673326673326674,0.01058926088896119
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[more than £30], customer rating[high], familyFriendly[no], near[All Bar One]",0.9090909090909091,0.0
+"name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[no], near[All Bar One]",0.9261721611721613,0.001718648613291472
+"name[The Cricketers], eatType[restaurant], area[riverside], familyFriendly[yes], near[All Bar One]",0.6,0.08
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[£20-25], customer rating[high], area[city centre], familyFriendly[no], near[All Bar One]",0.9045177045177045,0.001139720407119677
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[£20-25], customer rating[high], area[city centre], familyFriendly[yes], near[All Bar One]",0.8838383838383838,0.001275380063258849
+"name[The Cricketers], eatType[restaurant], food[English], customer rating[high], area[city centre], familyFriendly[yes], near[All Bar One]",0.7,0.0
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[yes], near[All Bar One]",0.8334677227534371,0.008798159603438509
+"name[The Cricketers], eatType[restaurant], familyFriendly[yes], near[All Bar One]",0.0,0.0
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[cheap], customer rating[5 out of 5], area[city centre], near[Café Rouge]",0.7777777777777777,0.024691358024691367
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Café Rouge]",0.4444444444444445,0.03292181069958847
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[cheap], area[city centre], familyFriendly[yes], near[Café Rouge]",0.6666666666666666,0.0
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Café Rouge]",0.6181962481962482,0.03347485762593988
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[cheap], customer rating[5 out of 5], area[riverside], near[Café Rouge]",0.786846486846487,0.005206723512917321
+"name[The Cricketers], food[English], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Café Rouge]",0.9230769230769231,0.0
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[cheap], area[riverside], familyFriendly[yes], near[Café Rouge]",0.7318181818181818,0.02556473829201102
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Café Rouge]",1.0,0.0
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[cheap], customer rating[average], area[city centre], familyFriendly[yes], near[Café Rouge]",0.8532356532356532,0.00449590837869226
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[cheap], customer rating[average], area[city centre], familyFriendly[no], near[Café Rouge]",0.6996336996336997,0.004052113942223832
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[yes], near[Café Rouge]",0.8571428571428571,0.0
+"name[The Cricketers], eatType[restaurant], priceRange[cheap], priceRange[moderate], customer rating[average], area[city centre], area[riverside], familyFriendly[yes], near[Café Rouge]",0.8888888888888888,0.0
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[cheap], priceRange[moderate], customer rating[average], area[riverside], familyFriendly[yes], near[Café Rouge]",1.0,0.0
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Café Rouge]",0.7988344988344989,0.008743975527192308
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Café Rouge]",0.8581973581973582,0.0048977613080177194
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Café Rouge]",0.8991071428571429,0.0012804409958427818
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[high], customer rating[1 out of 5], near[Café Rouge]",0.9090909090909091,0.0
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Café Rouge]",0.9230769230769231,0.0
+"name[The Cricketers], eatType[restaurant], priceRange[high], near[Café Rouge]",0.8571428571428571,0.0
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[high], customer rating[average], area[city centre], familyFriendly[no], near[Café Rouge]",0.8884004884004886,0.0049254861269513285
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[high], customer rating[average], area[city centre], familyFriendly[yes], near[Café Rouge]",0.8333333333333334,0.01388888888888889
+"name[The Cricketers], eatType[restaurant], food[English], priceRange[high], customer rating[average], area[riverside], familyFriendly[no], near[Café Rouge]",0.8333333333333334,0.01388888888888889
+"name[The Cricketers], eatType[restaurant], food[English], customer rating[average], area[riverside], familyFriendly[no], near[Café Rouge]",0.9090909090909091,0.0
+"name[The Mill], eatType[pub], food[English], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9480519480519483,0.0020239500758981294
+"name[The Mill], eatType[pub], food[English], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.5651178451178451,0.035013645606526804
+"name[The Mill], eatType[pub], food[English], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8584615384615386,0.006316195485426252
+"name[The Mill], eatType[pub], priceRange[less than £20], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Mill], eatType[pub], food[English], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Mill], eatType[pub], priceRange[less than £20], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Mill], eatType[pub], food[English], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9393939393939394,0.001836547291092747
+"name[The Mill], eatType[pub], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Mill], eatType[pub], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Mill], eatType[pub], food[English], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8564102564102565,0.007133464825772515
+"name[The Mill], eatType[pub], food[English], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8713830613830613,0.005744369823390801
+"name[The Mill], eatType[pub], food[English], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8461538461538461,0.0
+"name[The Mill], eatType[pub], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.875,0.0
+"name[The Mill], eatType[pub], food[English], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[The Mill], eatType[pub], food[English], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9325628075628077,0.003246872585288799
+"name[The Mill], eatType[pub], food[English], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9393939393939394,0.001836547291092747
+"name[The Mill], eatType[pub], food[Fast food], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9444444444444443,0.0015432098765432113
+"name[The Mill], eatType[pub], food[Fast food], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9333333333333332,0.0022222222222222214
+"name[The Mill], eatType[pub], food[Fast food], priceRange[£20-25], customer rating[high], area[city centre], familyFriendly[no], near[Café Rouge]",0.9333333333333333,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[£20-25], area[city centre], familyFriendly[no], near[Café Rouge]",0.9090909090909091,0.0
+"name[The Mill], eatType[pub], food[Fast food], customer rating[high], area[city centre], familyFriendly[yes], near[Café Rouge]",1.0,0.0
+"name[The Mill], eatType[pub], priceRange[cheap], customer rating[high], area[riverside], familyFriendly[no], near[Café Rouge]",1.0,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[cheap], area[city centre], familyFriendly[no], near[Café Sicilia]",0.6255411255411255,0.012827720619928415
+"name[The Mill], eatType[pub], food[Fast food], priceRange[cheap], area[city centre], familyFriendly[yes], near[Café Sicilia]",0.617063492063492,0.018281210632401106
+"name[The Mill], eatType[pub], food[Fast food], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Café Sicilia]",0.875,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Café Sicilia]",0.5521885521885522,0.008253126098243942
+"name[The Mill], eatType[pub], food[Fast food], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Café Sicilia]",0.8095238095238094,0.0011337868480725613
+"name[The Mill], eatType[pub], food[Fast food], customer rating[5 out of 5], area[riverside], near[Café Sicilia]",0.7777777777777778,0.0
+"name[The Mill], eatType[pub], food[Fast food], area[riverside], near[Café Sicilia]",0.9090909090909091,0.0
+"name[The Mill], eatType[pub], familyFriendly[yes], near[Café Sicilia]",0.9047619047619048,0.004535147392290252
+"name[The Mill], eatType[pub], food[Fast food], area[city centre], familyFriendly[no], near[Café Sicilia]",0.4444444444444444,0.0
+"name[The Mill], eatType[pub], priceRange[cheap], customer rating[average], area[city centre], familyFriendly[no], near[Café Sicilia]",0.8571428571428571,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[cheap], area[riverside], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[no], near[Café Sicilia]",0.9165032679738562,0.0008715130932547311
+"name[The Mill], eatType[pub], food[Fast food], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[yes], near[Café Sicilia]",0.8666666666666667,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[cheap], area[riverside], familyFriendly[yes], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Café Sicilia]",0.2222222222222222,0.0
+"name[The Mill], eatType[pub], food[Fast food], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Café Sicilia]",0.7765567765567765,0.010814582243153676
+"name[The Mill], eatType[pub], area[riverside], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], food[Fast food], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Café Sicilia]",0.7900349650349651,0.012549380980325037
+"name[The Mill], eatType[pub], priceRange[cheap], priceRange[high], customer rating[1 out of 5], area[city centre], area[riverside], familyFriendly[yes], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[high], customer rating[1 out of 5], familyFriendly[yes], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Café Sicilia]",0.75,0.0
+"name[The Mill], eatType[pub], food[Fast food], area[city centre], near[Café Sicilia]",0.9333333333333332,0.0022222222222222214
+"name[The Mill], eatType[pub], food[Fast food], priceRange[high], priceRange[moderate], customer rating[average], area[riverside], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], food[Fast food], area[riverside], familyFriendly[yes], near[Café Sicilia]",0.9090909090909091,0.0
+"name[The Mill], eatType[pub], priceRange[high], customer rating[average], area[riverside], familyFriendly[yes], near[Café Sicilia]",0.9444444444444443,0.0015432098765432113
+"name[The Mill], eatType[pub], area[city centre], familyFriendly[yes], near[Café Sicilia]",0.6666666666666666,0.0
+"name[The Mill], eatType[pub], priceRange[less than £20], customer rating[low], area[city centre], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[no], near[Café Sicilia]",0.8070436507936508,0.008386528801335348
+"name[The Mill], eatType[pub], food[Fast food], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes], near[Café Sicilia]",0.618042328042328,0.04965889532767839
+"name[The Mill], eatType[pub], food[Fast food], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[no], near[Café Sicilia]",0.6,0.0
+"name[The Mill], eatType[pub], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[no], near[Café Sicilia]",0.8000000000000002,1.232595164407831e-32
+"name[The Mill], eatType[pub], food[Fast food], priceRange[moderate], customer rating[low], area[riverside], familyFriendly[no], near[Café Sicilia]",0.9333333333333333,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[yes], near[Café Sicilia]",0.9090909090909091,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Café Sicilia]",0.7928571428571428,0.010344387755102038
+"name[The Mill], eatType[pub], food[Fast food], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Café Sicilia]",0.6923076923076923,0.0
+"name[The Mill], food[Fast food], priceRange[moderate], customer rating[1 out of 5], area[riverside], near[Café Sicilia]",0.9090909090909091,0.0
+"name[The Mill], eatType[pub], priceRange[moderate], familyFriendly[yes], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[more than £30], customer rating[1 out of 5], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[moderate], area[riverside], familyFriendly[yes], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Café Sicilia]",0.888888888888889,0.0061728395061728366
+"name[The Mill], eatType[pub], food[Fast food], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[Café Sicilia]",1.0,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[Café Sicilia]",0.8333333333333334,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[moderate], customer rating[3 out of 5], area[riverside], near[Café Sicilia]",0.9166666666666666,0.0
+"name[The Mill], eatType[pub], food[Fast food], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Café Sicilia]",0.8571428571428571,0.010204081632653062
+"name[The Mill], eatType[restaurant], food[English], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.887061087061087,0.004173298064591953
+"name[The Mill], eatType[restaurant], food[English], priceRange[high], customer rating[average], area[riverside], familyFriendly[yes], near[Café Rouge]",0.9209401709401711,0.0023239462342026437
+"name[The Mill], eatType[restaurant], food[English], priceRange[high], customer rating[5 out of 5], customer rating[average], area[riverside], familyFriendly[yes], near[Café Rouge]",0.9230769230769231,0.0
+"name[The Mill], eatType[restaurant], food[English], familyFriendly[yes], near[Café Rouge]",1.0,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[high], customer rating[average], familyFriendly[yes], near[Café Rouge]",1.0,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.5943386243386243,0.03356486660507826
+"name[The Mill], eatType[restaurant], food[English], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8006349206349206,0.012794759385235577
+"name[The Mill], eatType[restaurant], priceRange[less than £20], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Mill], eatType[restaurant], food[English], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Mill], eatType[restaurant], priceRange[less than £20], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8811447811447811,0.004699407089979478
+"name[The Mill], eatType[restaurant], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], customer rating[low], area[city centre], familyFriendly[no], near[Café Rouge]",1.0,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[less than £20], customer rating[low], area[city centre], near[Café Rouge]",1.0,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes], near[Café Rouge]",0.6462962962962963,0.018371056241426615
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], customer rating[low], area[city centre], familyFriendly[yes], near[Café Rouge]",0.4,0.0
+"name[The Mill], eatType[restaurant], customer rating[low], familyFriendly[no], near[Café Rouge]",0.8571428571428571,0.0
+"name[The Mill], eatType[restaurant], priceRange[less than £20], near[Café Rouge]",0.8571428571428571,0.0
+"name[The Mill], eatType[restaurant], priceRange[less than £20], customer rating[low], familyFriendly[yes], near[Café Rouge]",1.0,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[yes], near[Café Rouge]",0.795877455877456,0.013117224833108948
+"name[The Mill], eatType[restaurant], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8350168350168351,0.008890816129873367
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.7974592074592075,0.01038850256192914
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8461538461538461,0.0
+"name[The Mill], eatType[restaurant], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.7142857142857143,0.0
+"name[The Mill], eatType[restaurant], food[English], near[Raja Indian Cuisine]",0.6666666666666666,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8956228956228957,0.0050289652983255655
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Café Rouge]",0.7845487845487846,0.0029283625687222055
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Café Rouge]",0.8003663003663005,0.008983080411651845
+"name[The Mill], eatType[restaurant], food[English], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Café Rouge]",0.6666666666666666,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Café Rouge]",1.0,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Café Rouge]",0.6205128205128205,0.019303090072320842
+"name[The Mill], eatType[restaurant], customer rating[1 out of 5], familyFriendly[yes], near[Café Rouge]",1.0,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Café Rouge]",0.4881414881414881,0.09004279419049833
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[Café Rouge]",0.25,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Café Rouge]",0.888888888888889,0.0061728395061728366
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], customer rating[3 out of 5], area[riverside], near[Café Rouge]",0.9487179487179488,0.001314924391847467
+"name[The Mill], eatType[restaurant], food[English], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Café Rouge]",0.9615384615384616,0.0014792899408284004
+"name[The Mill], eatType[restaurant], food[English], area[city centre], near[Café Rouge]",1.0,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8845117845117844,0.004808239522044233
+"name[The Mill], eatType[restaurant], food[English], priceRange[more than £30], customer rating[high], area[city centre], familyFriendly[yes], near[Café Rouge]",0.8112121212121213,0.007278328741965104
+"name[The Mill], eatType[restaurant], food[English], customer rating[high], area[city centre], familyFriendly[no], near[Café Rouge]",0.9230769230769231,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[no], near[Café Rouge]",0.8461538461538461,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[yes], near[Café Rouge]",0.8418803418803419,3.6525677551318315e-05
+"name[The Mill], eatType[restaurant], priceRange[less than £20], customer rating[high], area[riverside], familyFriendly[yes], near[Café Rouge]",0.8888888888888888,0.0
+"name[The Mill], eatType[restaurant], food[English], priceRange[more than £30], near[Café Rouge]",1.0,0.0
+"name[The Mill], eatType[restaurant], food[Fast food], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8787878787878789,0.007346189164370979
+"name[The Mill], eatType[restaurant], food[Fast food], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8472222222222222,0.0024434156378600803
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8355422355422355,0.01208367045196882
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[high], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9444444444444445,0.0015432098765432113
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[high], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8432400932400933,0.00826514200640075
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8974358974358975,0.005259697567389875
+"name[The Phoenix], eatType[pub], food[Fast food], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.851226551226551,0.009304506620523938
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8954545454545455,0.007320936639118455
+"name[The Phoenix], eatType[pub], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.6388888888888888,0.010802469135802469
+"name[The Phoenix], eatType[pub], priceRange[high], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.6666666666666666,0.05555555555555555
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8461538461538461,0.011834319526627215
+"name[The Phoenix], eatType[pub], food[Fast food], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[Fast food], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.5,0.0
+"name[The Phoenix], eatType[pub], priceRange[less than £20], area[riverside], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.6206018518518518,0.04298637902949246
+"name[The Phoenix], eatType[pub], priceRange[less than £20], familyFriendly[yes], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[The Phoenix], eatType[pub], familyFriendly[yes], near[Raja Indian Cuisine]",0.8800000000000001,0.009599999999999996
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Phoenix], eatType[coffee shop], eatType[pub], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8992673992673993,0.0014155563606113074
+"name[The Phoenix], eatType[pub], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.7272727272727273,0.0
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9093406593406593,0.00573753169907016
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.873160173160173,0.007438630793609145
+"name[The Phoenix], eatType[pub], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.75,0.0
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Café Sicilia]",0.8632867132867131,0.007120437837221054
+"name[The Phoenix], near[Café Sicilia]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9444444444444443,0.0015432098765432113
+"name[The Phoenix], eatType[pub], customer rating[high], area[city centre], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[more than £30], customer rating[high], area[city centre], near[Café Sicilia]",0.7692307692307693,0.0
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[Fast food], customer rating[high], area[riverside], familyFriendly[yes], near[Café Sicilia]",0.7651515151515151,0.012511478420569329
+"name[The Phoenix], eatType[pub], food[Fast food], priceRange[more than £30], area[riverside], near[Café Sicilia]",1.0,0.0
+"name[The Phoenix], eatType[restaurant], food[Fast food], area[city centre], near[Café Sicilia]",1.0,0.0
+"name[The Phoenix], eatType[pub], customer rating[high], area[city centre], familyFriendly[yes], near[Café Sicilia]",0.8571428571428571,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8922799422799423,0.0042850011140054415
+"name[The Phoenix], eatType[pub], food[French], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Café Sicilia]",0.7692307692307693,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[£20-25], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[Café Sicilia]",0.5905723905723905,0.013376412837692303
+"name[The Phoenix], eatType[pub], food[French], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Café Sicilia]",0.9166666666666666,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[£20-25], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[£20-25], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Café Sicilia]",0.8333333333333334,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], customer rating[3 out of 5], near[Crowne Plaza Hotel]",0.5714285714285714,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[£20-25], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.8,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[£20-25], customer rating[high], familyFriendly[no], near[Crowne Plaza Hotel]",0.8461538461538461,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[£20-25], customer rating[high], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.8,0.0
+"name[The Phoenix], eatType[pub], familyFriendly[yes], near[Crowne Plaza Hotel]",0.8999999999999999,0.009999999999999995
+"name[The Phoenix], eatType[pub], food[French], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.6581168831168831,0.060324359082475965
+"name[The Phoenix], eatType[pub], food[French], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.9111111111111111,0.003950617283950616
+"name[The Phoenix], eatType[pub], food[French], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.8974358974358975,0.005259697567389875
+"name[The Phoenix], eatType[pub], priceRange[cheap], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9012765012765012,0.0028033884444140845
+"name[The Phoenix], eatType[pub], food[French], priceRange[cheap], customer rating[5 out of 5], area[city centre], near[Crowne Plaza Hotel]",0.9162781662781662,0.0023474917122935767
+"name[The Phoenix], eatType[pub], food[French], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.6153846153846154,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.5092592592592592,0.0680727023319616
+"name[The Phoenix], eatType[pub], food[French], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.8031135531135531,0.0034773376806343827
+"name[The Phoenix], eatType[pub], food[French], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.6817663817663818,0.07214008003181793
+"name[The Phoenix], eatType[pub], food[French], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.2222222222222222,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8181818181818182,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[high], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.9395604395604396,0.0019381717183914984
+"name[The Phoenix], eatType[pub], food[French], priceRange[high], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.8888888888888888,0.006172839506172838
+"name[The Phoenix], eatType[pub], food[French], priceRange[high], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.5714285714285714,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[high], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.8,0.0
+"name[The Phoenix], eatType[restaurant], priceRange[cheap], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[high], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.8571428571428571,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[less than £20], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[less than £20], area[city centre], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[less than £20], customer rating[average], area[city centre], near[Crowne Plaza Hotel]",0.9166666666666666,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[less than £20], customer rating[average], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.6484126984126983,0.02515810027714789
+"name[The Phoenix], eatType[pub], food[French], customer rating[average], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], priceRange[less than £20], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.9090909090909091,0.0
+"name[The Phoenix], eatType[pub], priceRange[less than £20], customer rating[average], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[less than £20], customer rating[average], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.7828282828282828,0.02706356494235283
+"name[The Phoenix], eatType[pub], food[French], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.8888888888888888,0.006172839506172838
+"name[The Phoenix], eatType[pub], food[French], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.7452991452991453,0.016582657608298638
+"name[The Phoenix], eatType[pub], food[French], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9285714285714286,0.0
+"name[The Phoenix], eatType[pub], priceRange[less than £20], customer rating[low], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.9045177045177045,0.001139720407119677
+"name[The Phoenix], eatType[pub], food[French], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.9333333333333333,0.0
+"name[The Phoenix], eatType[pub], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.75,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9487179487179488,0.001314924391847467
+"name[The Phoenix], eatType[pub], food[French], priceRange[moderate], customer rating[1 out of 5], area[riverside], near[Crowne Plaza Hotel]",0.8333333333333334,0.0
+"name[The Phoenix], eatType[pub], food[French], area[riverside], near[Crowne Plaza Hotel]",0.865993265993266,0.0022455758482694474
+"name[The Phoenix], eatType[pub], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.5108326858326858,0.0673872188788985
+"name[The Phoenix], eatType[pub], customer rating[1 out of 5], area[city centre], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[moderate], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[more than £30], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.7444444444444445,0.01061728395061729
+"name[The Phoenix], eatType[pub], food[French], priceRange[more than £30], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.9047619047619048,0.004535147392290252
+"name[The Phoenix], eatType[pub], food[English], priceRange[more than £30], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.7272727272727273,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[more than £30], customer rating[low], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[more than £30], customer rating[low], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.9666666666666667,0.0009722222222222226
+"name[The Phoenix], eatType[pub], priceRange[more than £30], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], priceRange[more than £30], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[pub], food[French], priceRange[more than £30], customer rating[low], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9241758241758242,0.0023716942398261083
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8434343434343433,0.01700846852362004
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[high], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9333333333333332,0.0022222222222222214
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[high], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8518518518518517,0.010973936899862825
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8787878787878789,0.007346189164370979
+"name[The Phoenix], eatType[restaurant], food[Fast food], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9404761904761905,0.0038973922902494325
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8733333333333333,0.01077037037037037
+"name[The Phoenix], eatType[restaurant], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.7555555555555555,0.003950617283950623
+"name[The Phoenix], eatType[restaurant], priceRange[high], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.7142857142857143,0.040816326530612256
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8181818181818182,0.016528925619834708
+"name[The Phoenix], eatType[restaurant], food[Fast food], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Phoenix], eatType[restaurant], food[Fast food], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.3333333333333333,0.0
+"name[The Phoenix], eatType[restaurant], priceRange[less than £20], area[riverside], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.6616809116809117,0.03283303301109569
+"name[The Phoenix], eatType[restaurant], priceRange[less than £20], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Phoenix], eatType[restaurant], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Phoenix], eatType[coffee shop], eatType[restaurant], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8350815850815851,0.004279617041854803
+"name[The Phoenix], eatType[restaurant], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.6666666666666666,0.0
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8931818181818182,0.008028581267217626
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8846560846560846,0.008812183309537806
+"name[The Phoenix], eatType[restaurant], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Phoenix], eatType[restaurant], food[Fast food], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.890909090909091,0.0038292011019283724
+"name[The Phoenix], eatType[restaurant], food[French], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9404761904761905,0.003070672713529859
+"name[The Phoenix], eatType[pub], eatType[restaurant], food[French], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Phoenix], eatType[restaurant], food[French], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9259259259259259,0.002743484224965709
+"name[The Phoenix], eatType[restaurant], food[French], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.7777777777777778,0.0
+"name[The Phoenix], eatType[restaurant], food[Indian], priceRange[£20-25], customer rating[high], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.6666666666666666,0.0
+"name[The Phoenix], eatType[restaurant], food[Indian], customer rating[high], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.86007326007326,0.0025289484630143973
+"name[The Phoenix], eatType[restaurant], food[Indian], customer rating[high], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.7272727272727273,0.0
+"name[The Phoenix], eatType[restaurant], food[Indian], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.8326599326599328,0.012982575474157968
+"name[The Phoenix], eatType[restaurant], food[Indian], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9393939393939394,0.001836547291092747
+"name[The Phoenix], eatType[restaurant], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.8650793650793651,0.00201562106324011
+"name[The Phoenix], eatType[restaurant], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], near[Crowne Plaza Hotel]",0.7333333333333334,0.035555555555555556
+"name[The Phoenix], eatType[restaurant], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9393939393939394,0.001836547291092747
+"name[The Phoenix], eatType[restaurant], food[Indian], priceRange[cheap], area[riverside], near[Crowne Plaza Hotel]",1.0,0.0
+"name[The Phoenix], eatType[restaurant], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[riverside], near[Express by Holiday Inn]",0.8,0.0
+"name[The Phoenix], eatType[restaurant], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.9090909090909091,0.0
+"name[The Phoenix], eatType[restaurant], food[Indian], priceRange[cheap], area[city centre], familyFriendly[no], near[Express by Holiday Inn]",0.7452991452991453,0.003249324274965305
+"name[The Plough], eatType[pub], food[Chinese], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.7564102564102564,0.0047118124041201
+"name[The Plough], eatType[pub], food[Chinese], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8458485958485958,0.003992200649709807
+"name[The Plough], eatType[pub], food[Chinese], priceRange[cheap], area[riverside], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Plough], eatType[pub], food[Chinese], priceRange[high], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8019813519813519,0.005300299933167065
+"name[The Plough], eatType[pub], food[Chinese], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Plough], eatType[pub], food[Chinese], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.6666666666666666,0.0
+"name[The Plough], eatType[pub], food[Chinese], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9299145299145299,0.004467820878077285
+"name[The Plough], eatType[pub], food[Chinese], priceRange[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9230769230769231,0.0
+"name[The Plough], eatType[pub], food[Chinese], priceRange[high], area[riverside], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Plough], eatType[pub], food[Chinese], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8436813186813188,0.004559117368183304
+"name[The Plough], eatType[restaurant], food[Chinese], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9393939393939394,0.001836547291092747
+"name[The Plough], eatType[restaurant], food[Chinese], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8454545454545456,0.01033057851239669
+"name[The Plough], eatType[restaurant], food[Chinese], priceRange[cheap], area[riverside], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Plough], eatType[restaurant], food[Chinese], priceRange[high], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8019813519813519,0.005300299933167064
+"name[The Plough], eatType[restaurant], food[Chinese], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Plough], eatType[restaurant], food[Chinese], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.5,0.0
+"name[The Plough], eatType[restaurant], food[Chinese], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8757575757575755,0.008301193755739207
+"name[The Plough], eatType[restaurant], food[Chinese], priceRange[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9230769230769231,0.0
+"name[The Plough], eatType[restaurant], food[Chinese], priceRange[high], area[riverside], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Plough], eatType[restaurant], food[Chinese], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8734737484737485,0.002663509245468954
+"name[The Punter], eatType[pub], food[Chinese], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8989898989898991,0.003188450158147126
+"name[The Punter], eatType[pub], food[Chinese], priceRange[less than £20], area[city centre], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Punter], eatType[pub], food[Chinese], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8498168498168498,0.0039716083672127625
+"name[The Punter], eatType[pub], food[Chinese], priceRange[less than £20], area[riverside], near[Raja Indian Cuisine]",0.9444444444444443,0.0015432098765432113
+"name[The Punter], eatType[pub], food[Chinese], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.6916666666666668,0.022013888888888892
+"name[The Punter], eatType[pub], food[Chinese], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8290753690753692,0.006368630178420388
+"name[The Punter], eatType[pub], food[Chinese], priceRange[moderate], familyFriendly[no], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Punter], eatType[pub], food[Chinese], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.9147474747474748,0.0038402611978369553
+"name[The Punter], eatType[pub], food[Chinese], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9205128205128206,0.002787639710716632
+"name[The Punter], eatType[pub], food[Chinese], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9,0.0
+"name[The Punter], eatType[pub], food[Chinese], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9444444444444445,0.0015432098765432113
+"name[The Punter], eatType[pub], food[English], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9393939393939394,0.001836547291092747
+"name[The Punter], eatType[pub], food[English], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Punter], eatType[pub], food[English], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9434343434343434,0.0031547801244770947
+"name[The Punter], eatType[pub], food[English], priceRange[high], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8728515928515931,0.004505690700562492
+"name[The Punter], eatType[pub], food[English], priceRange[high], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[The Punter], eatType[pub], food[English], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.75,0.0
+"name[The Punter], eatType[pub], food[English], priceRange[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Punter], eatType[pub], food[Italian], priceRange[high], customer rating[average], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.9555555555555556,0.000987654320987654
+"name[The Punter], eatType[restaurant], food[Chinese], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8777777777777779,0.004567901234567898
+"name[The Punter], eatType[restaurant], food[Chinese], priceRange[less than £20], area[city centre], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Punter], eatType[restaurant], food[Chinese], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8232323232323232,0.005560657075808589
+"name[The Punter], eatType[restaurant], food[Chinese], priceRange[less than £20], area[riverside], near[Raja Indian Cuisine]",0.9333333333333332,0.0022222222222222214
+"name[The Punter], eatType[restaurant], food[Chinese], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.6984126984126983,0.032816830435878054
+"name[The Punter], eatType[restaurant], food[Chinese], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8475757575757576,0.005797000306091213
+"name[The Punter], eatType[restaurant], food[Chinese], priceRange[moderate], familyFriendly[no], near[Raja Indian Cuisine]",0.75,0.0
+"name[The Punter], eatType[restaurant], food[Chinese], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8936507936507938,0.006043083900226758
+"name[The Punter], eatType[restaurant], food[Chinese], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9054545454545455,0.004019834710743799
+"name[The Punter], eatType[restaurant], food[Chinese], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.875,0.0
+"name[The Punter], eatType[restaurant], food[Chinese], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9333333333333332,0.0022222222222222214
+"name[The Punter], eatType[restaurant], food[English], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9259259259259259,0.002743484224965709
+"name[The Punter], eatType[restaurant], food[English], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[English], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9753086419753085,0.002133821063862218
+"name[The Punter], eatType[restaurant], food[English], priceRange[high], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8740740740740741,0.0073936899862825775
+"name[The Punter], eatType[restaurant], food[English], priceRange[high], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8333333333333334,0.0
+"name[The Punter], eatType[restaurant], food[English], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8181818181818182,0.0
+"name[The Punter], eatType[restaurant], food[English], priceRange[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[cheap], customer rating[average], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]",0.8824242424242423,0.009691092745638195
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[no], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[cheap], near[Express by Holiday Inn]",0.8571428571428571,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[cheap], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.8333333333333334,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[cheap], priceRange[moderate], customer rating[average], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.9230769230769231,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Express by Holiday Inn]",0.9249084249084248,0.0019790953856887923
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[high], priceRange[moderate], customer rating[1 out of 5], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Express by Holiday Inn]",0.9230769230769231,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[high], customer rating[1 out of 5], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Express by Holiday Inn]",0.9487179487179488,0.001314924391847467
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[high], customer rating[1 out of 5], area[riverside], near[Express by Holiday Inn]",0.9090909090909091,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.8151700151700152,0.006735185719164701
+"name[The Punter], eatType[restaurant], food[Indian], customer rating[average], area[city centre], familyFriendly[no], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[high], customer rating[average], area[city centre], familyFriendly[no], near[Express by Holiday Inn]",0.8278943278943279,0.006404671905837409
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[high], area[city centre], familyFriendly[no], near[Express by Holiday Inn]",0.8888888888888888,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[high], customer rating[average], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]",0.9251563251563253,0.003707872837261967
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[high], customer rating[average], area[riverside], familyFriendly[no], near[Express by Holiday Inn]",0.8885003885003885,0.0015543034191052834
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[high], customer rating[average], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.8793861693861693,0.0036947416910120844
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[no], near[Express by Holiday Inn]",0.841880341880342,0.003981298853093726
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]",0.9162781662781664,0.0023474917122935763
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[no], near[Express by Holiday Inn]",0.8708333333333332,0.0024421296296296305
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.9166666666666666,0.004166666666666664
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[less than £20], area[riverside], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Express by Holiday Inn]",0.8,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[moderate], customer rating[1 out of 5], area[city centre], near[Express by Holiday Inn]",0.7888888888888888,0.0060082304526748965
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[moderate], customer rating[1 out of 5], area[riverside], near[Express by Holiday Inn]",0.8666666666666667,0.008888888888888885
+"name[The Punter], eatType[restaurant], food[Indian], area[riverside], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Express by Holiday Inn]",0.9230769230769231,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[moderate], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]",0.8888888888888888,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[moderate], customer rating[3 out of 5], area[city centre], near[Express by Holiday Inn]",0.9090909090909091,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[moderate], customer rating[3 out of 5], area[riverside], near[Express by Holiday Inn]",0.8333333333333334,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.8516161616161616,0.0020294765840220353
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[more than £30], customer rating[high], area[city centre], familyFriendly[no], near[Express by Holiday Inn]",0.8458485958485958,0.003992200649709807
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[more than £30], customer rating[high], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]",0.6,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[more than £30], customer rating[high], area[riverside], near[Express by Holiday Inn]",0.9166666666666666,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[no], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.8666666666666667,0.008888888888888885
+"name[The Punter], eatType[restaurant], food[Indian], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[£20-25], customer rating[high], familyFriendly[no], near[Express by Holiday Inn]",0.6666666666666666,0.0
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[£20-25], customer rating[high], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]",0.7626262626262627,0.0024997449239873497
+"name[The Punter], eatType[restaurant], food[Italian], customer rating[high], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]",0.8888888888888888,0.0
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[no], near[Express by Holiday Inn]",0.9545454545454546,0.00206611570247934
+"name[The Punter], eatType[restaurant], food[Italian], customer rating[high], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], customer rating[high], familyFriendly[yes], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Italian], customer rating[high], familyFriendly[yes], near[Express by Holiday Inn]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[yes], near[Express by Holiday Inn]",0.8181818181818182,0.0
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.7272727272727273,0.0
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8333333333333334,0.0
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.7777777777777777,0.024691358024691367
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.7623598623598623,0.012163264887207615
+"name[The Punter], eatType[restaurant], food[Italian], customer rating[5 out of 5], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.75,0.0
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[cheap], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9259259259259259,0.002743484224965709
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[cheap], customer rating[average], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.6666666666666666,0.0
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[cheap], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[cheap], customer rating[average], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.6049206349206349,0.05186606198034769
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[cheap], customer rating[average], area[riverside], near[Rainbow Vegetarian Café]",0.7857142857142857,0.0
+"name[The Punter], eatType[restaurant], priceRange[cheap], customer rating[average], area[city centre], near[Rainbow Vegetarian Café]",0.8666666666666667,0.008888888888888885
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.6296296296296297,0.06858710562414266
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[high], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",1.0,0.0
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.48677248677248675,0.03650513703423756
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.93992673992674,0.0009075661822914561
+"name[The Punter], eatType[restaurant], food[Italian], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9090909090909091,0.0
+"name[The Punter], eatType[restaurant], priceRange[high], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.5,0.0
+"name[The Vaults], eatType[pub], food[French], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8181818181818182,0.0
+"name[The Vaults], eatType[pub], food[French], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9772727272727274,0.0015495867768595046
+"name[The Vaults], eatType[pub], food[French], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.5523488416345559,0.04358684503427942
+"name[The Vaults], eatType[pub], food[French], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8444444444444444,0.005061728395061726
+"name[The Vaults], eatType[pub], food[French], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.38666666666666666,0.06932222222222222
+"name[The Vaults], eatType[pub], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8333333333333334,0.0
+"name[The Vaults], eatType[pub], food[French], priceRange[less than £20], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], priceRange[less than £20], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[The Vaults], eatType[pub], food[French], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9444444444444443,0.0015432098765432113
+"name[The Vaults], eatType[pub], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.75,0.0
+"name[The Vaults], eatType[pub], food[French], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[French], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9045177045177045,0.001139720407119677
+"name[The Vaults], eatType[pub], food[French], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",0.9,0.0
+"name[The Vaults], eatType[pub], food[French], area[city centre], near[Raja Indian Cuisine]",0.7777777777777778,0.0015432098765432113
+"name[The Vaults], eatType[pub], food[French], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[French], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9230769230769231,0.0
+"name[The Vaults], eatType[pub], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8214285714285715,0.0025510204081632634
+"name[The Vaults], eatType[pub], food[French], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9060606060606061,0.002773186409550045
+"name[The Vaults], eatType[pub], priceRange[cheap], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[French], priceRange[more than £30], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9615384615384617,0.0014792899408284004
+"name[The Vaults], eatType[pub], food[French], priceRange[more than £30], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.7619658119658119,0.0008682265367247062
+"name[The Vaults], eatType[pub], priceRange[more than £30], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8694444444444445,0.010347222222222221
+"name[The Vaults], eatType[pub], food[French], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[French], area[riverside], near[Raja Indian Cuisine]",0.8838383838383838,0.001275380063258849
+"name[The Vaults], eatType[pub], food[French], priceRange[more than £30], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[French], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9386363636363635,0.0016236225895316816
+"name[The Vaults], eatType[pub], priceRange[more than £30], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[The Vaults], eatType[coffee shop], food[French], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.75,0.0
+"name[The Vaults], eatType[pub], food[Indian], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9636363636363635,0.0019834710743801666
+"name[The Vaults], eatType[pub], food[Indian], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9393939393939394,0.001836547291092747
+"name[The Vaults], eatType[pub], food[Indian], priceRange[cheap], area[riverside], near[Raja Indian Cuisine]",0.9166666666666666,0.0
+"name[The Vaults], eatType[pub], food[Indian], priceRange[high], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9036519036519036,0.0033261006454479644
+"name[The Vaults], eatType[pub], food[Indian], priceRange[high], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.9097902097902097,0.0021644724092276533
+"name[The Vaults], eatType[pub], food[Italian], priceRange[high], customer rating[average], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.888888888888889,0.0061728395061728366
+"name[The Vaults], eatType[pub], food[Italian], priceRange[high], customer rating[average], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.9705882352941176,0.0008650519031141872
+"name[The Vaults], eatType[pub], food[Italian], customer rating[average], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8888888888888888,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[high], customer rating[average], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8885003885003885,0.0015543034191052834
+"name[The Vaults], eatType[pub], food[Italian], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.8181818181818182,0.016528925619834708
+"name[The Vaults], eatType[pub], food[Italian], priceRange[less than £20], customer rating[low], area[city centre], near[Rainbow Vegetarian Café]",0.9230769230769231,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.6296296296296297,0.06858710562414266
+"name[The Vaults], eatType[pub], food[Italian], area[city centre], near[Rainbow Vegetarian Café]",0.8181818181818182,0.0
+"name[The Vaults], eatType[pub], priceRange[less than £20], customer rating[low], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9047619047619048,0.004535147392290252
+"name[The Vaults], eatType[pub], food[Italian], priceRange[less than £20], customer rating[low], area[riverside], near[Rainbow Vegetarian Café]",0.8787878787878789,0.007346189164370979
+"name[The Vaults], eatType[pub], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8571428571428571,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9166666666666666,0.002409297052154197
+"name[The Vaults], eatType[pub], food[Italian], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.8952991452991453,0.0012144787785813434
+"name[The Vaults], eatType[pub], eatType[restaurant], food[Italian], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.9333333333333333,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.75,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.8552380952380952,0.003025850340136053
+"name[The Vaults], eatType[pub], food[Italian], customer rating[1 out of 5], area[riverside], near[Rainbow Vegetarian Café]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9090909090909091,0.0
+"name[The Vaults], eatType[pub], customer rating[1 out of 5], familyFriendly[yes], near[Rainbow Vegetarian Café]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.8571428571428571,0.0
+"name[The Vaults], eatType[pub], priceRange[moderate], area[city centre], near[Rainbow Vegetarian Café]",0.8888888888888888,0.0
+"name[The Vaults], eatType[pub], food[Italian], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.7272727272727273,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8931623931623932,0.0017897582000146108
+"name[The Vaults], eatType[pub], food[Italian], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.8571428571428571,0.010204081632653062
+"name[The Vaults], eatType[pub], food[Italian], priceRange[moderate], customer rating[3 out of 5], area[riverside], near[Rainbow Vegetarian Café]",0.9090909090909091,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9615384615384617,0.0014792899408284004
+"name[The Vaults], eatType[pub], food[Italian], customer rating[high], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.9230769230769231,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[more than £30], customer rating[high], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9401098901098901,0.002085798816568047
+"name[The Vaults], eatType[pub], food[Italian], customer rating[high], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9,0.0
+"name[The Vaults], eatType[pub], food[Italian], customer rating[high], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",0.9230769230769231,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Café]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.9090909090909091,0.0
+"name[The Vaults], eatType[pub], food[Italian], priceRange[more than £30], customer rating[high], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8888888888888888,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[£20-25], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.8333333333333334,0.0
+"name[The Vaults], eatType[pub], food[Japanese], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[£20-25], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8925925925925925,0.0033607681755829888
+"name[The Vaults], eatType[pub], eatType[restaurant], food[Japanese], priceRange[£20-25], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Café]",0.8333333333333334,0.0
+"name[The Vaults], eatType[pub], food[Chinese], priceRange[£20-25], near[Rainbow Vegetarian Café]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[£20-25], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.25,0.0
+"name[The Vaults], eatType[pub], food[Japanese], customer rating[high], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Café]",0.8333333333333334,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8516483516483516,0.003159843819184482
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], customer rating[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Vaults], eatType[pub], food[Japanese], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[cheap], customer rating[5 out of 5], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[cheap], customer rating[3 out of 5], familyFriendly[yes], near[Raja Indian Cuisine]",0.5,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[cheap], customer rating[5 out of 5], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9666666666666667,0.0011111111111111107
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[cheap], customer rating[5 out of 5], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[restaurant], priceRange[cheap], near[Raja Indian Cuisine]",0.8666666666666667,0.008888888888888885
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[high], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[high], customer rating[3 out of 5], familyFriendly[no], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[high], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.4444444444444444,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[high], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.125,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[high], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8333333333333334,0.0
+"name[The Vaults], eatType[pub], food[Japanese], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[high], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9666666666666668,0.0011111111111111107
+"name[The Vaults], eatType[pub], food[Japanese], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], priceRange[high], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[less than £20], customer rating[average], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.5,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[less than £20], customer rating[average], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.7833333333333333,0.0005555555555555565
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[less than £20], customer rating[average], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.46227106227106224,0.034715077352439984
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[less than £20], customer rating[average], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.7094126706626706,0.016892694773487423
+"name[The Vaults], eatType[pub], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.5714285714285714,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], customer rating[low], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.6666666666666666,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8164983164983165,0.004495006178507859
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9142857142857144,0.004897959183673473
+"name[The Vaults], eatType[pub], priceRange[less than £20], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], customer rating[low], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[moderate], customer rating[1 out of 5], area[city centre], near[Raja Indian Cuisine]",0.8372183372183373,0.0032676897478762248
+"name[The Vaults], eatType[pub], food[Japanese], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[pub], food[Japanese], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.2857142857142857,0.0
+"name[The Vaults], eatType[pub], food[Japanese], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.9230769230769231,0.0
+"name[The Vaults], eatType[restaurant], food[French], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.7,0.0
+"name[The Vaults], eatType[restaurant], food[French], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9722222222222222,0.0023148148148148173
+"name[The Vaults], eatType[restaurant], food[French], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.5385693671407957,0.05054220326649428
+"name[The Vaults], eatType[restaurant], food[French], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8444444444444446,0.005061728395061726
+"name[The Vaults], eatType[restaurant], food[French], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.36185425685425693,0.062194484579874185
+"name[The Vaults], eatType[restaurant], food[French], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.7272727272727273,0.0
+"name[The Vaults], eatType[restaurant], food[French], priceRange[less than £20], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[restaurant], priceRange[less than £20], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Vaults], eatType[restaurant], food[French], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8757575757575758,0.0016712580348943963
+"name[The Vaults], eatType[restaurant], food[French], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[restaurant], food[French], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9487179487179488,0.001314924391847467
+"name[The Vaults], eatType[restaurant], food[French], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",0.7777777777777778,0.0
+"name[The Vaults], eatType[restaurant], food[French], area[city centre], near[Raja Indian Cuisine]",0.8472222222222222,0.0024434156378600803
+"name[The Vaults], eatType[restaurant], food[French], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[restaurant], food[French], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Vaults], eatType[restaurant], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8666666666666667,0.008888888888888885
+"name[The Vaults], eatType[restaurant], food[French], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8388888888888889,0.009619341563786007
+"name[The Vaults], eatType[restaurant], food[French], priceRange[more than £30], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9545454545454545,0.00206611570247934
+"name[The Vaults], eatType[restaurant], food[French], priceRange[more than £30], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.85,0.002499999999999999
+"name[The Vaults], eatType[restaurant], priceRange[more than £30], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8285714285714285,0.04408163265306123
+"name[The Vaults], eatType[restaurant], food[French], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[restaurant], food[French], area[riverside], near[Raja Indian Cuisine]",0.9259259259259259,0.002743484224965709
+"name[The Vaults], eatType[restaurant], food[French], priceRange[more than £30], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Vaults], eatType[restaurant], food[French], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9255555555555555,0.002396296296296297
+"name[The Vaults], eatType[restaurant], priceRange[more than £30], near[Raja Indian Cuisine]",0.6666666666666666,0.0
+"name[The Vaults], eatType[restaurant], food[Indian], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8933333333333333,0.004029629629629628
+"name[The Vaults], eatType[restaurant], food[Indian], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9259259259259259,0.002743484224965709
+"name[The Vaults], eatType[restaurant], food[Indian], priceRange[cheap], area[riverside], near[Raja Indian Cuisine]",0.9166666666666666,0.0
+"name[The Vaults], eatType[restaurant], food[Indian], priceRange[high], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8845117845117846,0.004808239522044233
+"name[The Vaults], eatType[restaurant], food[Indian], priceRange[high], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.855151515151515,0.00626072849709213
+"name[The Waterman], eatType[pub], food[Indian], priceRange[high], area[riverside], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Waterman], eatType[pub], food[Indian], priceRange[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.7678571428571429,0.005739795918367346
+"name[The Waterman], eatType[pub], food[Indian], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.872086247086247,0.007046408816513711
+"name[The Waterman], eatType[pub], food[Indian], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9333333333333332,0.0022222222222222214
+"name[The Waterman], eatType[pub], food[Indian], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8052713952713952,0.0033848651182317516
+"name[The Waterman], eatType[pub], food[Indian], priceRange[less than £20], area[city centre], near[Raja Indian Cuisine]",0.8333333333333334,0.0
+"name[The Waterman], eatType[pub], food[Indian], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Waterman], eatType[pub], food[Indian], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8715662115662116,0.0027487737580311664
+"name[The Waterman], eatType[pub], food[Indian], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Waterman], eatType[pub], food[Indian], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Waterman], eatType[pub], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.6666666666666666,0.0
+"name[The Waterman], eatType[pub], food[Indian], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.9260295260295259,0.0027212897609168005
+"name[The Waterman], eatType[pub], food[Indian], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Waterman], eatType[pub], food[Indian], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Waterman], eatType[pub], food[Indian], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9329836829836828,0.002541077803315565
+"name[The Waterman], eatType[pub], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Waterman], eatType[pub], food[Indian], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9116161616161617,1.275380063258849e-05
+"name[The Waterman], eatType[pub], food[Italian], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9393939393939394,0.001836547291092747
+"name[The Waterman], eatType[pub], food[Italian], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9379870129870129,0.005366313880924268
+"name[The Waterman], eatType[pub], food[Italian], priceRange[high], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8333333333333334,0.0
+"name[The Waterman], eatType[pub], food[Italian], priceRange[high], area[city centre], near[Raja Indian Cuisine]",0.9487179487179488,0.001314924391847467
+"name[The Waterman], eatType[pub], food[Italian], priceRange[high], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.845848595848596,0.003992200649709807
+"name[The Waterman], eatType[pub], food[Italian], priceRange[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9642857142857144,0.0012755102040816315
+"name[The Waterman], eatType[pub], food[Italian], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9340659340659341,0.002644104979269815
+"name[The Waterman], eatType[pub], food[Italian], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Waterman], eatType[pub], priceRange[high], familyFriendly[yes], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[The Waterman], eatType[pub], food[Italian], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.6,0.08
+"name[The Waterman], eatType[pub], food[Italian], priceRange[moderate], familyFriendly[yes], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Waterman], eatType[pub], food[Italian], priceRange[less than £20], familyFriendly[yes], near[Raja Indian Cuisine]",0.5,0.0
+"name[The Waterman], eatType[pub], food[Italian], priceRange[less than £20], area[riverside], near[Raja Indian Cuisine]",0.7692307692307693,0.0
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[high], area[riverside], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.888888888888889,0.0061728395061728366
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8456228956228956,0.010383435930573977
+"name[The Waterman], eatType[restaurant], food[Indian], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9166666666666666,0.0034722222222222225
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.7648484848484849,0.005212029384756659
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[less than £20], area[city centre], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8834343434343433,0.004241954902560959
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Waterman], eatType[restaurant], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.6666666666666666,0.0
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.9107070707070708,0.003951270278543004
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9193939393939393,0.003685705540250995
+"name[The Waterman], eatType[restaurant], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Waterman], eatType[restaurant], food[Indian], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8925925925925925,2.7434842249657413e-05
+"name[The Waterman], eatType[restaurant], food[Italian], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9259259259259259,0.002743484224965709
+"name[The Waterman], eatType[restaurant], food[Italian], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9241071428571429,0.00802582317649282
+"name[The Waterman], eatType[restaurant], food[Italian], priceRange[high], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Waterman], eatType[restaurant], food[Italian], priceRange[high], area[city centre], near[Raja Indian Cuisine]",0.8659932659932661,0.0022455758482694474
+"name[The Waterman], eatType[restaurant], food[Italian], priceRange[high], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.9444444444444443,0.0030864197530864226
+"name[The Waterman], eatType[restaurant], food[Italian], priceRange[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9583333333333334,0.0017361111111111127
+"name[The Waterman], eatType[restaurant], food[Italian], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9214285714285712,0.0037202732332602445
+"name[The Waterman], eatType[restaurant], food[Italian], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Waterman], eatType[restaurant], priceRange[high], familyFriendly[yes], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Waterman], eatType[restaurant], food[Italian], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.6296296296296297,0.06858710562414266
+"name[The Waterman], eatType[restaurant], food[Italian], priceRange[moderate], familyFriendly[yes], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Waterman], eatType[restaurant], food[Italian], priceRange[less than £20], familyFriendly[yes], near[Raja Indian Cuisine]",0.5,0.0
+"name[The Waterman], eatType[restaurant], food[Italian], priceRange[less than £20], area[riverside], near[Raja Indian Cuisine]",0.7272727272727273,0.0
+"name[The Wrestlers], eatType[pub], priceRange[less than £20], familyFriendly[no], near[Raja Indian Cuisine]",0.8079365079365078,0.013618039808516003
+"name[The Wrestlers], eatType[pub], food[Italian], priceRange[less than £20], area[riverside], near[Raja Indian Cuisine]",0.7272727272727273,0.0
+"name[The Wrestlers], eatType[pub], priceRange[less than £20], near[Raja Indian Cuisine]",0.9523809523809523,0.004535147392290253
+"name[The Wrestlers], eatType[pub], familyFriendly[no], near[Raja Indian Cuisine]",0.6944444444444443,0.0015432098765432113
+"name[The Wrestlers], eatType[pub], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[pub], priceRange[less than £20], area[riverside], near[Raja Indian Cuisine]",0.7777777777777777,0.024691358024691367
+"name[The Wrestlers], eatType[pub], food[Italian], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[pub], food[Italian], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9393939393939394,0.001836547291092747
+"name[The Wrestlers], eatType[pub], food[Italian], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[pub], food[Italian], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.832010582010582,0.0035308362027938723
+"name[The Wrestlers], eatType[pub], food[Italian], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.936234136234136,0.0027336071987716635
+"name[The Wrestlers], eatType[pub], familyFriendly[yes], near[Raja Indian Cuisine]",0.8800000000000001,0.009599999999999996
+"name[The Wrestlers], eatType[pub], priceRange[moderate], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[pub], food[Italian], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8253968253968255,0.0008818342151675481
+"name[The Wrestlers], eatType[pub], food[Japanese], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9204224058769512,0.005724116867818342
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9636363636363636,0.0019834710743801666
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.5622680890538034,0.1500426577381669
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9444444444444445,0.0015432098765432113
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.7298951048951049,0.02408201501295908
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.35353535353535354,0.08835833078257321
+"name[The Wrestlers], eatType[pub], food[Japanese], area[city centre], near[Raja Indian Cuisine]",0.8993265993265993,0.003401580337607272
+"name[The Wrestlers], eatType[pub], food[Japanese], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.6666666666666666,0.05555555555555555
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8547008547008548,0.006885090218423549
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8587912087912087,0.003657435360732064
+"name[The Wrestlers], eatType[pub], food[Japanese], near[Raja Indian Cuisine]",0.8659932659932661,0.0022455758482694474
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9086580086580087,0.0033378830564977737
+"name[The Wrestlers], eatType[pub], priceRange[less than £20], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[pub], area[city centre], near[Raja Indian Cuisine]",0.9285714285714285,0.0051020408163265345
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9007326007326008,0.002932469240161549
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",0.8333333333333334,0.0
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8024410774410774,0.0066740142729199954
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.890909090909091,0.0038292011019283724
+"name[The Wrestlers], eatType[pub], near[Raja Indian Cuisine]",0.9047619047619048,0.004535147392290252
+"name[The Wrestlers], eatType[pub], food[Japanese], area[riverside], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.9230769230769231,0.0
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[moderate], area[riverside], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], customer rating[1 out of 5], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[more than £30], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9642857142857144,0.0012755102040816315
+"name[The Wrestlers], eatType[pub], priceRange[more than £30], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[more than £30], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.7272727272727273,0.0
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[more than £30], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[pub], priceRange[more than £30], familyFriendly[yes], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9454545454545453,0.0019834710743801666
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[more than £30], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9027777777777778,0.002422839506172839
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[more than £30], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.888888888888889,0.0061728395061728366
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[more than £30], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8996336996336997,0.002313274027559743
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[more than £30], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[more than £30], customer rating[5 out of 5], area[riverside], near[Raja Indian Cuisine]",0.8974358974358975,0.005259697567389875
+"name[The Wrestlers], eatType[pub], priceRange[more than £30], customer rating[5 out of 5], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Wrestlers], eatType[pub], priceRange[less than £20], area[city centre], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Wrestlers], eatType[pub], food[Fast food], food[Japanese], priceRange[more than £30], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[more than £30], customer rating[low], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.6504273504273504,0.08785722112645192
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[more than £30], customer rating[low], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9555555555555556,0.000987654320987654
+"name[The Wrestlers], eatType[pub], food[Japanese], priceRange[more than £30], customer rating[low], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8296037296037296,0.010078026092012105
+"name[The Wrestlers], eatType[restaurant], priceRange[less than £20], familyFriendly[no], near[Raja Indian Cuisine]",0.8666666666666667,0.008888888888888885
+"name[The Wrestlers], eatType[restaurant], food[Italian], priceRange[less than £20], area[riverside], near[Raja Indian Cuisine]",0.6666666666666666,0.0
+"name[The Wrestlers], eatType[restaurant], priceRange[less than £20], near[Raja Indian Cuisine]",0.9333333333333335,0.008888888888888885
+"name[The Wrestlers], eatType[restaurant], familyFriendly[no], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Wrestlers], eatType[restaurant], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], priceRange[less than £20], area[riverside], near[Raja Indian Cuisine]",0.8666666666666667,0.008888888888888885
+"name[The Wrestlers], eatType[restaurant], food[Italian], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], food[Italian], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9259259259259259,0.002743484224965709
+"name[The Wrestlers], eatType[restaurant], food[Italian], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], food[Italian], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.9047619047619048,0.004535147392290252
+"name[The Wrestlers], eatType[restaurant], food[Italian], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9407407407407404,0.0030727023319615946
+"name[The Wrestlers], eatType[restaurant], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], priceRange[moderate], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], food[Italian], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8611111111111112,0.0015432098765432072
+"name[The Wrestlers], eatType[restaurant], food[Japanese], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9454545454545454,0.0038429752066115696
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9555555555555555,0.002962962962962966
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.5591836734693878,0.1388377527881901
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9333333333333332,0.0022222222222222214
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.6683501683501684,0.036200954551122905
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.35555555555555557,0.07506172839506171
+"name[The Wrestlers], eatType[restaurant], food[Japanese], area[city centre], near[Raja Indian Cuisine]",0.75,0.0
+"name[The Wrestlers], eatType[restaurant], food[Japanese], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.5555555555555555,0.09876543209876543
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8272727272727273,0.009669421487603302
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8645454545454545,0.006437190082644628
+"name[The Wrestlers], eatType[restaurant], food[Japanese], near[Raja Indian Cuisine]",0.9047619047619048,0.004535147392290252
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9269841269841269,0.002675736961451249
+"name[The Wrestlers], eatType[restaurant], priceRange[less than £20], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], area[city centre], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9136363636363637,0.004180440771349861
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8558201058201057,0.007562078329274095
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8657407407407406,0.0057013031550068585
+"name[The Wrestlers], eatType[restaurant], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Wrestlers], eatType[restaurant], food[Japanese], area[riverside], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[more than £30], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9583333333333334,0.0017361111111111127
+"name[The Wrestlers], eatType[restaurant], priceRange[more than £30], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[more than £30], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[more than £30], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], priceRange[more than £30], familyFriendly[yes], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Wrestlers], eatType[restaurant], food[Japanese], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9333333333333333,0.0029629629629629654
+"name[Wildwood], eatType[coffee shop], area[riverside]",0.8999999999999999,0.009999999999999995
+"name[Wildwood], eatType[pub], area[riverside]",0.8999999999999999,0.009999999999999997
+"name[Wildwood], eatType[pub], food[French], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9588263588263588,0.004077989481228218
+"name[Wildwood], eatType[pub], food[French], area[riverside], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[Wildwood], eatType[pub], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[Wildwood], eatType[pub], food[Indian], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8950234950234952,0.005263996975248686
+"name[Wildwood], eatType[pub], food[Indian], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[Wildwood], eatType[pub], food[Indian], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[Wildwood], eatType[pub], food[Indian], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8418803418803419,0.003981298853093725
+"name[Wildwood], eatType[pub], food[Indian], area[riverside], near[Raja Indian Cuisine]",1.0,0.0
+"name[Wildwood], eatType[pub], food[Indian], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9352718360071302,0.003337070274147577
+"name[Wildwood], eatType[pub], food[Italian], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.5787037037037036,0.05617712620027435
+"name[Wildwood], eatType[pub], food[Italian], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.6666666666666665,0.1037037037037037
+"name[Wildwood], eatType[pub], food[Italian], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9273504273504274,0.002748557235736723
+"name[Wildwood], eatType[pub], priceRange[cheap], near[Raja Indian Cuisine]",1.0,0.0
+"name[Wildwood], food[Italian], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[Wildwood], eatType[restaurant], food[French], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9124182108309093,0.008504069745608309
+"name[Wildwood], eatType[restaurant], food[French], area[riverside], near[Raja Indian Cuisine]",1.0,0.0
+"name[Wildwood], eatType[restaurant], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[Wildwood], eatType[restaurant], food[Indian], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.7652683295540438,0.02186318400712095
+"name[Wildwood], eatType[restaurant], food[Indian], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.9444444444444443,0.0030864197530864226
+"name[Wildwood], eatType[restaurant], food[Indian], familyFriendly[yes], near[Raja Indian Cuisine]",0.9047619047619048,0.004535147392290252
+"name[Wildwood], eatType[restaurant], food[Indian], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8121212121212121,0.005583103764921943
+"name[Wildwood], eatType[restaurant], food[Indian], area[riverside], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[Wildwood], eatType[restaurant], food[Indian], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8938725490196078,0.006361101766414626
+"name[Wildwood], eatType[restaurant], food[Italian], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.6031746031746031,0.047933988410178895
+"name[Wildwood], eatType[restaurant], food[Italian], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.6844444444444445,0.09272098765432099
+"name[Wildwood], eatType[restaurant], food[Italian], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8718337218337219,0.00454334752703051
+"name[Wildwood], eatType[restaurant], priceRange[cheap], near[Raja Indian Cuisine]",1.0,0.0
+"name[Zizzi], eatType[coffee shop], area[riverside]",0.8666666666666667,0.008888888888888885
+"name[Zizzi], eatType[coffee shop], customer rating[average], near[Burger King]",1.0,0.0
+"name[Zizzi], eatType[coffee shop], near[Burger King]",0.9047619047619048,0.004535147392290252
+"name[Zizzi], eatType[coffee shop], customer rating[high], near[Burger King]",0.9142857142857143,0.004897959183673473
+"name[Zizzi], eatType[coffee shop], near[The Sorrento]",1.0,0.0
+"name[Zizzi], eatType[pub], area[riverside]",0.8666666666666667,0.008888888888888885
+"name[Zizzi], eatType[pub], customer rating[average], near[Burger King]",1.0,0.0
+"name[Zizzi], eatType[pub], near[Burger King]",0.9047619047619048,0.004535147392290252
+"name[Zizzi], eatType[pub], customer rating[high], near[Burger King]",0.9142857142857144,0.004897959183673473
+"name[Zizzi], eatType[pub], near[The Sorrento]",1.0,0.0

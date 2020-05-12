@@ -1,0 +1,799 @@
+mr,slot score,slot variance
+"name[Alimentum], area[city centre], familyFriendly[no]",0.9142857142857144,0.004897959183673472
+"name[Alimentum], area[city centre], familyFriendly[no], near[Burger King]",0.6571428571428571,0.03779289493575208
+"name[Alimentum], area[city centre], familyFriendly[yes]",0.7333333333333334,0.03222222222222223
+"name[Alimentum], eatType[restaurant], area[city centre], familyFriendly[yes]",0.6666666666666666,0.0
+"name[Alimentum], area[city centre], familyFriendly[yes], near[Burger King]",0.7412698412698412,0.03689846308893928
+"name[Alimentum], area[riverside], familyFriendly[no]",0.5615873015873016,0.07545114638447972
+"name[Alimentum], area[riverside], familyFriendly[yes]",0.8452956989247311,0.07020188388831079
+"name[Alimentum], area[riverside], familyFriendly[no], near[Burger King]",0.6636507936507937,0.017928042328042328
+"name[Alimentum], familyFriendly[no], near[Burger King]",0.7777777777777777,0.024691358024691367
+"name[Alimentum], eatType[restaurant], area[riverside], familyFriendly[yes]",0.8533333333333335,0.01648888888888889
+"name[Alimentum], area[riverside], familyFriendly[yes], near[Burger King]",0.8605970418470419,0.06855704923058142
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[1 out of 5], area[riverside]",0.9259259259259259,0.002743484224965709
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[1 out of 5], area[riverside], familyFriendly[yes]",0.9259259259259259,0.002743484224965709
+"name[Aromi], eatType[coffee shop], food[Chinese], area[riverside], familyFriendly[yes]",0.9428571428571428,0.008163265306122448
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[3 out of 5], area[riverside], familyFriendly[yes]",0.8518518518518517,0.010973936899862825
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[3 out of 5], area[riverside], familyFriendly[no]",1.0,0.0
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], area[city centre], familyFriendly[no]",0.7984126984126984,0.013134290753338376
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], area[city centre], familyFriendly[yes]",0.8740740740740742,0.005994513031550068
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], area[riverside], familyFriendly[no]",0.9393939393939394,0.001836547291092747
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], area[riverside], familyFriendly[yes]",0.505177626606198,0.08120647032643576
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[average], area[city centre], familyFriendly[no]",0.914918414918415,0.0028058965121902173
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[average], area[city centre]",1.0,0.0
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[average], area[city centre], familyFriendly[yes]",0.9629629629629631,0.0027434842249657093
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[average], area[riverside], familyFriendly[no]",0.9487179487179488,0.001314924391847467
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[average], area[riverside], familyFriendly[yes]",0.9499999999999998,0.0032142857142857134
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[high], area[riverside], familyFriendly[yes]",0.9226190476190476,0.00509023053665911
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[low], area[city centre], familyFriendly[no]",0.8989898989898989,0.0031884501581471263
+"name[Aromi], eatType[coffee shop], food[Chinese], area[city centre], familyFriendly[no]",0.9,0.0
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[low], area[riverside], familyFriendly[no]",1.0,0.0
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[low], area[riverside]",1.0,0.0
+"name[Aromi], eatType[coffee shop], food[Chinese], customer rating[low], area[riverside], familyFriendly[yes]",0.9333333333333332,0.0022222222222222214
+"name[Aromi], eatType[coffee shop], food[English], customer rating[1 out of 5], area[riverside], familyFriendly[yes]",0.7956459435626102,0.014099063629509875
+"name[Aromi], eatType[coffee shop], food[English], customer rating[3 out of 5], area[riverside], familyFriendly[yes]",0.9407407407407409,0.0030727023319615946
+"name[Aromi], eatType[coffee shop], food[English], customer rating[5 out of 5], area[city centre], familyFriendly[no]",0.8451548451548452,0.003331999335995336
+"name[Aromi], eatType[coffee shop], eatType[restaurant], food[English], customer rating[5 out of 5], area[city centre], familyFriendly[no]",0.75,0.0
+"name[Aromi], eatType[coffee shop], customer rating[5 out of 5], area[city centre], familyFriendly[yes]",0.6666666666666666,0.0
+"name[Aromi], eatType[coffee shop], food[English], customer rating[5 out of 5], area[city centre], familyFriendly[yes]",0.8571428571428571,0.0
+"name[Aromi], eatType[coffee shop], food[English], customer rating[5 out of 5], area[riverside], familyFriendly[no]",0.9230769230769231,0.0
+"name[Aromi], eatType[coffee shop], food[English], area[riverside], familyFriendly[no]",0.5,0.0
+"name[Aromi], eatType[coffee shop], food[English], customer rating[5 out of 5], area[riverside], familyFriendly[yes]",0.5616931216931218,0.08263537974860727
+"name[Aromi], eatType[coffee shop], customer rating[5 out of 5], area[riverside], familyFriendly[yes]",1.0,0.0
+"name[Aromi], eatType[coffee shop], priceRange[cheap]",0.8,0.0
+"name[Aromi], eatType[coffee shop], food[English], customer rating[average], area[city centre], familyFriendly[no]",0.8823620823620824,0.006403911205776008
+"name[Aromi], eatType[coffee shop], food[English], customer rating[average], area[city centre], familyFriendly[yes]",0.7478835978835979,0.021962221102432743
+"name[Aromi], eatType[coffee shop], food[English], customer rating[average], area[riverside], familyFriendly[no]",0.7516835016835017,0.0004265437767121268
+"name[Aromi], eatType[coffee shop], area[city centre], familyFriendly[yes]",1.0,0.0
+"name[Aromi], eatType[coffee shop], food[English], customer rating[average], area[riverside], familyFriendly[yes]",0.9174603174603172,0.004527588813303099
+"name[Aromi], eatType[coffee shop], food[English], area[riverside]",0.7916666666666666,0.017361111111111115
+"name[Aromi], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[high], area[riverside], familyFriendly[yes]",1.0,0.0
+"name[Aromi], eatType[coffee shop], food[English], customer rating[high], area[riverside], familyFriendly[yes]",0.9523809523809523,0.003023431594860169
+"name[Aromi], eatType[coffee shop], food[English], customer rating[low], area[city centre], familyFriendly[no]",0.9487179487179488,0.001314924391847467
+"name[Aromi], eatType[coffee shop], food[English], customer rating[low], area[city centre], familyFriendly[yes]",0.6666666666666666,0.0
+"name[Aromi], eatType[coffee shop], food[English], familyFriendly[no]",1.0,0.0
+"name[Aromi], eatType[coffee shop], food[English], customer rating[low], area[riverside], familyFriendly[no]",0.9230769230769231,0.0
+"name[Aromi], eatType[coffee shop], customer rating[low], area[riverside], familyFriendly[yes]",0.4,0.0
+"name[Aromi], eatType[coffee shop], food[English], customer rating[low], area[riverside], familyFriendly[yes]",0.8,0.0
+"name[Bibimbap House], area[riverside], near[Café Sicilia]",0.9696969696969697,0.004132231404958674
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[1 out of 5], area[riverside], near[Crowne Plaza Hotel]",0.9090909090909091,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9054545454545455,0.004019834710743799
+"name[Browns Cambridge], eatType[coffee shop], eatType[restaurant], food[Chinese], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], area[city centre], near[Crowne Plaza Hotel]",0.9090909090909091,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.7272727272727273,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9474747474747471,0.001847770635649425
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9227272727272725,0.00313131313131313
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.9538461538461538,0.0014201183431952645
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[average], area[city centre], near[Crowne Plaza Hotel]",1.0,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[average], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",1.0,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[average], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.8840677840677843,0.00815739048413781
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[average], area[riverside], near[Crowne Plaza Hotel]",0.9444444444444443,0.0015432098765432113
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[high], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9498556998556997,0.0026809009492992186
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[low], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.9405895691609978,0.004292450162226645
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[low], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9393939393939394,0.001836547291092747
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[low], area[riverside], near[Crowne Plaza Hotel]",0.8181818181818182,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[low], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.9333333333333333,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[Chinese], customer rating[low], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.7350168350168351,0.001038216055051073
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[1 out of 5], area[riverside], near[Crowne Plaza Hotel]",1.0,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[1 out of 5], area[riverside], familyFriendly[yes]",1.0,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[English], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.8694444444444445,0.005964506172839505
+"name[Browns Cambridge], eatType[coffee shop], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.875,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.48284030784030785,0.0355728042756061
+"name[Browns Cambridge], eatType[coffee shop], food[English], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",1.0,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.5333333333333333,0.024814814814814817
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.8390720390720392,0.01096748320191544
+"name[Browns Cambridge], eatType[coffee shop], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.4388888888888889,0.02969135802469135
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9393939393939394,0.001836547291092747
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[average], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.6929292929292928,0.029392919089888794
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[average], area[city centre], near[Crowne Plaza Hotel]",1.0,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[average], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.4487734487734487,0.039158853011666876
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[average], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[average], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.6019047619047619,0.09296235827664398
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[average], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.6564935064935066,0.14085019958396583
+"name[Browns Cambridge], eatType[coffee shop], food[English], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[high], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9338383838383838,0.004442658912355881
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[high], familyFriendly[yes], near[Crowne Plaza Hotel]",1.0,0.0
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[low], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.888888888888889,0.0061728395061728366
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[low], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.5195238095238095,0.01946235827664399
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[low], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.5703703703703703,0.008669410150891633
+"name[Browns Cambridge], eatType[coffee shop], food[English], customer rating[low], area[riverside], familyFriendly[yes]",0.9365079365079365,0.003023431594860169
+"name[Browns Cambridge], eatType[coffee shop], customer rating[low], area[city centre], familyFriendly[yes]",0.6666666666666666,0.0
+"name[Clowns], eatType[coffee shop], food[Chinese], customer rating[1 out of 5], area[riverside], near[Clare Hall]",0.9343434343434345,0.0046642470884895116
+"name[Clowns], eatType[coffee shop], food[Chinese], customer rating[3 out of 5], area[riverside], near[Clare Hall]",0.8966810966810967,0.0034067119348504603
+"name[Clowns], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], area[city centre], near[Clare Hall]",1.0,0.0
+"name[Clowns], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], area[riverside], near[Clare Hall]",0.9454545454545455,0.0019834710743801666
+"name[Clowns], eatType[coffee shop], food[Chinese], area[riverside], near[Clare Hall]",0.7986531986531986,0.0002729880170957617
+"name[Clowns], eatType[coffee shop], food[Chinese], customer rating[average], area[city centre], near[Clare Hall]",0.9545454545454546,0.00206611570247934
+"name[Clowns], eatType[coffee shop], food[Chinese], customer rating[average], area[riverside], near[Clare Hall]",0.9696969696969695,0.001836547291092747
+"name[Clowns], eatType[coffee shop], food[Chinese], customer rating[high], area[riverside], near[Clare Hall]",0.9199999999999999,0.009599999999999997
+"name[Clowns], eatType[coffee shop], food[Chinese], customer rating[low], area[city centre], near[Clare Hall]",0.8666666666666667,0.008888888888888885
+"name[Clowns], eatType[coffee shop], food[Chinese], priceRange[cheap], area[city centre], near[Clare Hall]",1.0,0.0
+"name[Clowns], eatType[coffee shop], food[Chinese], customer rating[low], area[riverside], near[Clare Hall]",0.9696969696969695,0.001836547291092747
+"name[Clowns], eatType[coffee shop], food[English], customer rating[1 out of 5], area[riverside], near[Clare Hall]",0.9327946127946126,0.0036461404165107885
+"name[Clowns], eatType[coffee shop], food[English], area[riverside], near[Clare Hall]",0.8481240981240983,0.009493799050076105
+"name[Clowns], eatType[coffee shop], food[English], customer rating[1 out of 5], near[Clare Hall]",0.8888888888888888,0.0
+"name[Clowns], eatType[coffee shop], food[English], customer rating[5 out of 5], area[riverside], near[Clare Hall]",0.820050505050505,0.012866240689725536
+"name[Clowns], eatType[coffee shop], food[English], customer rating[5 out of 5], area[city centre], near[Clare Hall]",0.9515151515151513,0.0020569329660238764
+"name[Clowns], eatType[coffee shop], food[English], near[Clare Hall]",1.0,0.0
+"name[Clowns], eatType[coffee shop], food[English], customer rating[average], area[city centre], near[Clare Hall]",0.9393939393939394,0.001836547291092747
+"name[Clowns], eatType[coffee shop], food[English], area[city centre], near[Clare Hall]",0.8706228956228955,0.0025647397090999744
+"name[Clowns], eatType[coffee shop], food[English], customer rating[average], area[riverside], near[Clare Hall]",0.8863913863913864,0.0030727002921475096
+"name[Clowns], eatType[coffee shop], food[English], customer rating[high], area[riverside], near[Clare Hall]",0.9243506493506495,0.003613067127677516
+"name[Clowns], eatType[coffee shop], food[English], customer rating[low], area[city centre], near[Clare Hall]",0.9395604395604396,0.0019381717183914984
+"name[Clowns], eatType[coffee shop], customer rating[low], area[riverside], near[Clare Hall]",0.8333333333333334,0.01388888888888889
+"name[Clowns], eatType[coffee shop], food[English], customer rating[low], area[riverside], near[Clare Hall]",0.8106227106227107,0.0006652444015081376
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[£20-25], customer rating[high], familyFriendly[no]",0.8,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[more than £30], priceRange[£20-25], customer rating[high], familyFriendly[yes]",1.0,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5]",0.8214285714285715,0.0025510204081632634
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[3 out of 5], familyFriendly[no]",0.8888888888888888,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], familyFriendly[no]",1.0,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], familyFriendly[yes]",0.6234920634920635,0.07732768959435626
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], familyFriendly[no]",1.0,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], familyFriendly[yes]",1.0,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], familyFriendly[no]",0.9259259259259259,0.002743484224965709
+"name[Cocum], eatType[coffee shop], eatType[restaurant], food[Chinese], priceRange[high], customer rating[1 out of 5], familyFriendly[no]",0.7999999999999999,0.020000000000000007
+"name[Cocum], eatType[coffee shop], food[Chinese], customer rating[1 out of 5], familyFriendly[yes]",1.0,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[high]",1.0,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], familyFriendly[no]",0.9393939393939394,0.001836547291092747
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], familyFriendly[yes]",0.8993265993265993,0.003401580337607272
+"name[Cocum], eatType[coffee shop], priceRange[high], customer rating[average], familyFriendly[yes]",0.8,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], customer rating[low], familyFriendly[no]",1.0,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], familyFriendly[no]",0.9393939393939394,0.001836547291092747
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], familyFriendly[yes]",0.8867346938775511,0.005258379995989328
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], familyFriendly[no]",0.8861952861952863,0.005094653444821792
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], familyFriendly[yes]",0.8976190476190476,0.00384637188208617
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[moderate], familyFriendly[no]",1.0,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], familyFriendly[no]",0.8845117845117844,0.004808239522044233
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], familyFriendly[yes]",0.8555555555555555,0.009074074074074073
+"name[Cocum], eatType[coffee shop], food[Chinese], familyFriendly[yes]",1.0,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], familyFriendly[no]",0.9090909090909091,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], customer rating[high], familyFriendly[no]",1.0,0.0
+"name[Cocum], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high]",0.75,0.0
+"name[Cocum], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high]",1.0,0.0
+"name[Cocum], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high], familyFriendly[no]",1.0,0.0
+"name[Cocum], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high], familyFriendly[yes]",0.7847222222222223,0.005899562757201646
+"name[Cocum], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], familyFriendly[no]",0.8114718614718616,0.013021167144543771
+"name[Cocum], eatType[coffee shop], priceRange[cheap], customer rating[5 out of 5], familyFriendly[yes]",0.6666666666666666,0.0
+"name[Cocum], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], familyFriendly[yes]",0.9083333333333334,0.005254629629629632
+"name[Cocum], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], familyFriendly[no]",0.7887205387205388,0.00921816367944314
+"name[Cocum], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], familyFriendly[yes]",0.9259259259259259,0.002743484224965709
+"name[Cocum], eatType[coffee shop], priceRange[cheap], customer rating[average], familyFriendly[yes]",0.7984126984126984,0.013134290753338376
+"name[Cocum], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], familyFriendly[no]",0.8181818181818182,0.0
+"name[Cocum], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], familyFriendly[yes]",0.8681481481481481,0.017314677640603567
+"name[Cocum], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], familyFriendly[yes]",0.6301587301587301,0.07816830435878054
+"name[Cocum], eatType[coffee shop], food[English], priceRange[high], customer rating[average], familyFriendly[yes]",0.8562962962962964,0.004797805212620024
+"name[Cocum], eatType[coffee shop], customer rating[5 out of 5], customer rating[average]",1.0,0.0
+"name[Cocum], eatType[coffee shop], priceRange[high], customer rating[average]",1.0,0.0
+"name[Cocum], eatType[coffee shop], priceRange[less than £20], familyFriendly[no]",0.611111111111111,0.0061728395061728366
+"name[Cocum], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], familyFriendly[no]",0.8699800199800201,0.005212006608110504
+"name[Cocum], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], familyFriendly[yes]",0.4279195011337868,0.11916558927992967
+"name[Cocum], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], familyFriendly[no]",0.9023892773892775,0.0009863913928599237
+"name[Cocum], eatType[coffee shop], priceRange[cheap], area[city centre]",0.8,0.0
+"name[Cocum], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], familyFriendly[yes]",0.850925925925926,0.007007887517146775
+"name[Cocum], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], familyFriendly[no]",0.7866161616161617,0.012940324966840123
+"name[Cocum], eatType[coffee shop], eatType[restaurant]",1.0,0.0
+"name[Cocum], eatType[coffee shop], eatType[restaurant], priceRange[moderate], customer rating[3 out of 5]",1.0,0.0
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], area[city centre], near[The Portland Arms]",0.914918414918415,0.0028058965121902173
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[£20-25], area[city centre], near[The Portland Arms]",0.75,0.0
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[£20-25], customer rating[high], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[£20-25], customer rating[high], area[riverside], near[The Portland Arms]",0.8095238095238094,0.0011337868480725613
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[city centre], near[The Portland Arms]",0.8333333333333334,0.008333333333333333
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], area[city centre], near[The Portland Arms]",0.947863247863248,0.0022894294689166468
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], area[riverside], near[The Portland Arms]",0.9010989010989011,0.0009660669001328371
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[city centre], near[The Portland Arms]",0.9252525252525251,0.004575043362922149
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[riverside], near[The Portland Arms]",0.9487179487179488,0.001314924391847467
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], area[city centre], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], area[riverside], near[The Portland Arms]",0.9487179487179488,0.001314924391847467
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], area[city centre], near[The Portland Arms]",0.9478021978021978,0.0011728655959425175
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], area[riverside], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], priceRange[moderate], customer rating[1 out of 5], area[city centre], near[The Portland Arms]",0.6666666666666666,0.0
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[city centre], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[riverside], near[The Portland Arms]",0.914918414918415,0.0028058965121902178
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[city centre], near[The Portland Arms]",0.9393939393939394,0.001836547291092747
+"name[Cotto], eatType[coffee shop], eatType[restaurant], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[city centre], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[moderate], area[riverside], near[The Portland Arms]",0.9393939393939394,0.001836547291092747
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[riverside], near[The Portland Arms]",0.8333333333333334,0.0
+"name[Cotto], eatType[coffee shop], eatType[restaurant], food[Chinese], customer rating[high], area[city centre], near[The Portland Arms]",0.9090909090909091,0.0
+"name[Cotto], eatType[coffee shop], eatType[restaurant], food[Chinese], priceRange[more than £30], customer rating[high], area[riverside], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], area[riverside], near[The Portland Arms]",0.9615384615384617,0.0014792899408284004
+"name[Cotto], eatType[coffee shop], food[English], customer rating[high], area[city centre], near[The Portland Arms]",0.9615384615384617,0.0014792899408284004
+"name[Cotto], eatType[coffee shop], food[English], area[city centre], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[city centre], near[The Portland Arms]",0.6975524475524475,0.003461864475850488
+"name[Cotto], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[riverside], near[The Portland Arms]",0.888888888888889,0.0061728395061728366
+"name[Cotto], eatType[coffee shop], food[English], priceRange[cheap], area[city centre], near[The Portland Arms]",0.8461538461538461,0.0
+"name[Cotto], eatType[coffee shop], priceRange[cheap], area[city centre], near[The Portland Arms]",0.8,0.0
+"name[Cotto], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], area[city centre], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], area[riverside], near[The Portland Arms]",0.8278943278943279,0.006404671905837409
+"name[Cotto], eatType[coffee shop], eatType[restaurant], priceRange[cheap], customer rating[average], area[city centre], near[The Portland Arms]",0.75,0.0
+"name[Cotto], eatType[coffee shop], priceRange[cheap], customer rating[average], area[riverside], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], priceRange[moderate], near[The Portland Arms]",0.8839285714285713,0.0027370323129251722
+"name[Cotto], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], area[city centre], near[The Portland Arms]",0.8952991452991452,0.003529293593396158
+"name[Cotto], eatType[coffee shop], food[English], priceRange[high], area[riverside], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], food[English], priceRange[cheap], priceRange[high], customer rating[1 out of 5], area[riverside], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], food[English], priceRange[high], customer rating[average], area[city centre], near[The Portland Arms]",0.8532356532356533,0.011298629467127633
+"name[Cotto], eatType[coffee shop], food[English], priceRange[high], customer rating[average], area[riverside], near[The Portland Arms]",0.9487179487179488,0.001314924391847467
+"name[Cotto], eatType[coffee shop], food[English], priceRange[high], customer rating[average], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], area[city centre], near[The Portland Arms]",0.88011988011988,0.007209060780489353
+"name[Cotto], eatType[coffee shop], priceRange[less than £20], customer rating[low], near[The Portland Arms]",0.8571428571428571,0.0
+"name[Cotto], eatType[coffee shop], food[English], customer rating[low], area[riverside], near[The Portland Arms]",0.8181818181818182,0.0
+"name[Cotto], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], area[riverside], near[The Portland Arms]",0.9642857142857144,0.0012755102040816315
+"name[Cotto], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], area[city centre], near[The Portland Arms]",0.8277777777777778,0.0070987654320987656
+"name[Cotto], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], area[riverside], near[The Portland Arms]",0.9615384615384616,0.0014792899408284004
+"name[Cotto], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], area[city centre], near[The Portland Arms]",0.8333333333333334,0.0
+"name[Cotto], eatType[coffee shop], priceRange[moderate], customer rating[3 out of 5], area[riverside], near[The Portland Arms]",1.0,0.0
+"name[Cotto], eatType[coffee shop], food[English], customer rating[3 out of 5], area[riverside], near[The Portland Arms]",0.8,0.0
+"name[Cotto], eatType[coffee shop], food[English], priceRange[more than £30], customer rating[high], area[city centre], near[The Portland Arms]",0.9245454545454546,0.0030917355371900814
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], customer rating[high], area[city centre], familyFriendly[no]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[£20-25], customer rating[high], area[city centre]",0.7692307692307693,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], customer rating[high], area[city centre], familyFriendly[yes]",0.7645502645502645,0.028421656728535038
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[no]",0.9545454545454545,0.00206611570247934
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[yes]",0.8811447811447812,0.004699407089979477
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[no]",0.7034038086669666,0.025091397947740342
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes]",0.9444444444444443,0.0015432098765432113
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], familyFriendly[yes]",0.8571428571428571,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[no]",0.8556721056721058,0.01056486356602907
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], familyFriendly[yes]",0.75,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[yes]",0.8674825174825175,0.008895789525160151
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], area[riverside]",0.7888888888888889,0.0060082304526748965
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], area[riverside], familyFriendly[yes]",0.5714285714285714,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], area[city centre], familyFriendly[no]",0.9333333333333333,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], area[city centre], familyFriendly[no]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], area[city centre], familyFriendly[yes]",0.8770202020202021,0.002341916641159062
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], area[riverside]",0.7388888888888889,0.017469135802469133
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[no]",0.8634920634920635,0.002983119173595363
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[yes]",0.8666666666666667,0.008888888888888885
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[city centre]",0.8888888888888888,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[no]",0.8909090909090909,0.017851239669421485
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[high], area[city centre]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[yes]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[no]",0.8757575757575757,0.00882920110192837
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[riverside]",0.9090909090909091,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], area[city centre], familyFriendly[no]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[high], area[city centre], familyFriendly[yes]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], area[riverside], familyFriendly[no]",0.6666666666666666,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[high], area[riverside], familyFriendly[no]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], area[riverside]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[high], priceRange[moderate], customer rating[average], area[riverside], familyFriendly[yes]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[no]",0.8622377622377623,0.008723979982721241
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes]",0.796969696969697,0.020306703397612487
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[no]",0.8607226107226108,0.008917170630457346
+"name[Fitzbillies], eatType[coffee shop], eatType[restaurant], food[Chinese], priceRange[less than £20], area[riverside], familyFriendly[no]",0.9285714285714286,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[yes]",0.7701770451770452,0.010714737626367661
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[yes]",0.6792929292929292,0.013193806754412825
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[no]",0.8885003885003885,0.0015543034191052834
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[riverside]",0.8,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[no]",0.9090909090909091,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[yes]",0.9545454545454546,0.00206611570247934
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[no]",0.8556721056721056,0.010564863566029066
+"name[Fitzbillies], eatType[coffee shop], area[city centre], familyFriendly[yes]",0.3333333333333333,0.22222222222222224
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[yes]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[no]",0.8104012654012654,0.0039639290695984
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[yes]",0.9333333333333333,0.0029629629629629654
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], area[city centre], familyFriendly[no]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], area[city centre], familyFriendly[yes]",0.9090909090909092,0.00826446280991735
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[no]",0.8498168498168498,0.0039716083672127625
+"name[Fitzbillies], eatType[coffee shop], food[Chinese], area[riverside]",0.8472222222222222,0.0024434156378600803
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high], area[city centre], familyFriendly[no]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high], area[city centre], familyFriendly[yes]",0.7666666666666666,0.014444444444444449
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[no]",0.8,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], area[riverside]",0.7777777777777778,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[yes]",0.9259259259259259,0.002743484224965709
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[city centre]",0.7666666666666666,0.0005555555555555566
+"name[Fitzbillies], eatType[coffee shop], food[Japanese], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[no]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes]",0.5555555555555555,0.0061728395061728366
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[no]",0.8232323232323232,0.005560657075808589
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[riverside]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[yes]",0.8497236097236097,0.003829041765205602
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], area[city centre], familyFriendly[no]",0.8452991452991453,0.004559865585506609
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], area[city centre]",0.9090909090909091,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], customer rating[average], area[city centre], familyFriendly[yes]",0.6666666666666666,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], area[city centre], familyFriendly[yes]",0.6666666666666666,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[cheap], area[riverside]",0.7484848484848485,0.01357208448117539
+"name[Fitzbillies], eatType[coffee shop], food[English], customer rating[average], area[riverside], familyFriendly[yes]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], priceRange[cheap], customer rating[average], familyFriendly[yes]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[cheap], area[riverside], familyFriendly[yes]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[no]",0.8333333333333334,0.006944444444444445
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[yes]",0.8878787878787878,0.004894398530762164
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[no]",0.8974358974358975,0.005259697567389875
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[yes]",0.754040404040404,0.031125905519844912
+"name[Fitzbillies], eatType[coffee shop], familyFriendly[yes]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[high], customer rating[average], area[city centre]",0.9,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[high], priceRange[moderate], customer rating[average], area[city centre], familyFriendly[yes]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[high], customer rating[average], area[city centre], familyFriendly[yes]",0.8666666666666667,0.008888888888888885
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[high], priceRange[moderate], customer rating[average], area[riverside], familyFriendly[no]",0.6666666666666666,0.0
+"name[Fitzbillies], eatType[coffee shop], priceRange[high], customer rating[average]",0.8,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[high], area[riverside], familyFriendly[yes]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[high], customer rating[average], area[riverside], familyFriendly[yes]",0.8472222222222222,0.0024434156378600803
+"name[Fitzbillies], eatType[coffee shop], food[English], area[riverside], familyFriendly[yes]",0.7777777777777778,0.0
+"name[Fitzbillies], eatType[coffee shop], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[no]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes]",0.5601937744794888,0.03873041462065816
+"name[Fitzbillies], eatType[coffee shop], priceRange[less than £20], area[riverside], familyFriendly[no]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[no]",0.6327920227920228,0.06537856348568598
+"name[Fitzbillies], eatType[coffee shop], food[English], customer rating[3 out of 5], area[riverside], familyFriendly[yes]",0.8888888888888888,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[yes]",0.8888888888888888,0.0
+"name[Fitzbillies], eatType[coffee shop], priceRange[less than £20], customer rating[low], area[city centre]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[no]",0.8993265993265993,0.003401580337607272
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], area[city centre]",0.9090909090909091,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[yes]",0.5451178451178451,0.11570375067008062
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[no]",0.888888888888889,0.0061728395061728366
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[yes]",0.8955555555555555,0.006029629629629627
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[no]",0.7692307692307693,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[moderate], area[city centre], familyFriendly[no]",0.9259259259259259,0.002743484224965709
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[yes]",0.8253030303030304,0.004515378532802774
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[no]",0.6666666666666666,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], customer rating[3 out of 5], area[riverside]",0.7777777777777778,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[moderate], area[riverside]",0.9047619047619048,0.004535147392290252
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[yes]",0.8888888888888888,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], customer rating[high], area[city centre], familyFriendly[no]",1.0,0.0
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[more than £30], customer rating[high], area[city centre], familyFriendly[yes]",0.3833333333333333,0.14722222222222223
+"name[Fitzbillies], eatType[coffee shop], food[English], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[no]",0.847985347985348,0.004233251485998738
+"name[Midsummer House], customer rating[3 out of 5], near[The Bakers]",0.8844444444444444,0.008276543209876539
+"name[Midsummer House], customer rating[5 out of 5], near[The Bakers]",0.9222222222222223,0.00950617283950617
+"name[Midsummer House], eatType[restaurant], customer rating[average], near[The Bakers]",0.8571428571428571,0.0
+"name[Midsummer House], customer rating[average], near[The Bakers]",1.0,0.0
+"name[Midsummer House], customer rating[high], near[The Bakers]",0.9363636363636365,0.007768595041322307
+"name[Midsummer House], customer rating[low], near[The Bakers]",1.0,0.0
+"name[Taste of Cambridge], eatType[coffee shop], food[Chinese], area[city centre], near[Crowne Plaza Hotel]",0.8575757575757575,0.008200183654729106
+"name[Taste of Cambridge], eatType[coffee shop], food[Chinese], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9133333333333334,0.0018962962962962976
+"name[Taste of Cambridge], eatType[coffee shop], food[Chinese], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.9090909090909091,0.0
+"name[Taste of Cambridge], eatType[coffee shop], food[Chinese], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.9254545454545454,0.0034016528925619833
+"name[Taste of Cambridge], eatType[coffee shop], food[Chinese], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9437240047534166,0.003636467288575525
+"name[Taste of Cambridge], eatType[coffee shop], food[English], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]",0.5345736274307702,0.05632558597283593
+"name[Taste of Cambridge], eatType[coffee shop], food[English], area[city centre], familyFriendly[no], near[Crowne Plaza Hotel]",0.6683501683501684,0.02694169529186365
+"name[Taste of Cambridge], eatType[coffee shop], food[English], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.7744755244755245,0.002654979053580451
+"name[Taste of Cambridge], eatType[coffee shop], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel]",0.725,0.03145833333333333
+"name[Taste of Cambridge], eatType[coffee shop], food[English], familyFriendly[no], near[Crowne Plaza Hotel]",0.8666666666666667,0.008888888888888885
+"name[Taste of Cambridge], eatType[coffee shop], food[English], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.9526153846153846,0.003347578072277371
+"name[Taste of Cambridge], eatType[coffee shop], food[English], area[riverside], familyFriendly[yes]",0.638690476190476,0.07419415087463556
+"name[Taste of Cambridge], eatType[coffee shop], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]",0.95,0.00375
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Burger King]",0.8549919484702093,0.007710914397465238
+"name[The Cambridge Blue], eatType[coffee shop], area[riverside], familyFriendly[yes], near[Burger King]",0.9082264957264954,0.005062607294177807
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Burger King]",0.9111509835194046,0.005859781112278384
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Burger King]",0.8885003885003885,0.0015543034191052834
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Burger King]",0.7857142857142856,0.04591836734693879
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Burger King]",0.7101491101491102,0.07645621241388438
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Burger King]",0.930952380952381,0.005107940707147058
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[average], area[city centre], familyFriendly[no], near[Burger King]",0.48412698412698413,0.024313429075333834
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[average], area[city centre], familyFriendly[yes], near[Burger King]",0.45476190476190476,0.03676303854875284
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[average], area[riverside], familyFriendly[no], near[Burger King]",0.3055555555555555,0.07561728395061727
+"name[The Cambridge Blue], eatType[coffee shop], area[riverside], familyFriendly[no], near[Burger King]",0.7,0.0
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[average], area[riverside], familyFriendly[yes], near[Burger King]",0.8818045112781955,0.0599438973373283
+"name[The Cambridge Blue], eatType[coffee shop], priceRange[moderate], area[riverside], familyFriendly[yes], near[Burger King]",1.0,0.0
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[high], area[riverside], familyFriendly[yes], near[Burger King]",0.9588398605942466,0.0030662713563331524
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[high], area[riverside], near[Burger King]",0.9259259259259259,0.002743484224965709
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[low], area[city centre], familyFriendly[no], near[Burger King]",0.6873219373219372,0.04360810788873468
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[low], area[city centre], familyFriendly[yes], near[Burger King]",0.6409523809523809,0.03248616780045352
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[low], area[riverside], familyFriendly[no], near[Burger King]",0.8333333333333334,0.027777777777777787
+"name[The Cambridge Blue], eatType[coffee shop], customer rating[low], area[riverside], familyFriendly[yes], near[Burger King]",0.883293822579537,0.027445682059470584
+"name[The Cricketers], eatType[coffee shop], food[Chinese], customer rating[1 out of 5], familyFriendly[yes], near[The Portland Arms]",0.9260789715335169,0.003928971660000962
+"name[The Cricketers], eatType[coffee shop], food[Chinese], customer rating[3 out of 5], near[The Portland Arms]",0.75,0.0
+"name[The Cricketers], eatType[coffee shop], food[Chinese], customer rating[3 out of 5], familyFriendly[yes], near[The Portland Arms]",0.9259259259259259,0.002743484224965709
+"name[The Cricketers], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], familyFriendly[no], near[The Portland Arms]",1.0,0.0
+"name[The Cricketers], eatType[coffee shop], food[Chinese], customer rating[5 out of 5], familyFriendly[yes], near[The Portland Arms]",1.0,0.0
+"name[The Cricketers], eatType[coffee shop], food[Chinese], customer rating[average], familyFriendly[no], near[The Portland Arms]",0.9192307692307693,0.004176528599605521
+"name[The Cricketers], eatType[coffee shop], food[Chinese], customer rating[average], familyFriendly[yes], near[The Portland Arms]",0.8699999999999998,0.008498955888854876
+"name[The Cricketers], eatType[coffee shop], food[Chinese], customer rating[high], familyFriendly[yes], near[The Portland Arms]",0.9370370370370368,0.004574759945130318
+"name[The Cricketers], eatType[coffee shop], food[Chinese], customer rating[low], familyFriendly[no], near[The Portland Arms]",1.0,0.0
+"name[The Cricketers], eatType[coffee shop], food[Chinese], customer rating[low], familyFriendly[yes], near[The Portland Arms]",0.9259259259259259,0.002743484224965709
+"name[The Cricketers], eatType[coffee shop], food[English], customer rating[1 out of 5], familyFriendly[yes], near[The Portland Arms]",0.890542328042328,0.007688382709050699
+"name[The Cricketers], eatType[coffee shop], food[English], customer rating[3 out of 5], familyFriendly[yes], near[The Portland Arms]",1.0,0.0
+"name[The Cricketers], eatType[coffee shop], food[English], customer rating[5 out of 5], familyFriendly[no], near[The Portland Arms]",0.8885003885003885,0.0015543034191052834
+"name[The Cricketers], eatType[coffee shop], food[English], customer rating[5 out of 5], near[The Portland Arms]",0.8888888888888888,0.0
+"name[The Cricketers], eatType[coffee shop], food[English], near[The Portland Arms]",1.0,0.0
+"name[The Cricketers], eatType[coffee shop], food[English], customer rating[5 out of 5], familyFriendly[yes], near[The Portland Arms]",1.0,0.0
+"name[The Cricketers], eatType[coffee shop], food[English], customer rating[average], familyFriendly[no], near[The Portland Arms]",0.9166666666666666,0.0069444444444444415
+"name[The Cricketers], eatType[coffee shop], food[English], customer rating[average], familyFriendly[yes], near[The Portland Arms]",0.9326278659611995,0.009220408785370572
+"name[The Cricketers], eatType[coffee shop], food[English], familyFriendly[yes], near[The Portland Arms]",0.75,0.0
+"name[The Cricketers], eatType[coffee shop], food[English], customer rating[high], familyFriendly[yes], near[The Portland Arms]",1.0,0.0
+"name[The Cricketers], eatType[coffee shop], food[English], customer rating[low], familyFriendly[no], near[The Portland Arms]",0.7333333333333334,0.035555555555555556
+"name[The Cricketers], eatType[coffee shop], food[English], customer rating[low], familyFriendly[yes], near[The Portland Arms]",0.9470899470899471,0.003079421068839061
+"name[The Cricketers], eatType[coffee shop], food[English], familyFriendly[no], near[The Portland Arms]",1.0,0.0
+"name[The Eagle], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Café Brazil]",0.8982177666388191,0.008223955627643944
+"name[The Eagle], eatType[restaurant], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Café Brazil]",0.8571428571428571,0.0
+"name[The Eagle], eatType[coffee shop], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Café Brazil]",0.8888888888888888,0.0
+"name[The Eagle], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Café Brazil]",0.7913690476190476,0.033518485519207684
+"name[The Eagle], area[riverside], familyFriendly[yes], near[Café Brazil]",0.9464285714285712,0.004733560090702951
+"name[The Eagle], customer rating[5 out of 5], area[riverside], near[Café Brazil]",0.832010582010582,0.0035308362027938723
+"name[The Eagle], area[riverside], near[Café Brazil]",0.8444444444444444,0.005061728395061727
+"name[The Eagle], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Café Brazil]",0.8685941043083901,0.010501495004653411
+"name[The Eagle], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Café Brazil]",0.8333333333333334,0.02777777777777778
+"name[The Eagle], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Café Brazil]",0.763888888888889,0.016589506172839507
+"name[The Eagle], customer rating[average], area[city centre], near[Café Brazil]",1.0,0.0
+"name[The Eagle], customer rating[average], area[city centre], familyFriendly[yes], near[Café Brazil]",0.7514285714285714,0.030647619047619052
+"name[The Eagle], customer rating[average], area[riverside], familyFriendly[no], near[Café Brazil]",0.8333333333333334,0.0
+"name[The Eagle], customer rating[average], area[riverside], familyFriendly[yes], near[Café Brazil]",0.8656015037593983,0.010235468841276123
+"name[The Eagle], eatType[restaurant], customer rating[average], area[riverside], familyFriendly[yes], near[Café Brazil]",0.8571428571428571,0.0
+"name[The Eagle], customer rating[average], familyFriendly[yes], near[Café Brazil]",1.0,0.0
+"name[The Eagle], customer rating[high], familyFriendly[yes], near[Café Brazil]",1.0,0.0
+"name[The Eagle], eatType[restaurant], customer rating[high], area[riverside], familyFriendly[yes], near[Café Brazil]",1.0,0.0
+"name[The Eagle], customer rating[high], area[riverside], familyFriendly[yes], near[Café Brazil]",0.8536848072562359,0.01014285778559345
+"name[The Eagle], customer rating[low], area[city centre], familyFriendly[no], near[Café Brazil]",0.2857142857142857,0.0
+"name[The Eagle], eatType[restaurant], customer rating[low], area[city centre], familyFriendly[no], near[Café Brazil]",0.8659932659932661,0.0022455758482694474
+"name[The Eagle], customer rating[low], area[city centre], familyFriendly[yes], near[Café Brazil]",0.6666666666666666,0.045555555555555564
+"name[The Eagle], eatType[restaurant], customer rating[low], area[city centre], familyFriendly[yes], near[Café Brazil]",0.5714285714285714,0.0
+"name[The Eagle], customer rating[low], area[riverside], familyFriendly[no], near[Café Brazil]",0.865993265993266,0.0022455758482694474
+"name[The Eagle], customer rating[low], familyFriendly[no], near[Café Brazil]",0.6666666666666666,0.0
+"name[The Eagle], eatType[restaurant], customer rating[low], area[riverside], familyFriendly[no], near[Café Brazil]",0.5555555555555556,0.0
+"name[The Eagle], customer rating[low], area[riverside], familyFriendly[yes], near[Café Brazil]",0.9184415584415584,0.015596829144881095
+"name[The Eagle], eatType[restaurant], customer rating[low], area[riverside], familyFriendly[yes], near[Café Brazil]",0.8095238095238095,0.09070294784580499
+"name[The Eagle], eatType[coffee shop], food[Chinese], customer rating[high], area[city centre], familyFriendly[no], near[Burger King]",0.8931623931623932,0.0017897582000146108
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], area[city centre], familyFriendly[yes], near[Burger King]",0.8248640248640249,0.0029721939978350214
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[£20-25], customer rating[high], area[riverside], near[Burger King]",0.815873015873016,0.005159989921894685
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[no], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], customer rating[high], area[riverside], familyFriendly[yes], near[Burger King]",0.9393939393939394,0.001836547291092747
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Burger King]",0.876984126984127,0.0031021667926429838
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[cheap], area[city centre], familyFriendly[yes], near[Burger King]",0.8838383838383838,0.001275380063258849
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Burger King]",0.8839285714285715,0.002737032312925172
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Burger King]",0.8369352869352867,0.0029016631855459693
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Burger King]",0.6238095238095238,0.0916628873771731
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[yes], near[Burger King]",0.9120879120879121,0.0028478847160165847
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Burger King]",0.877045177045177,0.0075164328277881375
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Burger King]",0.9230769230769231,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Burger King]",0.9045177045177045,0.001139720407119677
+"name[The Eagle], eatType[coffee shop], food[Chinese], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Burger King]",0.9230769230769231,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Burger King]",0.7899237472766885,0.004808484153768017
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], area[city centre], familyFriendly[no], near[Burger King]",0.9333333333333333,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[5 out of 5], customer rating[average], area[city centre], familyFriendly[no], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[high], priceRange[moderate], customer rating[average], area[city centre], familyFriendly[yes], near[Burger King]",0.9285714285714286,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], area[riverside], near[Burger King]",0.9285714285714286,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], area[riverside], familyFriendly[no], near[Burger King]",0.9555555555555556,0.000987654320987654
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], area[riverside], familyFriendly[yes], near[Burger King]",0.8350815850815851,0.004279617041854803
+"name[The Eagle], eatType[coffee shop], food[Chinese], customer rating[low], area[city centre], familyFriendly[yes], near[Burger King]",0.9230769230769231,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes], near[Burger King]",0.9166666666666666,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[no], near[Burger King]",0.9555555555555556,0.000987654320987654
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[yes], near[Burger King]",0.8571428571428571,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Burger King]",0.9317460317460319,0.001705719324766945
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Burger King]",0.768009768009768,0.012400840239668086
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Burger King]",0.9314285714285716,0.002046258503401362
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[riverside], near[Burger King]",0.9230769230769231,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Burger King]",0.9230769230769231,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[Burger King]",0.8454545454545455,0.006033057851239665
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Burger King]",0.9085334133653462,0.003382545495188872
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Burger King]",0.7836080586080586,0.005121605348253702
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], area[city centre], familyFriendly[no], near[Burger King]",0.8052503052503052,0.006674881217005761
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], familyFriendly[no], near[Burger King]",0.9090909090909091,0.0
+"name[The Eagle], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[no], near[Burger King]",0.9261721611721613,0.0017186486132914722
+"name[The Eagle], eatType[coffee shop], area[riverside], familyFriendly[yes], near[Burger King]",0.7777777777777777,0.024691358024691367
+"name[The Eagle], eatType[coffee shop], food[English], area[city centre], near[Burger King]",0.7999999999999999,0.020000000000000007
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high], area[city centre], familyFriendly[yes], near[Burger King]",0.9487179487179488,0.001314924391847467
+"name[The Eagle], eatType[coffee shop], food[English], customer rating[high], area[city centre], familyFriendly[yes], near[Burger King]",0.8181818181818182,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high], area[riverside], familyFriendly[yes], near[Burger King]",0.8838304552590268,0.00986275442431531
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[city centre], near[Burger King]",0.8333333333333334,0.01388888888888889
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[Burger King]",0.6153846153846154,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[cheap], area[city centre], familyFriendly[yes], near[Burger King]",0.7692307692307693,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Burger King]",0.6558152958152957,0.038856146707228964
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[riverside], near[Burger King]",0.8461105561105562,0.00530002882010874
+"name[The Eagle], eatType[coffee shop], food[English], familyFriendly[yes], near[Burger King]",0.9047619047619048,0.004535147392290252
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[cheap], area[riverside], familyFriendly[yes], near[Burger King]",0.7666666666666667,0.023333333333333338
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], area[city centre], familyFriendly[yes], near[Burger King]",0.9555555555555556,0.000987654320987654
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], area[city centre], familyFriendly[no], near[Burger King]",0.7575091575091575,0.010643910424130197
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[yes], near[Burger King]",0.8571428571428571,0.0
+"name[The Eagle], eatType[coffee shop], priceRange[cheap], priceRange[moderate], customer rating[average], area[city centre], area[riverside], familyFriendly[yes], near[Burger King]",0.8888888888888888,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[cheap], priceRange[moderate], customer rating[average], area[riverside], familyFriendly[yes], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Burger King]",0.8603063603063602,0.006417297875839331
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Burger King]",0.8885003885003885,0.0015543034191052834
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Burger King]",0.9203431372549019,0.0007238802383698582
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[English], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Burger King]",0.6666666666666666,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Burger King]",0.9230769230769231,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[high], customer rating[average], area[city centre], familyFriendly[no], near[Burger King]",0.9365686274509804,0.0015712802768166091
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[high], customer rating[average], area[city centre], familyFriendly[yes], near[Burger King]",0.8333333333333334,0.01388888888888889
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[high], customer rating[average], area[riverside], familyFriendly[no], near[Burger King]",0.8571428571428571,0.010204081632653062
+"name[The Eagle], eatType[coffee shop], food[English], customer rating[average], area[riverside], familyFriendly[no], near[Burger King]",0.9230769230769231,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[high], customer rating[average], area[riverside], familyFriendly[yes], near[Burger King]",0.9615384615384617,0.0014792899408284004
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[high], customer rating[5 out of 5], customer rating[average], area[riverside], familyFriendly[yes], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[high], customer rating[average], familyFriendly[yes], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[moderate], customer rating[low], area[city centre], familyFriendly[no], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], area[city centre], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes], near[Burger King]",0.5814814814814815,0.024389574759945142
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[moderate], customer rating[low], area[city centre], familyFriendly[yes], near[Burger King]",0.4,0.0
+"name[The Eagle], eatType[coffee shop], priceRange[less than £20], near[Burger King]",0.8571428571428571,0.0
+"name[The Eagle], eatType[coffee shop], priceRange[less than £20], customer rating[low], familyFriendly[yes], near[Burger King]",0.8571428571428571,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[yes], near[Burger King]",0.8505494505494505,0.0061091655597150085
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[no], near[Burger King]",0.8452991452991453,0.004559865585506609
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Burger King]",0.8571428571428571,0.010204081632653062
+"name[The Eagle], eatType[coffee shop], food[English], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Burger King]",0.7272727272727273,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Burger King]",0.6205128205128205,0.019303090072320842
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Burger King]",0.4881414881414881,0.09004279419049832
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[yes], near[Burger King]",0.25,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Burger King]",0.9047619047619048,0.004535147392290252
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], area[riverside], near[Burger King]",0.8974358974358975,0.005259697567389875
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[more than £30], customer rating[high], area[city centre], familyFriendly[yes], near[Burger King]",0.875,0.003124999999999997
+"name[The Eagle], eatType[coffee shop], food[English], customer rating[high], area[city centre], familyFriendly[no], near[Burger King]",1.0,0.0
+"name[The Eagle], eatType[coffee shop], food[English], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[no], near[Burger King]",0.7857142857142857,0.0
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[£20-25], customer rating[high], area[city centre]",0.869023569023569,0.0046463512793479085
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[£20-25], customer rating[high], area[riverside]",0.8666666666666666,0.01185185185185185
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], customer rating[high], area[riverside]",1.0,0.0
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[city centre]",1.0,0.0
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[riverside]",0.7388888888888889,0.004845679012345682
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], area[city centre]",0.8989898989898989,0.0031884501581471263
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], customer rating[average], area[city centre]",0.9090909090909091,0.0
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], area[riverside]",0.8966810966810966,0.0034067119348504603
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[high], area[city centre]",0.8,0.0
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], area[city centre]",0.8571428571428571,0.0
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[city centre]",0.8727272727272727,0.0026446280991735504
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[cheap], priceRange[high], customer rating[1 out of 5], area[riverside]",1.0,0.0
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], area[riverside]",0.9545454545454546,0.00206611570247934
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], area[city centre]",0.888888888888889,0.0061728395061728366
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], area[riverside]",0.9393939393939394,0.001836547291092747
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], area[city centre]",0.8981818181818182,0.006029752066115699
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], area[riverside]",0.7875713175713176,0.008415153452016589
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[less than £20], area[riverside]",0.6666666666666666,0.0
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[city centre]",0.7803529803529804,0.008005747905847809
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], area[riverside]",0.8445454545454545,0.008619008264462812
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[city centre]",0.8349494949494949,0.010694459749005203
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[riverside]",0.9515151515151513,0.002056932966023877
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], area[city centre]",0.8592592592592592,0.0017558299039780484
+"name[The Golden Palace], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], area[riverside]",0.8888888888888888,0.0061728395061728366
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high], area[city centre]",0.843939393939394,0.0071877869605142305
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high], area[riverside]",1.0,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], customer rating[high], area[riverside]",0.9,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[city centre]",0.9227272727272725,0.00313131313131313
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], area[riverside]",1.0,0.0
+"name[The Golden Palace], eatType[coffee shop], priceRange[cheap], area[riverside]",0.8571428571428571,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5]",0.8,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], area[city centre]",1.0,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[cheap], area[city centre]",0.9090909090909091,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], area[riverside]",0.8789393939393939,0.003956129476584018
+"name[The Golden Palace], eatType[restaurant], priceRange[cheap], area[riverside]",0.5,0.0
+"name[The Golden Palace], eatType[coffee shop], area[city centre], area[riverside]",1.0,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[high], area[city centre]",0.8042929292929292,0.0054475521205319165
+"name[The Golden Palace], eatType[coffee shop], food[English], area[city centre]",0.5714285714285714,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], area[city centre]",0.8333333333333334,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], customer rating[1 out of 5], area[riverside]",0.7818181818181819,0.0015426997245179073
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[high], customer rating[average], area[city centre]",0.9329836829836828,0.002541077803315565
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[high], customer rating[average], area[riverside]",0.9393939393939394,0.001836547291092747
+"name[The Golden Palace], eatType[coffee shop], priceRange[high], area[riverside]",1.0,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], area[city centre]",0.7904040404040403,0.015317314559738802
+"name[The Golden Palace], eatType[restaurant], priceRange[less than £20], area[city centre]",0.8,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], area[riverside]",0.8333333333333334,0.02777777777777778
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], area[riverside]",0.8181818181818182,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], area[city centre]",0.8757575757575758,0.005004591368227728
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[moderate], area[riverside]",1.0,0.0
+"name[The Golden Palace], eatType[coffee shop], priceRange[moderate], customer rating[1 out of 5], area[city centre]",0.8,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], area[city centre]",0.9444444444444443,0.0030864197530864226
+"name[The Golden Palace], eatType[coffee shop], priceRange[more than £30], area[riverside]",0.8,0.0
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], area[riverside]",0.9333333333333332,0.0022222222222222214
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[more than £30], customer rating[high], area[city centre]",0.8993265993265994,0.003401580337607272
+"name[The Golden Palace], eatType[coffee shop], food[English], priceRange[more than £30]",1.0,0.0
+"name[The Mill], eatType[coffee shop], food[Chinese], priceRange[£20-25], area[riverside], near[The Sorrento]",0.9555555555555555,0.002962962962962966
+"name[The Mill], eatType[coffee shop], food[Chinese], priceRange[cheap], area[riverside], near[The Sorrento]",0.9077380952380952,0.011080994897959181
+"name[The Mill], eatType[coffee shop], food[Chinese], area[city centre], near[The Sorrento]",0.8999999999999999,0.009999999999999995
+"name[The Mill], eatType[coffee shop], food[Chinese], priceRange[high], area[city centre], near[The Sorrento]",0.9393939393939394,0.001836547291092747
+"name[The Mill], eatType[coffee shop], food[Chinese], priceRange[moderate], area[city centre], near[The Sorrento]",0.9636363636363636,0.0019834710743801666
+"name[The Mill], eatType[coffee shop], food[Chinese], area[riverside], near[The Sorrento]",0.9393939393939394,0.001836547291092747
+"name[The Mill], eatType[coffee shop], food[Chinese], priceRange[high], area[riverside], near[The Sorrento]",0.9393939393939394,0.001836547291092747
+"name[The Mill], eatType[coffee shop], food[Chinese], priceRange[less than £20], area[city centre], near[The Sorrento]",0.888888888888889,0.0061728395061728366
+"name[The Mill], eatType[coffee shop], food[Chinese], priceRange[less than £20], area[riverside], near[The Sorrento]",0.8952991452991453,0.0012144787785813434
+"name[The Mill], eatType[coffee shop], food[Chinese], priceRange[moderate], area[riverside], near[The Sorrento]",0.9193939393939393,0.003685705540250995
+"name[The Mill], eatType[coffee shop], food[Chinese], priceRange[more than £30], area[riverside], near[The Sorrento]",0.9444444444444443,0.0030864197530864218
+"name[The Mill], eatType[coffee shop], food[English], priceRange[£20-25], area[riverside], near[The Sorrento]",1.0,0.0
+"name[The Mill], eatType[coffee shop], food[English], area[riverside], near[The Sorrento]",0.8386054421768707,0.013599557925967062
+"name[The Mill], eatType[coffee shop], food[English], priceRange[cheap], area[riverside], near[The Sorrento]",0.9128247510065691,0.003957106377796431
+"name[The Mill], eatType[coffee shop], food[English], area[city centre], near[The Sorrento]",1.0,0.0
+"name[The Mill], eatType[coffee shop], food[English], priceRange[high], area[city centre], near[The Sorrento]",1.0,0.0
+"name[The Mill], eatType[coffee shop], food[English], near[The Sorrento]",0.7142857142857143,0.0
+"name[The Mill], eatType[coffee shop], food[English], priceRange[moderate], area[riverside], near[The Sorrento]",0.933080808080808,0.003109057749209264
+"name[The Mill], eatType[coffee shop], food[English], priceRange[high], area[riverside], near[The Sorrento]",1.0,0.0
+"name[The Mill], eatType[coffee shop], food[English], priceRange[less than £20], area[city centre], near[The Sorrento]",0.9459595959595958,0.0019503111927354365
+"name[The Mill], eatType[coffee shop], priceRange[less than £20], area[riverside], near[The Sorrento]",0.9047619047619048,0.004535147392290252
+"name[The Mill], eatType[coffee shop], food[English], priceRange[less than £20], area[riverside], near[The Sorrento]",0.8699494949494949,0.0017679956126925793
+"name[The Mill], eatType[coffee shop], food[English], priceRange[moderate], near[The Sorrento]",0.832010582010582,0.0035308362027938723
+"name[The Mill], eatType[coffee shop], eatType[restaurant], food[English], priceRange[moderate], area[city centre], near[The Sorrento]",0.9230769230769231,0.0
+"name[The Mill], eatType[coffee shop], food[English], priceRange[moderate], area[city centre], near[The Sorrento]",0.8333333333333334,0.02777777777777778
+"name[The Mill], eatType[coffee shop], food[English], priceRange[more than £30], area[riverside], near[The Sorrento]",1.0,0.0
+"name[The Mill], eatType[coffee shop], food[English], priceRange[more than £30], near[The Sorrento]",1.0,0.0
+"name[The Phoenix], customer rating[1 out of 5], area[riverside]",0.9175925925925925,0.010832475994513027
+"name[The Phoenix], area[riverside]",0.913131313131313,0.009659218447097233
+"name[The Phoenix], customer rating[3 out of 5], area[riverside]",0.8981818181818179,0.00999669421487603
+"name[The Phoenix], customer rating[5 out of 5], area[riverside]",0.7821212121212121,0.016644995408631777
+"name[The Phoenix], customer rating[5 out of 5], area[city centre]",0.6566666666666667,0.021566666666666668
+"name[The Phoenix], eatType[restaurant], customer rating[5 out of 5], area[riverside]",0.8,0.0
+"name[The Phoenix], area[city centre]",0.6,0.0
+"name[The Phoenix], customer rating[average], area[city centre]",0.75,0.0625
+"name[The Phoenix], customer rating[average], area[riverside]",0.9428571428571428,0.008163265306122446
+"name[The Phoenix], eatType[restaurant], area[riverside]",1.0,0.0
+"name[The Phoenix], customer rating[high], area[riverside]",0.8599999999999998,0.018399999999999993
+"name[The Phoenix], eatType[restaurant], customer rating[low], area[city centre]",1.0,0.0
+"name[The Phoenix], customer rating[low], area[city centre]",0.7111111111111111,0.0317283950617284
+"name[The Phoenix], customer rating[low], area[riverside]",0.9600000000000001,0.006399999999999997
+"name[The Punter], eatType[restaurant], customer rating[1 out of 5], area[riverside], familyFriendly[yes]",0.8333333333333334,0.013888888888888888
+"name[The Punter], customer rating[1 out of 5], area[riverside], familyFriendly[yes]",0.7934640522875817,0.019398094749882525
+"name[The Punter], eatType[restaurant], area[riverside], familyFriendly[yes]",0.75,0.0
+"name[The Punter], customer rating[5 out of 5], area[riverside], familyFriendly[yes]",0.8970760233918127,0.009991450360794768
+"name[The Punter], customer rating[3 out of 5], area[riverside], familyFriendly[yes]",0.8404761904761905,0.02523998488284203
+"name[The Punter], eatType[restaurant], customer rating[3 out of 5], area[riverside], familyFriendly[yes]",0.7555555555555555,0.017283950617283952
+"name[The Punter], customer rating[3 out of 5], area[riverside]",0.8,0.0
+"name[The Punter], area[city centre], familyFriendly[no]",0.8571428571428571,0.0
+"name[The Punter], eatType[restaurant], area[city centre]",0.6666666666666666,0.05555555555555556
+"name[The Punter], customer rating[5 out of 5], area[city centre], familyFriendly[no]",0.8571428571428571,0.0
+"name[The Punter], eatType[restaurant], customer rating[5 out of 5], area[city centre], familyFriendly[yes]",0.7266666666666667,0.02773333333333334
+"name[The Punter], customer rating[5 out of 5], area[riverside], familyFriendly[no]",0.8558201058201057,0.0075620783292740966
+"name[The Punter], customer rating[5 out of 5], area[riverside]",0.8571428571428571,0.0
+"name[The Punter], eatType[restaurant], customer rating[5 out of 5], area[riverside], familyFriendly[yes]",0.7533333333333333,0.014433333333333334
+"name[The Punter], area[riverside], familyFriendly[yes]",0.8333333333333334,0.021031746031746033
+"name[The Punter], area[riverside]",0.7166666666666667,0.02805555555555556
+"name[The Punter], eatType[restaurant], area[riverside]",1.0,0.0
+"name[The Punter], customer rating[average], area[city centre], familyFriendly[yes]",0.4514285714285714,0.13070657596371882
+"name[The Punter], customer rating[average], area[city centre], familyFriendly[no]",0.9444444444444443,0.0030864197530864226
+"name[The Punter], customer rating[average], area[riverside], familyFriendly[no]",0.8505291005291005,0.00735211780185325
+"name[The Punter], customer rating[average], area[riverside], familyFriendly[yes]",0.8640692640692639,0.013308721100928893
+"name[The Punter], customer rating[average], familyFriendly[yes]",1.0,0.0
+"name[The Punter], eatType[restaurant], customer rating[average], area[riverside], familyFriendly[yes]",0.8,0.0
+"name[The Punter], eatType[restaurant], customer rating[high], area[riverside], familyFriendly[yes]",0.7875661375661376,0.03282977800173567
+"name[The Punter], customer rating[high], area[riverside], familyFriendly[yes]",0.8565656565656564,0.01747372717069687
+"name[The Punter], customer rating[high], area[riverside]",0.8,0.0
+"name[The Punter], customer rating[low], area[city centre], familyFriendly[yes]",0.5682539682539682,0.036301335348954404
+"name[The Punter], customer rating[low], area[city centre], familyFriendly[no]",0.770701058201058,0.017670299858626577
+"name[The Punter], eatType[restaurant], customer rating[low], area[city centre], familyFriendly[yes]",0.6666666666666666,0.0
+"name[The Punter], eatType[restaurant], customer rating[low]",1.0,0.0
+"name[The Punter], customer rating[low], area[riverside], familyFriendly[no]",0.7804232804232804,0.023550572492371438
+"name[The Punter], customer rating[low]",0.5,0.0
+"name[The Punter], eatType[restaurant], customer rating[low], area[riverside], familyFriendly[yes]",0.9523809523809522,0.005668934240362809
+"name[The Punter], customer rating[low], area[riverside], familyFriendly[yes]",0.8494553376906319,0.037982637257275215
+"name[The Punter], eatType[coffee shop], food[Chinese], customer rating[high], familyFriendly[yes], near[Café Sicilia]",0.8688888888888888,0.0070320987654320976
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[£20-25], customer rating[high], familyFriendly[yes], near[Café Sicilia]",0.8993265993265993,0.003401580337607272
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], near[Café Sicilia]",0.7977272727272727,0.008125340101350203
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], familyFriendly[yes], near[Café Sicilia]",0.8272727272727273,0.009669421487603304
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], familyFriendly[no], near[Café Sicilia]",0.910989010989011,0.005300084530853762
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], familyFriendly[yes], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[cheap], familyFriendly[yes], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], near[Café Sicilia]",0.8666666666666667,0.008888888888888885
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], familyFriendly[yes], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], familyFriendly[yes], near[Café Sicilia]",0.9444444444444443,0.0015432098765432113
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], familyFriendly[no], near[Café Sicilia]",0.9230769230769231,0.0
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], near[Café Sicilia]",0.9090909090909091,0.0
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], familyFriendly[yes], near[Café Sicilia]",0.8898508898508898,0.006437678972551504
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], familyFriendly[no], near[Café Sicilia]",0.9013209013209015,0.003262708973664683
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], familyFriendly[yes], near[Café Sicilia]",0.9515151515151513,0.002056932966023877
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], familyFriendly[no], near[Café Sicilia]",0.8232323232323232,0.005560657075808589
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], familyFriendly[yes], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], eatType[restaurant], food[Chinese], customer rating[high], familyFriendly[no], near[Café Sicilia]",0.8333333333333334,0.0
+"name[The Punter], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high], familyFriendly[yes], near[Café Sicilia]",0.8993265993265994,0.003401580337607272
+"name[The Punter], eatType[coffee shop], food[English], near[Café Sicilia]",0.9047619047619048,0.004535147392290252
+"name[The Punter], eatType[coffee shop], priceRange[£20-25], familyFriendly[yes], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], familyFriendly[no], near[Café Sicilia]",0.8571428571428571,0.0
+"name[The Punter], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], familyFriendly[yes], near[Café Sicilia]",0.9162781662781664,0.0023474917122935763
+"name[The Punter], eatType[coffee shop], food[English], familyFriendly[yes], near[Café Sicilia]",0.9142857142857143,0.0048979591836734735
+"name[The Punter], eatType[coffee shop], priceRange[cheap], customer rating[5 out of 5], familyFriendly[yes], near[Café Sicilia]",0.7142857142857143,0.0
+"name[The Punter], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], familyFriendly[yes], near[Café Sicilia]",0.8557575757575758,0.006931496786042238
+"name[The Punter], eatType[coffee shop], priceRange[cheap], familyFriendly[yes], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], near[Café Sicilia]",0.8592592592592592,0.0017558299039780484
+"name[The Punter], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], food[English], customer rating[1 out of 5], familyFriendly[yes], near[Café Sicilia]",0.8,0.0
+"name[The Punter], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], familyFriendly[yes], near[Café Sicilia]",0.8888888888888888,0.0
+"name[The Punter], eatType[coffee shop], food[English], priceRange[high], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], food[English], priceRange[high], customer rating[average], familyFriendly[no], near[Café Sicilia]",0.9615384615384616,0.0014792899408284004
+"name[The Punter], eatType[coffee shop], priceRange[less than £20], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], food[English], customer rating[low], familyFriendly[no], near[Café Sicilia]",0.8333333333333334,0.0
+"name[The Punter], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], familyFriendly[no], near[Café Sicilia]",0.8310134310134311,0.0019236658064496874
+"name[The Punter], eatType[coffee shop], priceRange[less than £20], familyFriendly[yes], near[Café Sicilia]",0.9047619047619048,0.004535147392290252
+"name[The Punter], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], familyFriendly[yes], near[Café Sicilia]",0.9371212121212121,0.0016993801652892577
+"name[The Punter], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], familyFriendly[yes], near[Café Sicilia]",0.8698484848484849,0.004151721763085396
+"name[The Punter], eatType[coffee shop], food[English], priceRange[moderate], familyFriendly[no], near[Café Sicilia]",1.0,0.0
+"name[The Punter], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], familyFriendly[no], near[Café Sicilia]",0.9487179487179488,0.001314924391847467
+"name[The Punter], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], familyFriendly[yes], near[Café Sicilia]",0.888888888888889,0.0061728395061728366
+"name[The Wrestlers], customer rating[1 out of 5], familyFriendly[yes]",0.7875,0.02255208333333334
+"name[The Wrestlers], customer rating[3 out of 5], familyFriendly[yes]",0.8145833333333333,0.025863715277777786
+"name[The Wrestlers], customer rating[5 out of 5], familyFriendly[yes]",0.8100490196078431,0.025703755767012695
+"name[The Wrestlers], customer rating[1 out of 5], familyFriendly[yes], near[The Sorrento]",0.8757352941176471,0.008798478950403687
+"name[The Wrestlers], eatType[restaurant], customer rating[3 out of 5], familyFriendly[yes]",0.8244444444444443,0.02614320987654322
+"name[The Wrestlers], familyFriendly[yes]",0.7912087912087912,0.03195568168095641
+"name[The Wrestlers], eatType[restaurant], familyFriendly[yes]",1.0,0.0
+"name[The Wrestlers], customer rating[3 out of 5], familyFriendly[yes], near[The Sorrento]",0.8611904761904763,0.01806298185941043
+"name[The Wrestlers], customer rating[3 out of 5], near[The Sorrento]",0.8999999999999999,0.009999999999999995
+"name[The Wrestlers], customer rating[5 out of 5], familyFriendly[no]",0.9047619047619048,0.004535147392290252
+"name[The Wrestlers], familyFriendly[no], near[The Sorrento]",1.0,0.0
+"name[The Wrestlers], customer rating[5 out of 5], familyFriendly[no], near[The Sorrento]",0.6666666666666666,0.0
+"name[The Wrestlers], eatType[restaurant], customer rating[5 out of 5], familyFriendly[yes]",0.7740740740740741,0.030562414266117967
+"name[The Wrestlers], customer rating[5 out of 5], familyFriendly[yes], near[The Sorrento]",0.8552631578947368,0.02868282548476454
+"name[The Wrestlers], customer rating[average], familyFriendly[no]",0.7606349206349206,0.031163920382968002
+"name[The Wrestlers], customer rating[average], familyFriendly[no], near[The Sorrento]",0.7142857142857143,0.040816326530612256
+"name[The Wrestlers], customer rating[average], near[The Sorrento]",1.0,0.0
+"name[The Wrestlers], eatType[restaurant], customer rating[average], familyFriendly[yes]",0.8,0.0
+"name[The Wrestlers], customer rating[average], familyFriendly[yes]",0.8909090909090908,0.024462809917355378
+"name[The Wrestlers], customer rating[average], familyFriendly[yes], near[The Sorrento]",0.7070707070707071,0.12830017345168857
+"name[The Wrestlers], priceRange[moderate], familyFriendly[yes], near[The Sorrento]",1.0,0.0
+"name[The Wrestlers], customer rating[high], familyFriendly[yes]",0.8365079365079364,0.025783572688334592
+"name[The Wrestlers], eatType[restaurant], customer rating[high], familyFriendly[yes]",1.0,0.0
+"name[The Wrestlers], customer rating[high]",1.0,0.0
+"name[The Wrestlers], customer rating[high], familyFriendly[yes], near[The Sorrento]",0.9714285714285715,0.004897959183673468
+"name[The Wrestlers], customer rating[low], familyFriendly[no]",0.5866666666666667,0.02115555555555556
+"name[The Wrestlers], customer rating[low]",1.0,0.0
+"name[The Wrestlers], customer rating[low], near[The Sorrento]",1.0,0.0
+"name[The Wrestlers], customer rating[low], familyFriendly[no], near[The Sorrento]",0.7296296296296296,0.023840737941267044
+"name[The Wrestlers], customer rating[low], familyFriendly[yes]",0.8315789473684211,0.04093259464450601
+"name[The Wrestlers], priceRange[cheap], customer rating[low], familyFriendly[yes]",0.5,0.0
+"name[The Wrestlers], eatType[pub], customer rating[low], familyFriendly[yes], near[The Sorrento]",1.0,0.0
+"name[The Wrestlers], eatType[coffee shop], eatType[restaurant], food[Chinese], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Wrestlers], eatType[coffee shop], eatType[restaurant], food[Chinese], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.8333333333333334,0.0
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[high], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8019813519813519,0.005300299933167064
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9262404262404262,0.002915000417497919
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.6666666666666666,0.0
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.92991452991453,0.004467820878077286
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9230769230769231,0.0
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[high], area[riverside], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.75,0.0
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.9166666666666666,0.0
+"name[The Wrestlers], eatType[coffee shop], eatType[restaurant], food[Chinese], priceRange[less than £20], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8461538461538461,0.0
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8989898989898989,0.0031884501581471263
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[less than £20], area[city centre], near[Raja Indian Cuisine]",0.9090909090909091,0.0
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8498168498168498,0.0039716083672127625
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[less than £20], area[riverside], near[Raja Indian Cuisine]",0.9444444444444443,0.0015432098765432113
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.6916666666666668,0.022013888888888892
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[moderate], familyFriendly[no], near[Raja Indian Cuisine]",0.8,0.0
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.9147474747474746,0.0038402611978369545
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.9205128205128206,0.0027876397107166324
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9333333333333332,0.0022222222222222214
+"name[The Wrestlers], eatType[coffee shop], food[Chinese], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9444444444444445,0.0015432098765432113
+"name[The Wrestlers], eatType[coffee shop], food[English], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9287878787878787,0.002665289256198347
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[£20-25], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[cheap], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9797979797979798,0.0014284256708499143
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[high], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[The Wrestlers], eatType[coffee shop], food[English], near[Raja Indian Cuisine]",0.8214285714285715,0.0025510204081632634
+"name[The Wrestlers], eatType[coffee shop], food[English], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8461538461538461,0.0
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[high], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[high], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9296536796536797,0.0031272839714398155
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[high], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.5651178451178451,0.0350136456065268
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[less than £20], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.8665645465645468,0.005202383728923856
+"name[The Wrestlers], eatType[coffee shop], priceRange[less than £20], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[coffee shop], priceRange[less than £20], familyFriendly[yes], near[Raja Indian Cuisine]",0.8571428571428571,0.0
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[less than £20], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9545454545454546,0.00206611570247934
+"name[The Wrestlers], eatType[coffee shop], priceRange[less than £20], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",1.0,0.0
+"name[The Wrestlers], eatType[coffee shop], priceRange[moderate], area[city centre], near[Raja Indian Cuisine]",0.8888888888888888,0.0
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[moderate], area[city centre], familyFriendly[no], near[Raja Indian Cuisine]",0.888888888888889,0.0061728395061728366
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[moderate], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]",0.8622377622377623,0.008723979982721241
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[moderate], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]",0.7692307692307693,0.0
+"name[The Wrestlers], eatType[coffee shop], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.875,0.0
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[moderate], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9512987012987014,0.0020555742958340375
+"name[The Wrestlers], eatType[coffee shop], food[English], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]",0.9393939393939394,0.001836547291092747
+"name[Travellers Rest Beefeater], customer rating[1 out of 5], area[riverside], near[Raja Indian Cuisine]",0.9591836734693877,0.004164931278633905
+"name[Travellers Rest Beefeater], customer rating[5 out of 5], near[Raja Indian Cuisine]",0.8666666666666667,0.008888888888888885
+"name[Travellers Rest Beefeater], area[riverside], near[Raja Indian Cuisine]",1.0,0.0
+"name[Travellers Rest Beefeater], customer rating[3 out of 5], area[riverside], near[Raja Indian Cuisine]",0.9032467532467531,0.007185655253837075
+"name[Travellers Rest Beefeater], eatType[restaurant], customer rating[5 out of 5], area[city centre], near[Raja Indian Cuisine]",0.6666666666666666,0.0
+"name[Travellers Rest Beefeater], customer rating[5 out of 5], area[city centre], near[Raja Indian Cuisine]",0.8333333333333334,0.0
+"name[Travellers Rest Beefeater], customer rating[5 out of 5], area[riverside], near[Raja Indian Cuisine]",0.9006613756613757,0.011320266789843507
+"name[Travellers Rest Beefeater], customer rating[average], area[city centre], near[Raja Indian Cuisine]",0.9047619047619048,0.004535147392290252
+"name[Travellers Rest Beefeater], customer rating[average], area[riverside], near[Raja Indian Cuisine]",0.8607142857142858,0.008214285714285716
+"name[Travellers Rest Beefeater], eatType[restaurant], customer rating[average], area[riverside], near[Raja Indian Cuisine]",0.8740740740740739,0.005994513031550069
+"name[Travellers Rest Beefeater], customer rating[high], area[riverside], near[Raja Indian Cuisine]",0.8543083900226759,0.008856424277950031
+"name[Travellers Rest Beefeater], customer rating[low], area[city centre], near[Raja Indian Cuisine]",0.9285714285714285,0.005102040816326534
+"name[Travellers Rest Beefeater], customer rating[low], area[riverside], near[Raja Indian Cuisine]",0.9191798941798939,0.006984581898603063
+"name[Travellers Rest Beefeater], eatType[restaurant], customer rating[low], area[riverside], near[Raja Indian Cuisine]",1.0,0.0
+"name[Wildwood], eatType[coffee shop], food[Chinese], priceRange[£20-25], customer rating[high], near[Ranch]",0.9454545454545453,0.0019834710743801666
+"name[Wildwood], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[5 out of 5], near[Ranch]",0.9054545454545455,0.004019834710743799
+"name[Wildwood], eatType[coffee shop], food[Chinese], priceRange[cheap], customer rating[average], near[Ranch]",0.9636363636363635,0.0019834710743801666
+"name[Wildwood], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[1 out of 5], near[Ranch]",0.8903030303030304,0.005040955004591364
+"name[Wildwood], eatType[coffee shop], food[Chinese], priceRange[high], near[Ranch]",0.9090909090909091,0.0
+"name[Wildwood], eatType[coffee shop], food[Chinese], priceRange[high], customer rating[average], near[Ranch]",1.0,0.0
+"name[Wildwood], eatType[coffee shop], food[Chinese], priceRange[less than £20], customer rating[low], near[Ranch]",0.8181818181818182,0.0
+"name[Wildwood], eatType[coffee shop], food[Chinese], priceRange[moderate], near[Ranch]",0.8659932659932661,0.0022455758482694474
+"name[Wildwood], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[1 out of 5], near[Ranch]",1.0,0.0
+"name[Wildwood], eatType[coffee shop], food[Chinese], customer rating[1 out of 5], near[Ranch]",1.0,0.0
+"name[Wildwood], eatType[coffee shop], food[Chinese], priceRange[moderate], customer rating[3 out of 5], near[Ranch]",0.8483838383838384,0.00678837873686358
+"name[Wildwood], eatType[coffee shop], food[Chinese], priceRange[more than £30], customer rating[high], near[Ranch]",0.9454545454545453,0.0019834710743801666
+"name[Wildwood], eatType[coffee shop], food[English], priceRange[£20-25], customer rating[high], near[Ranch]",0.8,0.0
+"name[Wildwood], eatType[coffee shop], food[English], near[Ranch]",0.8573809523809525,0.006154327286470142
+"name[Wildwood], eatType[coffee shop], food[English], priceRange[cheap], customer rating[5 out of 5], near[Ranch]",0.8924783549783548,0.003824196861940365
+"name[Wildwood], eatType[coffee shop], food[English], priceRange[cheap], customer rating[average], near[Ranch]",0.8156428227856798,0.008943369862522515
+"name[Wildwood], eatType[coffee shop], food[English], priceRange[high], customer rating[1 out of 5], near[Ranch]",1.0,0.0
+"name[Wildwood], eatType[coffee shop], food[English], priceRange[high], near[Ranch]",0.75,0.0
+"name[Wildwood], eatType[coffee shop], food[English], priceRange[cheap], priceRange[high], customer rating[1 out of 5], near[Ranch]",1.0,0.0
+"name[Wildwood], eatType[coffee shop], food[English], customer rating[3 out of 5], near[Ranch]",0.8888888888888888,0.0
+"name[Wildwood], eatType[coffee shop], priceRange[high], customer rating[1 out of 5], near[Ranch]",1.0,0.0
+"name[Wildwood], eatType[coffee shop], food[English], customer rating[average], near[Ranch]",0.7777777777777777,0.024691358024691367
+"name[Wildwood], eatType[coffee shop], priceRange[less than £20], near[Ranch]",0.8726190476190477,0.005393990929705218
+"name[Wildwood], eatType[coffee shop], food[English], priceRange[less than £20], customer rating[low], near[Ranch]",1.0,0.0
+"name[Wildwood], eatType[coffee shop], food[English], priceRange[moderate], customer rating[1 out of 5], near[Ranch]",0.8612121212121211,0.003879644934190385
+"name[Wildwood], eatType[coffee shop], food[English], priceRange[moderate], customer rating[3 out of 5], near[Ranch]",0.8737037037037039,0.0047498628257887495
