@@ -1,0 +1,136 @@
+MR:name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[no], near[All Bar One]
+eatType:restaurant,name:The Cricketers,area:city centre,near:All Bar One,food:Chinese,negate:not
+eatType:restaurant,name:The Cricketers,food:Chinese,area:city centre,near:All Bar One,customerrating:5 out of 5,priceRange:cheap,negate:not
+name:The Cricketers,eatType:restaurant,area:city centre,near:All Bar One,food:Chinese,customerrating:5 out of 5,priceRange:cheap,negate:not
+name:The Cricketers,eatType:restaurant,food:Chinese,priceRange:cheap,area:city centre,near:All Bar One
+eatType:restaurant,name:The Cricketers,food:Chinese,area:city centre,near:All Bar One,customerrating:5 out of 5,priceRange:cheap,negate:not
+eatType:restaurant,name:The Cricketers,area:city centre,near:All Bar One,food:Chinese,negate:not
+name:The Cricketers,eatType:restaurant,area:city centre,near:All Bar One,food:Chinese,customerrating:5 out of 5,priceRange:cheap,negate:not
+name:The Cricketers,eatType:restaurant,food:Chinese,priceRange:cheap,area:city centre,near:All Bar One
+MR:name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[All Bar One]
+name:The Cricketers,eatType:restaurant,food:Chinese,priceRange:cheap,customerrating:5 out of 5,area:city centre,name:the Cricketers,near:All Bar One
+name:The Cricketers,eatType:restaurant,food:Chinese,priceRange:cheap,customerrating:5 out of 5,area:city centre,near:All Bar One
+eatType:restaurant,name:The Cricketers,area:city centre,near:All Bar One,food:Chinese
+name:The Cricketers,eatType:restaurant,food:Chinese,priceRange:cheap,near:All Bar One,area:city centre
+name:The Cricketers,food:Chinese,eatType:restaurant,near:All Bar One,area:city centre,customerrating:5 out of 5,priceRange:cheap
+MR:name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[All Bar One]
+name:The Cricketers,family-friendly:family-friendly
+area:riverside,near:All Bar One,name:The Cricketers,priceRange:cheap,family-friendly:family-friendly
+name:The Cricketers,food:Chinese,eatType:restaurant,area:riverside,near:All Bar One,negate:not,priceRange:cheap
+name:The Cricketers,eatType:restaurant,priceRange:cheap,food:Chinese,negate:not,area:riverside,near:All Bar One
+name:The Cricketers,area:riverside,near:All Bar One,negate:not,priceRange:cheap,food:Chinese
+MR:name[The Punter], customer rating[average], area[riverside], familyFriendly[no]
+name:The Punter,area:riverside,customerrating:average,negate:not
+area:riverside,name:The Punter,customerrating:average
+name:The Punter,area:riverside,customerrating:average,negate:not,family-friendly:family-friendly
+name:The Punter,area:riverside,customerrating:average
+name:The Punter,area:riverside,customerrating:average,negate:not
+name:The Punter,area:riverside,customerrating:average,negate:not
+MR:name[The Punter], customer rating[average], area[riverside], familyFriendly[yes]
+name:The Punter,customerrating:average,area:riverside
+area:riverside,name:The Punter,customerrating:average
+name:The Punter,area:riverside,customerrating:average
+name:The Punter,area:riverside,customerrating:average
+name:The Punter,customerrating:average
+name:The Punter,area:Riverside,customerrating:average
+name:The Punter,area:riverside,customerrating:average
+customerrating:average,name:The Punter,area:riverside
+area:riverside,name:The Punter
+name:The Punter,area:riverside,customerrating:average
+MR:name[Alimentum], area[city centre], familyFriendly[no]
+area:city centre,name:Alimentum,negate:not,family-friendly:family-friendly
+name:Alimentum,negate:not,family-friendly:family-friendly
+name:Alimentum,area:city centre,negate:not,family-friendly:family-friendly
+area:city centre,name:Alimentum,negate:not,family-friendly:family-friendly
+name:Alimentum,negate:not,family-friendly:family-friendly
+name:Alimentum,negate:not,family-friendly:family-friendly
+MR:name[Alimentum], area[city centre], familyFriendly[yes]
+name:Alimentum,family-friendly:family-friendly
+area:city centre,family-friendly:family-friendly
+name:Alimentum,area:city centre,family-friendly:family-friendly
+name:Alimentum,family-friendly:family-friendly
+MR:name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[£20-25], customer rating[high], area[city centre], familyFriendly[no], near[All Bar One]
+name:The Cricketers,eatType:restaurant,food:Chinese,near:All Bar One,negate:not,customerrating:high
+MR:name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[¬£20-25], customer rating[high], area[city centre], familyFriendly[no], near[All Bar One]
+name:The Cricketers,eatType:restaurant,food:Chinese,near:All Bar One,negate:not,customerrating:high
+MR:name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[cheap], customer rating[average], area[riverside], familyFriendly[no], near[All Bar One]
+name:The Cricketers,eatType:restaurant,priceRange:cheap,food:Chinese,customerrating:average,area:riverside,negate:not,near:All Bar One
+name:The Cricketers,negate:not,food:Chinese,area:riverside,near:All Bar One,priceRange:cheap,customerrating:average
+name:The Cricketers,eatType:restaurant,food:Chinese,priceRange:cheap,customerrating:average,negate:not,near:All Bar One,area:Riverside
+name:The Cricketers,eatType:restaurant,food:Chinese,customerrating:average,negate:not,area:riverside,near:All Bar One
+MR:name[The Phoenix], eatType[pub], food[French], priceRange[less than £20], customer rating[average], area[city centre], familyFriendly[yes], near[Crowne Plaza Hotel]
+food:French,eatType:pub,near:Crowne Plaza Hotel,area:city centre,name:The Phoenix,family-friendly:family-friendly
+name:The Phoenix,near:Crowne Plaza Hotel,area:city centre,food:French,eatType:pub,customerrating:average,family-friendly:family-friendly
+area:city centre,near:Crowne Plaza Hotel,name:The Phoenix,family-friendly:family-friendly
+name:The Phoenix,family-friendly:family-friendly
+MR:name[The Vaults], eatType[pub], food[Japanese], priceRange[less than ¬£20], customer rating[low], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine]
+name:The Vaults,eatType:pub,family-friendly:family-friendly
+name:The Vaults,eatType:pub,family-friendly:family-friendly
+MR:name[The Phoenix], eatType[pub], food[French], priceRange[high], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]
+name:The Phoenix,eatType:pub,near:Crowne Plaza Hotel,area:riverside,food:French,priceRange:high
+name:The Phoenix,eatType:pub,priceRange:high,food:French,near:Crowne Plaza Hotel,area:riverside
+name:The Phoenix,priceRange:high,food:French,eatType:pub,area:riverside,near:Crowne Plaza Hotel
+MR:name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[All Bar One]
+name:The Cricketers,food:Chinese,eatType:restaurant,priceRange:moderate,food:Chinese,area:riverside,near:All Bar One
+area:riverside,name:The Cricketers,eatType:restaurant,food:Chinese,priceRange:moderate,near:All Bar One,area:riverside
+name:The Cricketers,eatType:restaurant,food:Chinese,customerrating:3 out of 5,area:riverside,near:All Bar One
+name:The Cricketers,customerrating:3 out of 5,food:Chinese,priceRange:moderate,near:All Bar One,area:riverside
+MR:name[The Vaults], eatType[pub], food[Japanese], priceRange[less than ¬£20], customer rating[average], area[riverside], familyFriendly[no], near[Raja Indian Cuisine]
+food:Japanese,eatType:pub,name:The Vaults,negate:not,family-friendly:family-friendly
+name:The Vaults,area:riverside,near:Raja Indian Cuisine,eatType:pub,food:Japanese,customerrating:average,family-friendly:family-friendly
+negate:not,family-friendly:family-friendly
+MR:name[The Phoenix], eatType[pub], food[French], priceRange[¬£20-25], customer rating[3 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]
+area:riverside,near:Crowne Plaza Hotel,name:The Phoenix,food:French
+name:The Phoenix,food:French,eatType:pub,area:riverside,near:Crowne Plaza Hotel
+MR:name[The Vaults], eatType[pub], food[Italian], priceRange[moderate], customer rating[3 out of 5], area[city centre], familyFriendly[no], near[Rainbow Vegetarian Caf√©]
+name:The Vaults,eatType:pub,area:city centre,near:Rainbow Vegetarian Caf√,priceRange:moderate,food:Italian,negate:not,customerrating:3 out of 5
+name:The Vaults,food:Italian,area:city centre,near:Rainbow Vegetarian Caf√,eatType:pub,priceRange:moderate
+MR:name[The Cricketers], eatType[restaurant], food[Chinese], priceRange[high], customer rating[average], area[city centre], familyFriendly[yes], near[All Bar One]
+name:The Cricketers,eatType:restaurant,food:Chinese,area:city centre,near:All Bar One,priceRange:high,customerrating:average
+MR:name[The Mill], eatType[restaurant], food[English], priceRange[more than ¬£30], customer rating[high], area[city centre], familyFriendly[no], near[Caf√© Rouge]
+name:The Mill,food:English,negate:not,customerrating:high,area:city centre
+name:The Mill,food:English,area:city centre,customerrating:high,negate:not
+MR:name[The Phoenix], eatType[pub], food[French], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel]
+name:The Phoenix,family-friendly:family-friendly
+area:Riverside,near:Crowne Plaza Hotel,name:The Phoenix,food:French
+eatType:pub,name:The Phoenix,priceRange:moderate,food:French,customerrating:1 out of 5,near:Crowne Plaza Hotel,area:riverside
+name:The Phoenix,eatType:pub,food:French,area:riverside,priceRange:moderate,near:Crowne Plaza Hotel
+MR:name[The Punter], eatType[restaurant], food[Italian], customer rating[5 out of 5], familyFriendly[yes], near[Rainbow Vegetarian Caf√©]
+food:Italian,near:Rainbow Vegetarian Caf√,name:The Punter,family-friendly:family-friendly
+name:The Punter,food:Italian,near:Rainbow Vegetarian Caf√
+MR:name[The Punter], eatType[restaurant], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Rainbow Vegetarian Caf√©]
+name:The Punter,near:Rainbow Vegetarian Caf√
+MR:name[The Vaults], eatType[pub], priceRange[less than ¬£20], customer rating[low], familyFriendly[yes], near[Rainbow Vegetarian Caf√©]
+priceRange:cheap,eatType:pub,near:Rainbow Vegetarian Caf√,name:The Vaults
+name:The Vaults,eatType:pub,near:Rainbow Vegetarian Caf√
+name:The Vaults,eatType:pub,near:Rainbow Vegetarian Caf√
+MR:name[The Vaults], eatType[pub], eatType[restaurant], customer rating[3 out of 5], familyFriendly[yes], near[Raja Indian Cuisine]
+near:Raja Indian Cuisine,name:The Vaults,eatType:pub
+near:Raja Indian Cuisine,name:The Vaults,eatType:pub
+MR:name[The Cricketers], eatType[restaurant], food[Chinese], customer rating[1 out of 5], familyFriendly[yes], near[All Bar One]
+eatType:restaurant,food:Chinese,name:The Cricketers,eatType:restaurant,customerrating:1 out of 5,name:The Cricketers,near:All Bar One,name:The Cricketers
+eatType:restaurant,food:Chinese,name:The Cricketers,eatType:restaurant,customerrating:1 out of 5,name:The Cricketers,near:All Bar One,name:The Cricketers
+eatType:restaurant,food:Chinese,name:The Cricketers,eatType:restaurant,customerrating:1 out of 5,name:The Cricketers,near:All Bar One,name:The Cricketers
+eatType:restaurant,food:Chinese,name:The Cricketers,eatType:restaurant,customerrating:1 out of 5,name:The Cricketers,near:All Bar One,name:The Cricketers
+MR:name[The Cricketers], food[English], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Caf√© Rouge]
+food:English,name:The Cricketers,customerrating:5 out of 5,area:riverside,negate:not,family-friendly:family-friendly
+name:The Cricketers,food:English,area:riverside,negate:not,family-friendly:family-friendly
+MR:name[The Phoenix], eatType[pub], customer rating[high], area[city centre], familyFriendly[no], near[Caf√© Sicilia]
+area:city centre,eatType:pub,name:The Phoenix,negate:not
+name:The Phoenix,eatType:pub,area:city centre,negate:not
+MR:name[The Mill], eatType[pub], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Caf√© Sicilia]
+customerrating:high,family-friendly:family-friendly
+MR:name[The Mill], food[Fast food], priceRange[cheap], customer rating[5 out of 5], familyFriendly[no], near[Caf√© Sicilia]
+name:The Mill,priceRange:cheap,food:fast food,negate:not,family-friendly:family-friendly
+name:The Mill,priceRange:cheap,food:fast food,negate:not,family-friendly:family-friendly
+MR:name[The Vaults], priceRange[¬£20-25], customer rating[high], area[city centre], familyFriendly[yes], near[Rainbow Vegetarian Caf√©]
+name:The Vaults,near:Rainbow Vegetarian Caf√,name:The Vaults,customerrating:high
+MR:name[The Vaults], eatType[pub], food[Japanese], customer rating[average], familyFriendly[yes], near[Raja Indian Cuisine]
+near:Raja Indian Cuisine,name:The Vaults,eatType:pub,food:Japanese
+MR:name[The Vaults], eatType[pub], food[Japanese], priceRange[less than ¬£20], customer rating[average], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine]
+name:The Vaults,area:riverside,eatType:pub,near:Raja Indian Cuisine,food:Japanese,customerrating:average
+near:Raja Indian Cuisine,food:Japanese,eatType:pub,name:The Vaults,area:riverside,customerrating:average
+MR:name[The Vaults], eatType[pub], food[Italian], priceRange[moderate], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Rainbow Vegetarian Caf√©]
+area:Riverside,near:Rainbow Vegetarian Caf√,eatType:pub,priceRange:moderate,name:The Vaults,food:Italian
+name:The Vaults,priceRange:moderate,food:Italian,eatType:pub,near:Rainbow Vegetarian Caf√,area:riverside,negate:not,customerrating:3 out of 5
+area:Riverside,near:Rainbow Vegetarian Caf√,eatType:pub,priceRange:moderate,name:The Vaults,food:Italian
